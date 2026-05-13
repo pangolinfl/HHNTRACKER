@@ -40,7 +40,8 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 
 /* type filter row */
 .type-filters{padding:8px 20px;background:var(--deep);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.68rem;padding:4px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px}
+.type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.68rem;padding:4px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none}
+.type-btn:focus{outline:none}
 .type-btn.tb-house{color:#e74c3c;border-color:rgba(231,76,60,.4)}
 .type-btn.tb-house.active,.type-btn.tb-house:hover{background:#e74c3c;color:#fff;border-color:#e74c3c}
 .type-btn.tb-scarezone{color:var(--orange);border-color:rgba(230,126,18,.4)}
@@ -389,6 +390,13 @@ function init(){
 }
 
 init();
+
+document.addEventListener('touchend',e=>{
+  if(e.target.classList.contains('type-btn')){
+    setTimeout(()=>e.target.blur(),50);
+  }
+},{passive:true});
+
 </script>
 </body>
 </html>
