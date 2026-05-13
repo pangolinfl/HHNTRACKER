@@ -15,6 +15,40 @@
   --parchment:#d9c9a8; --parchment-dim:#8a7d65;
   --border:#3a1a1a; --text:#c9b89a; --text-dim:#6b5a4a;
 }
+
+/* ── High Contrast Mode ── */
+body.hc {
+  --black:#000; --deep:#0a0a0a; --card:#111;
+  --red:#ff4d4d; --red-dim:#cc1f1f;
+  --orange:#ffaa00; --orange-dim:#cc8800;
+  --yellow:#ffe033; --purple:#cc66ff;
+  --green:#33ff77;
+  --parchment:#ffffff; --parchment-dim:#dddddd;
+  --border:#666; --text:#ffffff; --text-dim:#bbbbbb;
+}
+body.hc .card { border-width:2px }
+body.hc .year-btn.active { box-shadow:0 0 0 2px #fff }
+body.hc .meta-tag { border-width:1px; opacity:1 }
+body.hc .card-title mark { background:rgba(255,77,77,.5); color:#fff }
+
+/* ── Accessibility toggle button ── */
+.a11y-btn {
+  background: transparent;
+  border: 1px solid var(--text-dim);
+  color: var(--text-dim);
+  font-family: 'Cutive Mono', monospace;
+  font-size: .7rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+  letter-spacing: .05em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.a11y-btn:hover { border-color: var(--parchment); color: var(--parchment); }
+body.hc .a11y-btn { border-color: #fff; color: #fff; background: rgba(255,255,255,.1); }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--black);color:var(--text);font-family:'Special Elite',serif;min-height:100vh;overflow-x:hidden}
 
@@ -29,18 +63,20 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 
 /* sticky controls */
 /* Mobile optimization: horizontal year scroller prevents giant wrapped button block */
-.controls{position:sticky;top:0;z-index:100;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:10px 20px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.ctrl-label{font-family:'Cutive Mono',monospace;font-size:.62rem;letter-spacing:.2em;color:var(--text-dim);text-transform:uppercase;white-space:nowrap}
+.controls{position:sticky;top:0;z-index:100;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:10px 20px;display:flex;flex-direction:column;gap:8px}
+.controls-year-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.controls-btn-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.ctrl-label{font-family:'Cutive Mono',monospace;font-size:.75rem;letter-spacing:.2em;color:var(--text-dim);text-transform:uppercase;white-space:nowrap}
 .year-buttons{display:flex;flex-wrap:wrap;gap:4px;flex:1;min-width:0}
-.year-btn{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.72rem;padding:4px 9px;cursor:pointer;transition:all .12s;white-space:nowrap}
+.year-btn{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.83rem;padding:4px 9px;cursor:pointer;transition:all .12s;white-space:nowrap}
 .year-btn:hover{border-color:var(--red-dim);color:var(--parchment);background:rgba(192,57,43,.07)}
 .year-btn.active{background:var(--red);border-color:var(--red);color:#fff;box-shadow:0 0 8px rgba(192,57,43,.35)}
-.action-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.66rem;padding:5px 11px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+.action-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.78rem;padding:5px 11px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
 .action-btn:hover{background:var(--red);color:#fff}
 
 /* type filter row */
 .type-filters{padding:8px 20px;background:var(--deep);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.68rem;padding:4px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none}
+.type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.8rem;padding:4px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none}
 .type-btn:focus{outline:none}
 .type-btn.tb-house{color:#e74c3c;border-color:rgba(231,76,60,.4)}
 .type-btn.tb-house.active,.type-btn.tb-house:hover{background:#e74c3c;color:#fff;border-color:#e74c3c}
@@ -61,14 +97,14 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 @keyframes shimmer{0%{left:-40%}100%{left:100%}}
 #loadingBar{display:none;background:var(--red);height:3px;width:100%;position:relative;overflow:hidden}
 #loadingBar div{position:absolute;height:100%;width:40%;background:rgba(255,255,255,.3);animation:shimmer 1s infinite linear}
-#statusMsg{display:none;margin:10px 20px;font-family:'Cutive Mono',monospace;font-size:.7rem;padding:10px 14px;border:1px solid;line-height:1.5}
+#statusMsg{display:none;margin:10px 20px;font-family:'Cutive Mono',monospace;font-size:.82rem;padding:10px 14px;border:1px solid;line-height:1.5}
 .status-loading{color:var(--parchment-dim);border-color:var(--border);background:rgba(255,255,255,.02)}
 .status-ok{color:var(--green);border-color:rgba(39,174,96,.3);background:rgba(39,174,96,.05)}
 .status-warn{color:var(--orange);border-color:rgba(230,126,18,.3);background:rgba(230,126,18,.05)}
 
 /* stats */
 .stats-bar{padding:6px 20px;background:var(--deep);border-bottom:1px solid var(--border);display:flex;gap:16px;flex-wrap:wrap}
-.stat{font-family:'Cutive Mono',monospace;font-size:.66rem;color:var(--text-dim)}
+.stat{font-family:'Cutive Mono',monospace;font-size:.78rem;color:var(--text-dim)}
 .stat b{color:var(--orange)}
 
 /* main */
@@ -80,11 +116,11 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 .year-header{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);position:relative}
 .year-header::after{content:'';position:absolute;bottom:-1px;left:0;width:48px;height:2px;background:var(--red);box-shadow:0 0 8px var(--red)}
 .year-label{font-family:'Creepster',cursive;font-size:3rem;color:var(--red);text-shadow:2px 2px 0 #000;line-height:1}
-.year-count{margin-left:auto;font-family:'Cutive Mono',monospace;font-size:.62rem;color:var(--text-dim);background:var(--card);border:1px solid var(--border);padding:3px 8px}
+.year-count{margin-left:auto;font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--text-dim);background:var(--card);border:1px solid var(--border);padding:3px 8px}
 
 /* type group within year */
 .type-group{margin-bottom:18px}
-.type-group-header{font-family:'Cutive Mono',monospace;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;padding:4px 10px;margin-bottom:10px;display:inline-flex;align-items:center;gap:6px;border-left:3px solid}
+.type-group-header{font-family:'Cutive Mono',monospace;font-size:.77rem;letter-spacing:.2em;text-transform:uppercase;padding:4px 10px;margin-bottom:10px;display:inline-flex;align-items:center;gap:6px;border-left:3px solid}
 .tgh-house{color:#e74c3c;border-color:#e74c3c;background:rgba(231,76,60,.07)}
 .tgh-scarezone{color:var(--orange);border-color:var(--orange);background:rgba(230,126,18,.07)}
 .tgh-show{color:var(--yellow);border-color:var(--yellow);background:rgba(241,196,15,.07)}
@@ -110,7 +146,7 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 .card-title{font-family:'Special Elite',serif;font-size:.95rem;color:var(--parchment);line-height:1.3;margin-bottom:7px}
 .card-title mark{background:rgba(192,57,43,.35);color:var(--parchment);border-radius:2px;padding:0 2px}
 .card-meta{display:flex;flex-wrap:wrap;gap:5px}
-.meta-tag{font-family:'Cutive Mono',monospace;font-size:.6rem;color:var(--text-dim);background:rgba(255,255,255,.03);border:1px solid var(--border);padding:2px 7px;letter-spacing:.04em}
+.meta-tag{font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--text-dim);background:rgba(255,255,255,.03);border:1px solid var(--border);padding:2px 7px;letter-spacing:.04em}
 .meta-date{color:var(--orange)}
 .meta-loc{color:var(--parchment-dim)}
 
@@ -121,19 +157,20 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 ::-webkit-scrollbar-track{background:var(--black)}
 ::-webkit-scrollbar-thumb{background:var(--red-dim);border-radius:3px}
 
-footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);margin-top:28px;font-family:'Cutive Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.12em}
+footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);margin-top:28px;font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--text-dim);letter-spacing:.12em}
 
 @media(max-width:600px){
   .controls{
+    gap:6px;
+    padding:8px 12px;
+  }
+  .controls-year-row{
     flex-wrap:nowrap;
     overflow-x:auto;
-    gap:10px;
-    padding:10px 12px;
     -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
   }
-  .controls::-webkit-scrollbar{
-    height:4px;
-  }
+  .controls-year-row::-webkit-scrollbar{display:none}
   .ctrl-label{
     flex:0 0 auto;
   }
@@ -147,8 +184,16 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
   .year-buttons::-webkit-scrollbar{
     display:none;
   }
-  .year-btn,
-  .action-btn{
+  .year-btn{
+    flex:0 0 auto;
+  }
+  .controls-btn-row{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    scrollbar-width:none;
+  }
+  .controls-btn-row::-webkit-scrollbar{display:none}
+  .action-btn,.a11y-btn{
     flex:0 0 auto;
   }
   .search-row,
@@ -185,15 +230,20 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
 </header>
 
 <div class="controls">
-  <span class="ctrl-label">Year:</span>
-  <div class="year-buttons" id="yearBtns"></div>
-  <button class="action-btn" onclick="selectAll()">All</button>
-  <button class="action-btn" onclick="clearAll()">Clear</button>
-  <button class="action-btn" onclick="fetchSheets()" title="Re-sync from Google Sheet">↻ Sync</button>
+  <div class="controls-year-row">
+    <span class="ctrl-label">Year Filter:</span>
+    <div class="year-buttons" id="yearBtns"></div>
+  </div>
+  <div class="controls-btn-row">
+    <button class="action-btn" onclick="selectAll()">All</button>
+    <button class="action-btn" onclick="clearAll()">Clear</button>
+    <button class="action-btn" onclick="fetchSheets()" title="Re-sync from Google Sheet">↻ Sync</button>
+    <button class="a11y-btn" id="a11yBtn" onclick="toggleA11y()" title="Toggle high contrast mode">⚡ Contrast</button>
+  </div>
 </div>
 
 <div class="type-filters">
-  <span class="ctrl-label">Type:</span>
+  <span class="ctrl-label">Type Filter:</span>
   <button class="type-btn tb-house active" data-type="HOUSE" onclick="toggleType(this)">🏚 Houses</button>
   <button class="type-btn tb-scarezone active" data-type="SCAREZONE" onclick="toggleType(this)">🌫 Scare Zones</button>
   <button class="type-btn tb-show active" data-type="SHOW" onclick="toggleType(this)">🎭 Shows</button>
@@ -377,6 +427,21 @@ function render(){
   }).join('');
 }
 
+// ── accessibility ────────────────────────────
+function toggleA11y(){
+  const on = document.body.classList.toggle('hc');
+  document.getElementById('a11yBtn').innerHTML = on ? '⚡ Standard' : '⚡ Contrast';
+  try { localStorage.setItem('hhn-hc', on ? '1' : ''); } catch(e){}
+}
+function initA11y(){
+  try {
+    if (localStorage.getItem('hhn-hc') === '1') {
+      document.body.classList.add('hc');
+      document.getElementById('a11yBtn').innerHTML = '⚡ Standard';
+    }
+  } catch(e){}
+}
+
 // ── init ──────────────────────────────────────
 function init(){
   const bar=document.getElementById('drips');
@@ -386,6 +451,7 @@ function init(){
     d.style.cssText=`--h1:${(Math.random()*10+4).toFixed(0)}px;--h2:${(Math.random()*38+10).toFixed(0)}px;--dur:${(Math.random()*2+2).toFixed(1)}s;--delay:${(Math.random()*3).toFixed(1)}s`;
     bar.appendChild(d);
   }
+  initA11y();
   fetchSheets();
 }
 
