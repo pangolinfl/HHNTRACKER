@@ -211,7 +211,7 @@ async function fetchSheets() {
     if (!parsed.length) throw new Error('No valid rows');
     liveData=parsed;
     selectedYears=new Set();
-    setStatus('✅ Synced — '+parsed.length+' attractions loaded from your Google Sheet.','ok');
+    setStatus('✅ Synced — '+parsed.length+' attractions loaded!','ok');
     refresh();
   } catch(err) {
     console.warn('SheetDB failed:',err.message);
