@@ -47,7 +47,7 @@ body.hc .card-title mark { background:rgba(255,77,77,.5); color:#fff }
   align-items: center;
   gap: 5px;
 }
-.a11y-btn:hover { border-color: var(--parchment); color: var(--parchment); }
+
 body.hc .a11y-btn { border-color: #fff; color: #fff; background: rgba(255,255,255,.1); }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--black);color:var(--text);font-family:'Special Elite',serif;min-height:100vh;overflow-x:hidden}
@@ -64,12 +64,12 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 /* ── Top bar ── */
 .topbar{position:sticky;top:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;gap:10px}
 .menu-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.85rem;padding:6px 10px;cursor:pointer;transition:all .12s;flex:0 0 auto;line-height:1}
-.menu-btn:hover{background:var(--red);color:#fff}
+
 .search-input{flex:1;background:var(--card);border:1px solid var(--border);color:var(--text);font-family:'Special Elite',serif;font-size:.9rem;padding:8px 14px;outline:none;transition:border-color .18s;min-width:0}
 .search-input:focus{border-color:var(--red-dim);box-shadow:0 0 0 2px rgba(192,57,43,.1)}
 .search-input::placeholder{color:var(--text-dim)}
 .action-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.78rem;padding:5px 11px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;flex:0 0 auto}
-.action-btn:hover{background:var(--red);color:#fff}
+
 
 /* ── Drawer overlay ── */
 .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:300;opacity:0;pointer-events:none;transition:opacity .25s ease}
@@ -95,7 +95,7 @@ body.hc .drawer{border-right-color:var(--red)}
 .ctrl-label{font-family:'Cutive Mono',monospace;font-size:.75rem;letter-spacing:.2em;color:var(--text-dim);text-transform:uppercase;white-space:nowrap}
 .year-buttons{display:flex;flex-wrap:wrap;gap:5px}
 .year-btn{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.8rem;padding:5px 10px;cursor:pointer;transition:all .12s;white-space:nowrap}
-.year-btn:hover{border-color:var(--red-dim);color:var(--parchment);background:rgba(192,57,43,.07)}
+
 .year-btn.active{background:var(--red);border-color:var(--red);color:#fff;box-shadow:0 0 8px rgba(192,57,43,.35)}
 
 .drawer-year-actions{display:flex;gap:6px;margin-bottom:10px}
@@ -103,16 +103,33 @@ body.hc .drawer{border-right-color:var(--red)}
 /* Type buttons inside drawer */
 .type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.78rem;padding:6px 14px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none;width:100%;text-align:left;margin-bottom:5px}
 .type-btn:focus{outline:none}
+.year-btn:focus,.action-btn:focus,.a11y-btn:focus,.loc-btn:focus,.menu-btn:focus{outline:none}
+.year-btn:focus:not(:focus-visible),.action-btn:focus:not(:focus-visible),.a11y-btn:focus:not(:focus-visible),.loc-btn:focus:not(:focus-visible),.type-btn:focus:not(:focus-visible){background:transparent;box-shadow:none}
 .type-btn.tb-house{color:#e74c3c;border-color:rgba(231,76,60,.4)}
-.type-btn.tb-house.active,.type-btn.tb-house:hover{background:#e74c3c;color:#fff;border-color:#e74c3c}
+
 .type-btn.tb-scarezone{color:var(--orange);border-color:rgba(230,126,18,.4)}
-.type-btn.tb-scarezone.active,.type-btn.tb-scarezone:hover{background:var(--orange);color:#fff;border-color:var(--orange)}
+
 .type-btn.tb-show{color:var(--yellow);border-color:rgba(241,196,15,.4)}
-.type-btn.tb-show.active,.type-btn.tb-show:hover{background:var(--yellow);color:#111;border-color:var(--yellow)}
+
 .type-btn.tb-note{color:var(--purple);border-color:rgba(142,68,173,.4)}
-.type-btn.tb-note.active,.type-btn.tb-note:hover{background:var(--purple);color:#fff;border-color:var(--purple)}
+/* Type button active states (always) */
+.type-btn.tb-house.active{background:#e74c3c;color:#fff;border-color:#e74c3c}
+.type-btn.tb-scarezone.active{background:var(--orange);color:#fff;border-color:var(--orange)}
+.type-btn.tb-show.active{background:var(--yellow);color:#111;border-color:var(--yellow)}
+.type-btn.tb-note.active{background:var(--purple);color:#fff;border-color:var(--purple)}
+
 
 .drawer-footer{padding:14px 18px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:8px;flex-shrink:0}
+
+/* Location filter chips */
+.loc-buttons{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
+.loc-btn{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.7rem;padding:3px 9px;cursor:pointer;transition:all .12s;white-space:nowrap;border-radius:2px;letter-spacing:.03em}
+
+.loc-btn.active{background:var(--parchment-dim);border-color:var(--parchment-dim);color:var(--black)}
+.loc-actions{display:flex;gap:6px;margin-bottom:10px}
+.loc-type-group{margin-bottom:12px}
+.loc-type-label{font-family:'Cutive Mono',monospace;font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;padding:3px 8px;margin-bottom:6px;display:inline-flex;border-left:2px solid;opacity:.85}
+.drawer-active-badge{display:inline-block;background:var(--red);color:#fff;font-family:'Cutive Mono',monospace;font-size:.6rem;padding:1px 5px;border-radius:2px;margin-left:6px;vertical-align:middle}
 
 /* search moved into topbar */
 
@@ -190,6 +207,19 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
   main{padding:12px}
   .stats-bar{padding-left:12px;padding-right:12px}
 }
+
+/* Hover effects — only on pointer devices (prevents stuck hover on touch) */
+@media (hover: hover) and (pointer: fine) {
+  .year-btn:hover{border-color:var(--red-dim);color:var(--parchment);background:rgba(192,57,43,.07)}
+  .action-btn:hover{background:var(--red);color:#fff}
+  .a11y-btn:hover{border-color:var(--parchment);color:var(--parchment)}
+  .menu-btn:hover{background:var(--red);color:#fff}
+  .loc-btn:hover{border-color:var(--parchment-dim);color:var(--parchment)}
+  .type-btn.tb-house:hover{background:#e74c3c;color:#fff;border-color:#e74c3c}
+  .type-btn.tb-scarezone:hover{background:var(--orange);color:#fff;border-color:var(--orange)}
+  .type-btn.tb-show:hover{background:var(--yellow);color:#111;border-color:var(--yellow)}
+  .type-btn.tb-note:hover{background:var(--purple);color:#fff;border-color:var(--purple)}
+}
 </style>
 </head>
 <body>
@@ -231,6 +261,27 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
       <button class="type-btn tb-note active" data-type="NOTE" onclick="toggleType(this)">📌 Notes</button>
     </div>
 
+    <!-- Location filter -->
+    <div>
+      <div class="drawer-section-title">Location <span id="locBadge" class="drawer-active-badge" style="display:none"></span></div>
+      <div class="loc-actions">
+        <button class="action-btn" onclick="selectAllLocs()">All</button>
+        <button class="action-btn" onclick="clearAllLocs()">Clear</button>
+      </div>
+      <div class="loc-type-group">
+        <div class="loc-type-label tgh-house">🏚 Houses</div>
+        <div class="loc-buttons" id="locBtnsHouse"></div>
+      </div>
+      <div class="loc-type-group">
+        <div class="loc-type-label tgh-scarezone">🌫 Scare Zones</div>
+        <div class="loc-buttons" id="locBtnsScarezone"></div>
+      </div>
+      <div class="loc-type-group">
+        <div class="loc-type-label tgh-show">🎭 Shows</div>
+        <div class="loc-buttons" id="locBtnsShow"></div>
+      </div>
+    </div>
+
   </div>
   <div class="drawer-footer">
     <button class="action-btn" onclick="fetchSheets()" style="width:100%;justify-content:center">↻ Sync Data</button>
@@ -262,10 +313,11 @@ const FALLBACK_DATA = [{"year":1991,"attraction":"DUNGEON OF TERROR '91","type":
 let liveData = [...FALLBACK_DATA];
 let selectedYears = new Set();
 let selectedTypes = new Set(['HOUSE','SCAREZONE','SHOW','NOTE']);
+let selectedLocs = new Set(); // empty = all locations shown (no filter active)
 
 // ── fetch ────────────────────────────────────
 async function fetchSheets() {
-  setStatus('🩸 Syncing Data…','loading');
+  setStatus('🩸 Syncing from Google Sheet…','loading');
   showLoading(true);
   try {
     const res = await Promise.race([
@@ -324,6 +376,7 @@ function refresh(){
   const years=[...new Set(liveData.map(d=>d.year))].sort((a,b)=>b-a);
   if (!selectedYears.size) selectedYears=new Set(years);
   buildYearBtns(years);
+  buildLocBtns();
   render();
 }
 
@@ -364,6 +417,7 @@ function render(){
   const filtered=liveData.filter(d=>
     selectedYears.has(d.year) &&
     selectedTypes.has(d.type) &&
+    (selectedLocs.size===0 || selectedLocs.has(d.location) || (!d.location && selectedLocs.size===0)) &&
     (!q||d.attraction.toLowerCase().includes(q)||d.location.toLowerCase().includes(q)||String(d.year).includes(q)||d.date.toLowerCase().includes(q))
   );
 
@@ -417,6 +471,65 @@ function render(){
   }).join('');
 }
 
+// ── location filter ──────────────────────────
+function getLocsByType(type) {
+  return [...new Set(
+    liveData.filter(d => d.type === type && d.location).map(d => d.location)
+  )].sort();
+}
+function getAllLocs() {
+  return [...new Set(liveData.map(d=>d.location).filter(Boolean))].sort();
+}
+function buildLocBtns() {
+  const allLocs = getAllLocs();
+  const groups = [
+    { type:'HOUSE',     id:'locBtnsHouse' },
+    { type:'SCAREZONE', id:'locBtnsScarezone' },
+    { type:'SHOW',      id:'locBtnsShow' },
+  ];
+  groups.forEach(({ type, id }) => {
+    const locs = getLocsByType(type);
+    const container = document.getElementById(id);
+    container.innerHTML = '';
+    locs.forEach(loc => {
+      const b = document.createElement('button');
+      const isActive = selectedLocs.size === 0 || selectedLocs.has(loc);
+      b.className = 'loc-btn' + (isActive ? ' active' : '');
+      b.textContent = loc;
+      b.onclick = () => toggleLoc(loc);
+      container.appendChild(b);
+    });
+  });
+  // update badge
+  const badge = document.getElementById('locBadge');
+  if (selectedLocs.size > 0 && selectedLocs.size < allLocs.length) {
+    badge.textContent = selectedLocs.size + ' selected';
+    badge.style.display = 'inline-block';
+  } else {
+    badge.style.display = 'none';
+  }
+}
+function toggleLoc(loc) {
+  const locs = getAllLocs();
+  if (selectedLocs.size === 0) {
+    locs.forEach(l => { if (l !== loc) selectedLocs.add(l); });
+  } else if (selectedLocs.has(loc)) {
+    selectedLocs.delete(loc);
+    if (selectedLocs.size === 0) selectedLocs = new Set();
+  } else {
+    selectedLocs.add(loc);
+    if (selectedLocs.size === locs.length) selectedLocs = new Set();
+  }
+  buildLocBtns();
+  render();
+}
+function selectAllLocs() { selectedLocs = new Set(); buildLocBtns(); render(); }
+function clearAllLocs()  {
+  selectedLocs = new Set(['__NONE__']);
+  buildLocBtns();
+  render();
+}
+
 // ── drawer ───────────────────────────────────
 function openDrawer(){
   document.getElementById('drawer').classList.add('open');
@@ -462,8 +575,14 @@ function init(){
 init();
 
 document.addEventListener('touchend',e=>{
-  if(e.target.classList.contains('type-btn')){
-    setTimeout(()=>e.target.blur(),50);
+  const t = e.target;
+  if(t.classList.contains('type-btn') ||
+     t.classList.contains('year-btn') ||
+     t.classList.contains('action-btn') ||
+     t.classList.contains('a11y-btn') ||
+     t.classList.contains('loc-btn') ||
+     t.classList.contains('menu-btn')){
+    setTimeout(()=>t.blur(),50);
   }
 },{passive:true});
 
