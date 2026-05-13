@@ -265,7 +265,7 @@ let selectedTypes = new Set(['HOUSE','SCAREZONE','SHOW','NOTE']);
 
 // ── fetch ────────────────────────────────────
 async function fetchSheets() {
-  setStatus('🩸 Syncing from Google Sheet…','loading');
+  setStatus('🩸 Syncing Data…','loading');
   showLoading(true);
   try {
     const res = await Promise.race([
