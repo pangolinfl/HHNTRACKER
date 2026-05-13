@@ -67,6 +67,7 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 .controls-year-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .controls-btn-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .ctrl-label{font-family:'Cutive Mono',monospace;font-size:.75rem;letter-spacing:.2em;color:var(--text-dim);text-transform:uppercase;white-space:nowrap}
+.ctrl-label-type{flex:0 0 auto}
 .year-buttons{display:flex;flex-wrap:wrap;gap:4px;flex:1;min-width:0}
 .year-btn{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.83rem;padding:4px 9px;cursor:pointer;transition:all .12s;white-space:nowrap}
 .year-btn:hover{border-color:var(--red-dim);color:var(--parchment);background:rgba(192,57,43,.07)}
@@ -75,8 +76,9 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 .action-btn:hover{background:var(--red);color:#fff}
 
 /* type filter row */
-.type-filters{padding:8px 20px;background:var(--deep);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.8rem;padding:4px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none}
+.type-filters{padding:8px 20px;background:var(--deep);border-bottom:1px solid var(--border);display:flex;flex-wrap:nowrap;gap:6px;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.type-filters::-webkit-scrollbar{display:none}
+.type-btn{background:transparent;border:1px solid;font-family:'Cutive Mono',monospace;font-size:.8rem;padding:4px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;border-radius:2px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none;flex:0 0 auto;white-space:nowrap}
 .type-btn:focus{outline:none}
 .type-btn.tb-house{color:#e74c3c;border-color:rgba(231,76,60,.4)}
 .type-btn.tb-house.active,.type-btn.tb-house:hover{background:#e74c3c;color:#fff;border-color:#e74c3c}
@@ -197,10 +199,16 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
     flex:0 0 auto;
   }
   .search-row,
-  .type-filters,
   .stats-bar{
     padding-left:12px;
     padding-right:12px;
+  }
+  .type-filters{
+    padding-left:12px;
+    padding-right:12px;
+  }
+  .ctrl-label-type{
+    flex:0 0 auto;
   }
   .cards-grid{
     grid-template-columns:1fr;
