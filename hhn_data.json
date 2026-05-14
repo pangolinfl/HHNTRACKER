@@ -4258,11 +4258,11 @@
   },
   {
     "year": 2026,
-    "attraction": "test item",
-    "type": "house",
-    "location": "ss24",
+    "attraction": "TEST ITEM",
+    "type": "HOUSE",
+    "location": "SS24",
     "date": "3/26/2026",
-    "ip": "orig",
+    "ip": "IP",
     "day": "Thu"
   }
 ]
