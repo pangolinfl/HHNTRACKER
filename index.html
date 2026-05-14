@@ -279,6 +279,35 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
   .type-btn.tb-orig:hover{background:#27ae60;color:#fff;border-color:#27ae60}
   .type-btn.tb-untagged:hover{background:var(--text-dim);color:#111;border-color:var(--text-dim)}
 }
+
+/* ── Welcome popup ── */
+.popup-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadeInOverlay .3s ease}
+@keyframes fadeInOverlay{from{opacity:0}to{opacity:1}}
+.popup{background:var(--deep);border:1px solid var(--red-dim);max-width:420px;width:100%;position:relative;animation:popIn .35s cubic-bezier(.34,1.56,.64,1)}
+@keyframes popIn{from{opacity:0;transform:scale(.92) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.popup-top{background:linear-gradient(135deg,#1c0000,#0f0000);padding:24px 24px 16px;text-align:center;border-bottom:1px solid var(--border);position:relative}
+.popup-top::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--red);box-shadow:0 0 16px var(--red)}
+.popup-skull{font-size:2.8rem;line-height:1;margin-bottom:8px}
+.popup-title{font-family:'Creepster',cursive;font-size:1.9rem;color:var(--red);text-shadow:0 0 20px rgba(192,57,43,.5),2px 2px 0 #000;letter-spacing:.06em}
+.popup-body{padding:20px 24px}
+.popup-msg{font-family:'Special Elite',serif;font-size:.92rem;color:var(--text);line-height:1.65;margin-bottom:18px}
+.popup-msg strong{color:var(--parchment)}
+.popup-links{display:flex;flex-direction:column;gap:8px;margin-bottom:18px}
+.popup-link-btn{display:flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid;text-decoration:none;font-family:'Cutive Mono',monospace;font-size:.75rem;letter-spacing:.05em;transition:all .15s;text-transform:uppercase}
+.popup-link-btn .btn-icon{font-size:1.1rem;flex-shrink:0}
+.popup-link-btn .btn-label{flex:1}
+.popup-link-btn .btn-arrow{opacity:.5;font-size:.8rem}
+.btn-spotify{color:#1db954;border-color:rgba(29,185,84,.35);background:rgba(29,185,84,.05)}
+.btn-apple{color:#fc3c44;border-color:rgba(252,60,68,.35);background:rgba(252,60,68,.05)}
+.btn-web{color:var(--parchment-dim);border-color:var(--border);background:rgba(255,255,255,.02)}
+.popup-footer{display:flex;gap:8px;padding-top:4px}
+.popup-dismiss{flex:1;background:var(--red);border:none;color:#fff;font-family:'Cutive Mono',monospace;font-size:.78rem;padding:10px;cursor:pointer;letter-spacing:.08em;text-transform:uppercase;transition:background .15s}
+.popup-dismiss:hover{background:#a93226}
+.popup-later{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.72rem;padding:10px 14px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:all .15s;white-space:nowrap}
+.popup-later:hover{border-color:var(--text-dim);color:var(--text)}
+.popup-close{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border);color:var(--text-dim);width:26px;height:26px;cursor:pointer;font-size:.8rem;display:flex;align-items:center;justify-content:center;transition:all .15s;font-family:'Cutive Mono',monospace}
+.popup-close:hover{border-color:var(--red);color:var(--red)}
+@media(max-width:480px){.popup-title{font-size:1.5rem}.popup-msg{font-size:.85rem}}
 </style>
 </head>
 <body>
@@ -714,6 +743,70 @@ document.addEventListener('touchend',e=>{
   }
 },{passive:true});
 
+
+// ── Welcome popup ─────────────────────────────
+function dismissPopup() {
+  const overlay = document.getElementById('popupOverlay');
+  overlay.style.transition = 'opacity .25s ease';
+  overlay.style.opacity = '0';
+  setTimeout(() => overlay.remove(), 260);
+  try { sessionStorage.setItem('hhn-popup-seen','1'); } catch(e){}
+}
+function initPopup() {
+  // Show once per session
+  try { if (sessionStorage.getItem('hhn-popup-seen')) {
+    document.getElementById('popupOverlay').remove();
+    return;
+  }} catch(e){}
+  // Close on overlay click (but not on the popup itself)
+  document.getElementById('popupOverlay').addEventListener('click', function(e) {
+    if (e.target === this) dismissPopup();
+  });
+  // Close on Escape
+  document.addEventListener('keydown', function handler(e) {
+    if (e.key === 'Escape') { dismissPopup(); document.removeEventListener('keydown', handler); }
+  });
+}
+initPopup();
 </script>
+
+<!-- Welcome popup -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+    <button class="popup-close" onclick="dismissPopup()" aria-label="Close">✕</button>
+    <div class="popup-top">
+      <div class="popup-skull">🎃</div>
+      <div class="popup-title" id="popupTitle">Hello HHN Fan!</div>
+    </div>
+    <div class="popup-body">
+      <p class="popup-msg">
+        I created and maintain this data resource <strong>100% for FREE!</strong>
+        If you'd like to show some thanks and don't mind, please follow my band on Spotify
+        and check out some of our music. 🩸
+      </p>
+      <div class="popup-links">
+        <a class="popup-link-btn btn-spotify" href="https://open.spotify.com/artist/31pu2Kg5TcbUl9FMTOAa2S?si=LOKczrgCTqiRKHxyK845Nw" target="_blank" rel="noopener">
+          <span class="btn-icon">🎵</span>
+          <span class="btn-label">Follow Pangolin on Spotify</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+        <a class="popup-link-btn btn-apple" href="https://music.apple.com/us/artist/pangolin/1338211587" target="_blank" rel="noopener">
+          <span class="btn-icon">🎶</span>
+          <span class="btn-label">Listen to Pangolin on Apple Music</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+        <a class="popup-link-btn btn-web" href="https://www.pangolinfl.com/" target="_blank" rel="noopener">
+          <span class="btn-icon">🌐</span>
+          <span class="btn-label">Visit Pangolin's Website</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+      </div>
+      <div class="popup-footer">
+        <button class="popup-dismiss" onclick="dismissPopup()">Thanks, I'll check it out! 🤘</button>
+        <button class="popup-later" onclick="dismissPopup()">Maybe later</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
