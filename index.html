@@ -52,17 +52,58 @@ body.hc .a11y-btn { border-color: #fff; color: #fff; background: rgba(255,255,25
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--black);color:var(--text);font-family:'Special Elite',serif;min-height:100vh;overflow-x:hidden}
 
-/* header */
-header{position:relative;text-align:center;padding:48px 20px 32px;background:linear-gradient(180deg,#1c0000,var(--black));border-bottom:2px solid var(--red-dim);overflow:hidden}
-header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;background:var(--red);box-shadow:0 0 24px var(--red),0 0 50px rgba(192,57,43,.4)}
-.drip-bar{position:absolute;top:5px;left:0;right:0;display:flex;justify-content:space-around;pointer-events:none}
+/* ── header ── */
+header{position:relative;text-align:center;padding:52px 20px 40px;background:linear-gradient(180deg,#1c0000 0%,#0f0000 60%,var(--black) 100%);border-bottom:2px solid var(--red-dim);overflow:hidden}
+header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;background:var(--red);box-shadow:0 0 24px var(--red),0 0 60px rgba(192,57,43,.5),0 0 100px rgba(192,57,43,.2)}
+
+/* blood drips */
+.drip-bar{position:absolute;top:5px;left:0;right:0;display:flex;justify-content:space-around;pointer-events:none;z-index:2}
 .drip{width:7px;background:var(--red);border-radius:0 0 4px 4px;animation:drip var(--dur,3s) ease-in-out infinite;animation-delay:var(--delay,0s)}
 @keyframes drip{0%,100%{height:var(--h1,8px);opacity:.7}50%{height:var(--h2,35px);opacity:1}}
-.site-title{font-family:'Creepster',cursive;font-size:clamp(3.5rem,9vw,7.5rem);color:var(--red);text-shadow:0 0 40px rgba(192,57,43,.55),3px 3px 0 #000;line-height:.9;position:relative;z-index:1;letter-spacing:.08em}
-.site-sub{font-family:'Cutive Mono',monospace;font-size:.75rem;letter-spacing:.35em;color:var(--parchment-dim);text-transform:uppercase;margin-top:10px;position:relative;z-index:1}
+@keyframes cardIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+
+/* fog layers */
+.fog-wrap{position:absolute;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.fog{position:absolute;bottom:-10px;left:-50%;width:200%;height:140px;background:radial-gradient(ellipse at center,rgba(180,160,160,.13) 0%,transparent 70%);border-radius:50%;animation:fogDrift var(--fd,18s) ease-in-out infinite alternate;animation-delay:var(--fdelay,0s);filter:blur(18px)}
+@keyframes fogDrift{0%{transform:translateX(0) scaleY(1)}100%{transform:translateX(8%) scaleY(1.15)}}
+.fog2{height:80px;bottom:20px;animation-direction:alternate-reverse;filter:blur(22px);opacity:.7}
+.fog3{height:60px;bottom:35px;left:-30%;width:160%;filter:blur(12px);opacity:.5;animation-duration:14s}
+
+/* floating embers */
+.ember-wrap{position:absolute;inset:0;pointer-events:none;z-index:2;overflow:hidden}
+.ember{position:absolute;bottom:0;width:3px;height:3px;border-radius:50%;background:var(--red);animation:float var(--dur,6s) ease-in infinite;animation-delay:var(--delay,0s);opacity:0}
+.ember.dim{background:var(--orange);width:2px;height:2px}
+@keyframes float{
+  0%{opacity:0;transform:translateY(0) translateX(0) scale(1)}
+  10%{opacity:.9}
+  50%{transform:translateY(-80px) translateX(var(--drift,20px)) scale(.8)}
+  90%{opacity:.2}
+  100%{opacity:0;transform:translateY(-160px) translateX(var(--drift2,40px)) scale(.3)}
+}
+
+/* title flicker */
+.site-title{
+  font-family:'Creepster',cursive;
+  font-size:clamp(3.5rem,9vw,7.5rem);
+  color:var(--red);
+  text-shadow:0 0 40px rgba(192,57,43,.7),0 0 80px rgba(192,57,43,.3),3px 3px 0 #000;
+  line-height:.9;position:relative;z-index:3;letter-spacing:.08em;
+  animation:flicker 8s infinite;
+}
+@keyframes flicker{
+  0%,89%,91%,93%,95%,100%{opacity:1;text-shadow:0 0 40px rgba(192,57,43,.7),0 0 80px rgba(192,57,43,.3),3px 3px 0 #000}
+  90%{opacity:.6;text-shadow:0 0 10px rgba(192,57,43,.3),3px 3px 0 #000}
+  92%{opacity:1;text-shadow:0 0 60px rgba(192,57,43,.9),0 0 100px rgba(192,57,43,.4),3px 3px 0 #000}
+  94%{opacity:.7;text-shadow:0 0 20px rgba(192,57,43,.4),3px 3px 0 #000}
+}
+
+.site-sub{font-family:'Cutive Mono',monospace;font-size:.75rem;letter-spacing:.35em;color:var(--parchment-dim);text-transform:uppercase;margin-top:10px;position:relative;z-index:3}
+
+/* subtle scanline overlay on header */
+header::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.04) 2px,rgba(0,0,0,.04) 4px);pointer-events:none;z-index:1}
 
 /* ── Top bar ── */
-.topbar{position:sticky;top:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;gap:10px}
+.topbar{position:sticky;top:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);box-shadow:0 1px 0 rgba(192,57,43,.15);padding:10px 16px;display:flex;align-items:center;gap:10px}
 .menu-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.85rem;padding:6px 10px;cursor:pointer;transition:all .12s;flex:0 0 auto;line-height:1}
 
 .search-input{flex:1;background:var(--card);border:1px solid var(--border);color:var(--text);font-family:'Special Elite',serif;font-size:.9rem;padding:8px 14px;outline:none;transition:border-color .18s;min-width:0}
@@ -163,7 +204,7 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 @keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 .year-header{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);position:relative}
 .year-header::after{content:'';position:absolute;bottom:-1px;left:0;width:48px;height:2px;background:var(--red);box-shadow:0 0 8px var(--red)}
-.year-label{font-family:'Creepster',cursive;font-size:3rem;color:var(--red);text-shadow:2px 2px 0 #000;line-height:1;display:inline-flex;align-items:center;gap:6px}
+.year-label{font-family:'Creepster',cursive;font-size:3rem;color:var(--red);text-shadow:2px 2px 0 #000,0 0 20px rgba(192,57,43,.2);line-height:1;display:inline-flex;align-items:center;gap:6px}
 .year-weather-tag{font-family:'Cutive Mono',monospace;font-size:.72rem;color:#7fb3d3;border:1px solid rgba(127,179,211,.3);padding:3px 8px;background:rgba(127,179,211,.06);white-space:nowrap;align-self:center}
 .year-count{margin-left:auto;font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--text-dim);background:var(--card);border:1px solid var(--border);padding:3px 8px}
 
@@ -177,7 +218,7 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 
 /* cards */
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
-.card{background:var(--card);border:1px solid var(--border);padding:13px 15px;position:relative;transition:all .16s;overflow:hidden}
+.card{background:var(--card);border:1px solid var(--border);padding:13px 15px;position:relative;transition:transform .16s,box-shadow .16s,border-color .16s;overflow:hidden;animation:cardIn .3s ease both}
 .card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;transition:background .16s,box-shadow .16s}
 .card-house::before{background:rgba(231,76,60,.4)}
 .card-scarezone::before{background:rgba(230,126,18,.4)}
@@ -244,9 +285,17 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
 
 <header>
   <div class="drip-bar" id="drips"></div>
+  <!-- fog layers -->
+  <div class="fog-wrap">
+    <div class="fog" style="--fd:20s;--fdelay:0s"></div>
+    <div class="fog fog2" style="--fd:15s;--fdelay:-5s"></div>
+    <div class="fog fog3" style="--fd:12s;--fdelay:-8s"></div>
+  </div>
+  <!-- floating embers -->
+  <div class="ember-wrap" id="embers"></div>
   <div class="site-title">HHN TRACKER</div>
-  <div class="site-sub"> Please Follow @PangolinFL</div>
-  <div class="site-sub"> Halloween Horror Nights &bull; Full Tracker Archive &bull; 1991 – PRESENT</div>
+  <div class="site-sub">Please Follow @PangolinFL</div>
+  <div class="site-sub">Halloween Horror Nights &bull; Full Tracker Archive &bull; 1991 – PRESENT</div>
 </header>
 
 <!-- Drawer overlay -->
@@ -628,12 +677,24 @@ function initA11y(){
 
 // ── init ──────────────────────────────────────
 function init(){
+  // drips
   const bar=document.getElementById('drips');
   for(let i=0;i<28;i++){
     const d=document.createElement('div');
     d.className='drip';
     d.style.cssText=`--h1:${(Math.random()*10+4).toFixed(0)}px;--h2:${(Math.random()*38+10).toFixed(0)}px;--dur:${(Math.random()*2+2).toFixed(1)}s;--delay:${(Math.random()*3).toFixed(1)}s`;
     bar.appendChild(d);
+  }
+  // embers
+  const emberWrap=document.getElementById('embers');
+  for(let i=0;i<28;i++){
+    const e=document.createElement('div');
+    e.className='ember'+(Math.random()>.5?' dim':'');
+    const left=(Math.random()*100).toFixed(1);
+    const drift=((Math.random()*60)-30).toFixed(0);
+    const drift2=((Math.random()*80)-40).toFixed(0);
+    e.style.cssText=`left:${left}%;--dur:${(Math.random()*5+4).toFixed(1)}s;--delay:${(Math.random()*8).toFixed(1)}s;--drift:${drift}px;--drift2:${drift2}px`;
+    emberWrap.appendChild(e);
   }
   initA11y();
   fetchSheets();
