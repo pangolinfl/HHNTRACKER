@@ -4255,14 +4255,5 @@
     "date": "3/26/2026",
     "ip": "",
     "day": "Thu"
-  },
-  {
-    "year": 2026,
-    "attraction": "TEST ITEM",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "3/26/2026",
-    "ip": "IP",
-    "day": "Thu"
   }
 ]
