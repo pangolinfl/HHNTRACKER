@@ -582,11 +582,13 @@ function render(){
     const w=WEATHER_DATA[String(year)];
     const rainIcon=w&&w.rain?' 🌧️':'';
     const tempTag=w?`<span class="year-weather-tag">${w.temp}°F avg</span>`:'';
+    const yearNotes=entries.filter(e=>e.type==='NOTE').length;
     return `<section class="year-section">
       <div class="year-header">
         <div class="year-label">${year}${rainIcon}</div>
         ${tempTag}
         <div class="year-count">${entries.filter(e=>e.type!=='NOTE').length} attractions</div>
+        ${yearNotes?`<div class="year-count" style="opacity:.6">${yearNotes} note${yearNotes!==1?'s':''}</div>`:''}
       </div>
       ${typeGroups}
     </section>`;
