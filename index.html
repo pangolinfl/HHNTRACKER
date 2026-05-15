@@ -419,7 +419,7 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
 <div class="stats-bar" id="statsBar"></div>
 
 <main id="main"></main>
-<footer>HHN ARCHIVE &bull; 456 ATTRACTIONS &bull; 1991 – PRESENT &bull; DATA VIA @GARYPOUNDS ON TWITTER</footer>
+<footer>HHN ARCHIVE &bull; 456 ATTRACTIONS + NOTES &bull; 1991 – PRESENT &bull; DATA VIA @GARYPOUNDS ON TWITTER</footer>
 
 <script>
 const DATA_URL = 'hhn_data.json';
@@ -449,7 +449,9 @@ async function fetchSheets() {
     if (!Array.isArray(json)||!json.length) throw new Error('Empty response');
     liveData = json;
     selectedYears = new Set();
-    setStatus('✅ '+json.length+' attractions loaded!','ok',4000);
+    const nonNotes=json.filter(r=>r.type!=='NOTE').length;
+    const notes=json.length-nonNotes;
+    setStatus(`✅ ${nonNotes} attractions + ${notes} notes loaded!`,'ok',4000);
     refresh();
   } catch(err) {
     console.warn('Data load failed:',err.message);
@@ -531,11 +533,14 @@ function render(){
   const years=[...new Set(filtered.map(d=>d.year))].sort((a,b)=>b-a);
   const counts={};
   TYPE_ORDER.forEach(t=>{counts[t]=filtered.filter(d=>d.type===t).length});
+  const attractionCount=filtered.filter(d=>d.type!=='NOTE').length;
+  const noteCount=counts['NOTE']||0;
 
   document.getElementById('statsBar').innerHTML=
-    `<div class="stat">Showing <b>${filtered.length}</b> attractions</div>`+
+    `<div class="stat">Showing <b>${attractionCount}</b> attractions${noteCount?` <span style="opacity:.6;font-size:.9em">(+${noteCount} note${noteCount!==1?'s':''})</span>`:''}</div>`+
     `<div class="stat">Years: <b>${years.length}</b></div>`+
-    TYPE_ORDER.filter(t=>counts[t]>0).map(t=>`<div class="stat">${TYPE_LABELS[t].split(' ').slice(1).join(' ')}: <b>${counts[t]}</b></div>`).join('');
+    TYPE_ORDER.filter(t=>t!=='NOTE'&&counts[t]>0).map(t=>`<div class="stat">${TYPE_LABELS[t].split(' ').slice(1).join(' ')}: <b>${counts[t]}</b></div>`).join('')+
+    (noteCount?`<div class="stat">${TYPE_LABELS['NOTE'].split(' ').slice(1).join(' ')}: <b>${noteCount}</b></div>`:'');
 
   const main=document.getElementById('main');
   if (!filtered.length){main.innerHTML='<div class="empty">Nothing Stirs in the Dark…</div>';return}
@@ -581,7 +586,7 @@ function render(){
       <div class="year-header">
         <div class="year-label">${year}${rainIcon}</div>
         ${tempTag}
-        <div class="year-count">${entries.length} attractions</div>
+        <div class="year-count">${entries.filter(e=>e.type!=='NOTE').length} attractions</div>
       </div>
       ${typeGroups}
     </section>`;
