@@ -538,7 +538,7 @@ function render(){
   const noteCount=counts['NOTE']||0;
 
   document.getElementById('statsBar').innerHTML=
-    `<div class="stat">Showing <b>${attractionCount}</b> attractions${noteCount?` <span style="opacity:.6;font-size:.9em">(+${noteCount} note${noteCount!==1?'s':''})</span>`:''}</div>`+
+    `<div class="stat">Showing <b>${attractionCount}</b> attractions</div>`+
     `<div class="stat">Years: <b>${years.length}</b></div>`+
     TYPE_ORDER.filter(t=>t!=='NOTE'&&counts[t]>0).map(t=>`<div class="stat">${TYPE_LABELS[t].split(' ').slice(1).join(' ')}: <b>${counts[t]}</b></div>`).join('')+
     (noteCount?`<div class="stat">${TYPE_LABELS['NOTE'].split(' ').slice(1).join(' ')}: <b>${noteCount}</b></div>`:'');
