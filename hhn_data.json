@@ -4255,5 +4255,14 @@
     "date": "3/26/2026",
     "ip": "",
     "day": "Thu"
+  },
+  {
+    "year": 2026,
+    "attraction": "Sinners",
+    "type": "HOUSE",
+    "location": "TBA",
+    "date": "05/21/2026",
+    "ip": "IP",
+    "day": "Thu"
   }
 ]
