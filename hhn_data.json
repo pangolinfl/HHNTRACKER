@@ -33,7 +33,8 @@
     "location": "SS23",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "The People Under the Stairs"
   },
   {
     "year": 1992,
@@ -42,7 +43,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1992,
@@ -69,7 +71,8 @@
     "location": "SS23",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "The People Under the Stairs"
   },
   {
     "year": 1993,
@@ -78,7 +81,8 @@
     "location": "BATES MOTEL",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Psycho (Bates Motel)"
   },
   {
     "year": 1993,
@@ -96,7 +100,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1993,
@@ -141,7 +146,8 @@
     "location": "BATES MOTEL",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Psycho (Bates Motel)"
   },
   {
     "year": 1994,
@@ -186,7 +192,8 @@
     "location": "EQ QUEUE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Crypt Keeper (Tales from the Crypt)"
   },
   {
     "year": 1995,
@@ -213,7 +220,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1995,
@@ -258,7 +266,8 @@
     "location": "EQ QUEUE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Crypt Keeper (Tales from the Crypt)"
   },
   {
     "year": 1996,
@@ -294,7 +303,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1996,
@@ -303,7 +313,8 @@
     "location": "PARADE ROUTE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Crypt Keeper (Tales from the Crypt)"
   },
   {
     "year": 1996,
@@ -375,7 +386,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1997,
@@ -456,7 +468,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1998,
@@ -501,7 +514,8 @@
     "location": "SS22",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Psycho (Bates Motel)"
   },
   {
     "year": 1999,
@@ -519,7 +533,8 @@
     "location": "EQ QUEUE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "The Mummy"
   },
   {
     "year": 1999,
@@ -546,7 +561,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 1999,
@@ -672,7 +688,8 @@
     "location": "WILD WEST STAGE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2000,
@@ -726,7 +743,8 @@
     "location": "EQ QUEUE",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "The Mummy"
   },
   {
     "year": 2001,
@@ -897,7 +915,8 @@
     "location": "TOON LAGOON THEATER",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2002,
@@ -1023,7 +1042,8 @@
     "location": "TOON LAGOON THEATER",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2003,
@@ -1140,7 +1160,8 @@
     "location": "TOON LAGOON THEATER",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2004,
@@ -1266,7 +1287,8 @@
     "location": "FEAR FACTOR",
     "date": "",
     "ip": "IP",
-    "day": ""
+    "day": "",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2005,
@@ -1302,7 +1324,8 @@
     "location": "SPRUNG TENT 1",
     "date": "9/1/2006",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "Psycho (Bates Motel)"
   },
   {
     "year": 2006,
@@ -1383,7 +1406,8 @@
     "location": "FEAR FACTOR",
     "date": "9/1/2006",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2006,
@@ -1419,7 +1443,8 @@
     "location": "SS23",
     "date": "8/22/2007",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "A Nightmare on Elm Street"
   },
   {
     "year": 2007,
@@ -1437,7 +1462,8 @@
     "location": "JAWS QUEUE",
     "date": "8/22/2007",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Friday the 13th"
   },
   {
     "year": 2007,
@@ -1536,7 +1562,8 @@
     "location": "FEAR FACTOR",
     "date": "8/22/2007",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2007,
@@ -1554,7 +1581,8 @@
     "location": "BEETLEJUICE STAGE",
     "date": "8/22/2007",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "The Rocky Horror Picture Show"
   },
   {
     "year": 2007,
@@ -1698,7 +1726,8 @@
     "location": "FEAR FACTOR",
     "date": "8/28/2008",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2008,
@@ -1707,7 +1736,8 @@
     "location": "BEETLEJUICE STAGE",
     "date": "8/28/2008",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Rocky Horror Picture Show"
   },
   {
     "year": 2008,
@@ -1725,7 +1755,8 @@
     "location": "SPRUNG TENT 1",
     "date": "8/27/2009",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Chucky"
   },
   {
     "year": 2009,
@@ -1734,7 +1765,8 @@
     "location": "SS23A",
     "date": "8/27/2009",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Dracula"
   },
   {
     "year": 2009,
@@ -1761,7 +1793,8 @@
     "location": "JAWS QUEUE",
     "date": "8/27/2009",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Saw"
   },
   {
     "year": 2009,
@@ -1860,7 +1893,8 @@
     "location": "FEAR FACTOR",
     "date": "8/27/2009",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2009,
@@ -1869,7 +1903,8 @@
     "location": "BEETLEJUICE STAGE",
     "date": "8/27/2009",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Rocky Horror Picture Show"
   },
   {
     "year": 2010,
@@ -2004,7 +2039,8 @@
     "location": "FEAR FACTOR",
     "date": "9/14/2010",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2010,
@@ -2148,7 +2184,8 @@
     "location": "FEAR FACTOR",
     "date": "8/21/2011",
     "ip": "IP",
-    "day": "Sun"
+    "day": "Sun",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2011,
@@ -2202,7 +2239,8 @@
     "location": "EQ QUEUE",
     "date": "7/14/2012",
     "ip": "IP",
-    "day": "Sat"
+    "day": "Sat",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2012,
@@ -2301,7 +2339,8 @@
     "location": "FEAR FACTOR",
     "date": "8/30/2012",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2012,
@@ -2337,7 +2376,8 @@
     "location": "SS22",
     "date": "8/16/2013",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "An American Werewolf in London"
   },
   {
     "year": 2013,
@@ -2382,7 +2422,8 @@
     "location": "PARADE",
     "date": "7/25/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2013,
@@ -2400,7 +2441,8 @@
     "location": "NEW YORK",
     "date": "7/25/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2013,
@@ -2409,7 +2451,8 @@
     "location": "CENTRAL PARK",
     "date": "7/25/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2013,
@@ -2418,7 +2461,8 @@
     "location": "KIDZONE",
     "date": "7/25/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2013,
@@ -2427,7 +2471,8 @@
     "location": "MEL'S DRIVE-IN",
     "date": "7/25/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2013,
@@ -2436,7 +2481,8 @@
     "location": "HOLLYWOOD",
     "date": "7/25/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2013,
@@ -2445,7 +2491,8 @@
     "location": "FEAR FACTOR",
     "date": "8/29/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2013,
@@ -2454,7 +2501,8 @@
     "location": "BEETLEJUICE STAGE",
     "date": "8/29/2013",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Rocky Horror Picture Show"
   },
   {
     "year": 2014,
@@ -2481,7 +2529,8 @@
     "location": "SS24",
     "date": "8/7/2014",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Dracula"
   },
   {
     "year": 2014,
@@ -2508,7 +2557,8 @@
     "location": "SPRUNG TENT 2",
     "date": "8/27/2014",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Halloween"
   },
   {
     "year": 2014,
@@ -2526,7 +2576,8 @@
     "location": "SS25",
     "date": "6/9/2014",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2014,
@@ -2535,7 +2586,8 @@
     "location": "NEW YORK",
     "date": "7/21/2014",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "The Purge"
   },
   {
     "year": 2014,
@@ -2571,7 +2623,8 @@
     "location": "BEETLEJUICE STAGE",
     "date": "8/12/2014",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "The Rocky Horror Picture Show"
   },
   {
     "year": 2014,
@@ -2580,7 +2633,8 @@
     "location": "FEAR FACTOR",
     "date": "8/12/2014",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2015,
@@ -2589,7 +2643,8 @@
     "location": "SS22",
     "date": "8/27/2015",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "An American Werewolf in London"
   },
   {
     "year": 2015,
@@ -2616,7 +2671,8 @@
     "location": "SS24",
     "date": "6/10/2015",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
   },
   {
     "year": 2015,
@@ -2625,7 +2681,8 @@
     "location": "SPRUNG TENT 2",
     "date": "7/16/2015",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Insidious"
   },
   {
     "year": 2015,
@@ -2652,7 +2709,8 @@
     "location": "SPRUNG TENT 1",
     "date": "8/17/2015",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "The Purge"
   },
   {
     "year": 2015,
@@ -2661,7 +2719,8 @@
     "location": "PARADE",
     "date": "7/30/2015",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2015,
@@ -2715,7 +2774,8 @@
     "location": "FEAR FACTOR",
     "date": "8/27/2015",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2015,
@@ -2733,7 +2793,8 @@
     "location": "SS19",
     "date": "8/16/2016",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "American Horror Story"
   },
   {
     "year": 2016,
@@ -2751,7 +2812,8 @@
     "location": "PARADE",
     "date": "7/7/2016",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Halloween"
   },
   {
     "year": 2016,
@@ -2760,7 +2822,8 @@
     "location": "SS24",
     "date": "6/3/2016",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2016,
@@ -2787,7 +2850,8 @@
     "location": "SS22",
     "date": "4/26/2016",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "The Exorcist"
   },
   {
     "year": 2016,
@@ -2805,7 +2869,8 @@
     "location": "SPRUNG TENT 2",
     "date": "4/14/2016",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Texas Chain Saw Massacre"
   },
   {
     "year": 2016,
@@ -2823,7 +2888,8 @@
     "location": "WHOLE PARK",
     "date": "6/3/2016",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "The Walking Dead"
   },
   {
     "year": 2016,
@@ -2877,7 +2943,8 @@
     "location": "FEAR FACTOR",
     "date": "8/10/2016",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2016,
@@ -2886,7 +2953,8 @@
     "location": "MEL'S DRIVE-IN STAGE",
     "date": "8/10/2016",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Academy of Villains"
   },
   {
     "year": 2017,
@@ -2904,7 +2972,8 @@
     "location": "SS21",
     "date": "3/29/2017",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "American Horror Story"
   },
   {
     "year": 2017,
@@ -2940,7 +3009,8 @@
     "location": "SHREK",
     "date": "8/14/2017",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "Saw"
   },
   {
     "year": 2017,
@@ -2967,7 +3037,8 @@
     "location": "MIB TENT",
     "date": "8/29/2017",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "The Horrors of Blumhouse"
   },
   {
     "year": 2017,
@@ -2985,7 +3056,8 @@
     "location": "CENTRAL PARK",
     "date": "8/17/2017",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Trick 'r Treat"
   },
   {
     "year": 2017,
@@ -2994,7 +3066,8 @@
     "location": "NEW YORK",
     "date": "8/17/2017",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Purge"
   },
   {
     "year": 2017,
@@ -3030,7 +3103,8 @@
     "location": "FEAR FACTOR",
     "date": "8/17/2017",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Bill & Ted's Excellent Halloween Adventure"
   },
   {
     "year": 2017,
@@ -3039,7 +3113,8 @@
     "location": "MEL'S DRIVE-IN STAGE",
     "date": "8/17/2017",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Academy of Villains"
   },
   {
     "year": 2018,
@@ -3084,7 +3159,8 @@
     "location": "SHREK",
     "date": "8/14/2018",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "Halloween"
   },
   {
     "year": 2018,
@@ -3093,7 +3169,8 @@
     "location": "MIB TENT",
     "date": "8/20/2018",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "The Horrors of Blumhouse"
   },
   {
     "year": 2018,
@@ -3120,7 +3197,8 @@
     "location": "SS22",
     "date": "4/3/2018",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "Stranger Things"
   },
   {
     "year": 2018,
@@ -3142,7 +3220,7 @@
   },
   {
     "year": 2018,
-    "attraction": "VAMP '85: NEW YEAR\u2019S EVE",
+    "attraction": "VAMP '85: NEW YEAR’S EVE",
     "type": "SCAREZONE",
     "location": "NEW YORK",
     "date": "6/7/2018",
@@ -3165,7 +3243,8 @@
     "location": "HOLLYWOOD",
     "date": "6/28/2018",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Chucky"
   },
   {
     "year": 2018,
@@ -3174,7 +3253,8 @@
     "location": "SOUTH STREET",
     "date": "6/28/2018",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Killer Klowns from Outer Space"
   },
   {
     "year": 2018,
@@ -3183,7 +3263,8 @@
     "location": "FEAR FACTOR",
     "date": "6/7/2018",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Academy of Villains"
   },
   {
     "year": 2019,
@@ -3201,7 +3282,8 @@
     "location": "SS25",
     "date": "3/27/2019",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Stranger Things"
   },
   {
     "year": 2019,
@@ -3219,7 +3301,8 @@
     "location": "PARADE WAREHOUSE 2",
     "date": "4/29/2019",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2019,
@@ -3246,7 +3329,8 @@
     "location": "SS22",
     "date": "7/17/2019",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Ghostbusters"
   },
   {
     "year": 2019,
@@ -3255,7 +3339,8 @@
     "location": "SHREK",
     "date": "7/25/2019",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Killer Klowns from Outer Space"
   },
   {
     "year": 2019,
@@ -3327,7 +3412,8 @@
     "location": "FEAR FACTOR",
     "date": "8/12/2019",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "Academy of Villains"
   },
   {
     "year": 2019,
@@ -3570,7 +3656,8 @@
     "location": "PARADE WAREHOUSE 1",
     "date": "5/17/2022",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2022,
@@ -3579,7 +3666,8 @@
     "location": "SS23",
     "date": "6/8/2022",
     "ip": "IP",
-    "day": "Wed"
+    "day": "Wed",
+    "ipName": "Halloween"
   },
   {
     "year": 2022,
@@ -3588,7 +3676,8 @@
     "location": "FF QUEUE",
     "date": "6/23/2022",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "The Horrors of Blumhouse"
   },
   {
     "year": 2022,
@@ -3732,7 +3821,8 @@
     "location": "FF QUEUE",
     "date": "10/31/2022",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "Chucky"
   },
   {
     "year": 2023,
@@ -3768,7 +3858,8 @@
     "location": "SS23",
     "date": "7/13/2023",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Stranger Things"
   },
   {
     "year": 2023,
@@ -3777,7 +3868,8 @@
     "location": "SS22",
     "date": "7/28/2023",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "The Exorcist"
   },
   {
     "year": 2023,
@@ -3786,7 +3878,8 @@
     "location": "PARADE WAREHOUSE 1",
     "date": "7/28/2023",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2023,
@@ -3975,7 +4068,8 @@
     "location": "SS23B",
     "date": "6/27/2024",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Ghostbusters"
   },
   {
     "year": 2024,
@@ -3993,7 +4087,8 @@
     "location": "SS24A",
     "date": "7/11/2024",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Insidious"
   },
   {
     "year": 2024,
@@ -4047,7 +4142,8 @@
     "location": "SPRUNG TENT 3",
     "date": "7/25/2024",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2024,
