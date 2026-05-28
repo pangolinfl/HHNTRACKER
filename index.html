@@ -103,14 +103,17 @@ header::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;back
 header::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.04) 2px,rgba(0,0,0,.04) 4px);pointer-events:none;z-index:1}
 
 /* ── Top bar ── */
-.topbar{position:sticky;top:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);box-shadow:0 1px 0 rgba(192,57,43,.15);padding:10px 16px;display:flex;align-items:center;gap:10px}
+.topbar{position:sticky;top:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);box-shadow:0 1px 0 rgba(192,57,43,.15);padding:10px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .menu-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.85rem;padding:6px 10px;cursor:pointer;transition:all .12s;flex:0 0 auto;line-height:1}
 
-.search-input{flex:1;background:var(--card);border:1px solid var(--border);color:var(--text);font-family:'Special Elite',serif;font-size:.9rem;padding:8px 14px;outline:none;transition:border-color .18s;min-width:0}
+.search-input{flex:1;min-width:140px;background:var(--card);border:1px solid var(--border);color:var(--text);font-family:'Special Elite',serif;font-size:.9rem;padding:8px 14px;outline:none;transition:border-color .18s;}
 .search-input:focus{border-color:var(--red-dim);box-shadow:0 0 0 2px rgba(192,57,43,.1)}
 .search-input::placeholder{color:var(--text-dim)}
 .action-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.78rem;padding:5px 11px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;flex:0 0 auto}
+.topbar-right{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 
+/* checklist badge on topbar */
+.checklist-count{font-family:'Cutive Mono',monospace;font-size:.65rem;background:var(--green);color:#000;padding:1px 5px;border-radius:2px;margin-left:3px;display:none}
 
 /* ── Drawer overlay ── */
 .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:300;opacity:0;pointer-events:none;transition:opacity .25s ease}
@@ -147,17 +150,14 @@ body.hc .drawer{border-right-color:var(--red)}
 .year-btn:focus,.action-btn:focus,.a11y-btn:focus,.loc-btn:focus,.menu-btn:focus{outline:none}
 .year-btn:focus:not(:focus-visible),.action-btn:focus:not(:focus-visible),.a11y-btn:focus:not(:focus-visible),.loc-btn:focus:not(:focus-visible),.type-btn:focus:not(:focus-visible){background:transparent;box-shadow:none}
 .type-btn.tb-house{color:#e74c3c;border-color:rgba(231,76,60,.4)}
-
 .type-btn.tb-scarezone{color:var(--orange);border-color:rgba(230,126,18,.4)}
-
 .type-btn.tb-show{color:var(--yellow);border-color:rgba(241,196,15,.4)}
-
 .type-btn.tb-note{color:var(--purple);border-color:rgba(142,68,173,.4)}
 .type-btn.tb-day{color:#7fb3d3;border-color:rgba(127,179,211,.35);padding:4px 8px}
 .type-btn.tb-ip{color:#e74c3c;border-color:rgba(231,76,60,.4)}
 .type-btn.tb-orig{color:#27ae60;border-color:rgba(39,174,96,.4)}
 .type-btn.tb-untagged{color:var(--text-dim);border-color:var(--border)}
-/* Type button active states (always) */
+/* Type button active states */
 .type-btn.tb-house.active{background:#e74c3c;color:#fff;border-color:#e74c3c}
 .type-btn.tb-scarezone.active{background:var(--orange);color:#fff;border-color:var(--orange)}
 .type-btn.tb-show.active{background:var(--yellow);color:#111;border-color:var(--yellow)}
@@ -167,20 +167,16 @@ body.hc .drawer{border-right-color:var(--red)}
 .type-btn.tb-orig.active{background:#27ae60;color:#fff;border-color:#27ae60}
 .type-btn.tb-untagged.active{background:var(--text-dim);color:#111;border-color:var(--text-dim)}
 
-
 .drawer-footer{padding:14px 18px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:8px;flex-shrink:0}
 
 /* Location filter chips */
 .loc-buttons{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
 .loc-btn{background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:'Cutive Mono',monospace;font-size:.7rem;padding:3px 9px;cursor:pointer;transition:all .12s;white-space:nowrap;border-radius:2px;letter-spacing:.03em}
-
 .loc-btn.active{background:var(--parchment-dim);border-color:var(--parchment-dim);color:var(--black)}
 .loc-actions{display:flex;gap:6px;margin-bottom:10px}
 .loc-type-group{margin-bottom:12px}
 .loc-type-label{font-family:'Cutive Mono',monospace;font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;padding:3px 8px;margin-bottom:6px;display:inline-flex;border-left:2px solid;opacity:.85}
 .drawer-active-badge{display:inline-block;background:var(--red);color:#fff;font-family:'Cutive Mono',monospace;font-size:.6rem;padding:1px 5px;border-radius:2px;margin-left:6px;vertical-align:middle}
-
-/* search moved into topbar */
 
 /* status / loading */
 @keyframes shimmer{0%{left:-40%}100%{left:100%}}
@@ -219,7 +215,7 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 
 /* cards */
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
-.card{background:var(--card);border:1px solid var(--border);padding:13px 15px;position:relative;transition:transform .16s,box-shadow .16s,border-color .16s;overflow:hidden;animation:cardIn .3s ease both}
+.card{background:var(--card);border:1px solid var(--border);padding:13px 15px;position:relative;transition:transform .16s,box-shadow .16s,border-color .16s;overflow:hidden;animation:cardIn .3s ease both;cursor:pointer}
 .card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;transition:background .16s,box-shadow .16s}
 .card-house::before{background:rgba(231,76,60,.4)}
 .card-scarezone::before{background:rgba(230,126,18,.4)}
@@ -246,6 +242,17 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 .ip-badge-ip{background:rgba(231,76,60,.15);color:#e74c3c;border-left:2px solid #e74c3c;border-bottom:2px solid #e74c3c;border-bottom-left-radius:2px}
 .ip-badge-orig{background:rgba(39,174,96,.12);color:#27ae60;border-left:2px solid #27ae60;border-bottom:2px solid #27ae60;border-bottom-left-radius:2px}
 
+/* ── Checklist tick ── */
+.card-check{position:absolute;bottom:8px;right:10px;width:22px;height:22px;border:1px solid var(--border);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:.8rem;color:var(--text-dim);transition:all .15s;background:rgba(0,0,0,.3);z-index:5;flex-shrink:0}
+.card.checked .card-check{background:var(--green);border-color:var(--green);color:#000}
+.card.checked{border-color:rgba(39,174,96,.3)}
+.card.checked::after{content:'';position:absolute;inset:0;background:rgba(39,174,96,.04);pointer-events:none}
+
+/* ── IP appearances badge on cards ── */
+.ip-appearances{font-family:'Cutive Mono',monospace;font-size:.65rem;color:var(--orange);border:1px solid rgba(230,126,18,.3);padding:1px 5px;background:rgba(230,126,18,.06);white-space:nowrap}
+.ip-first{color:var(--yellow);border-color:rgba(241,196,15,.3);background:rgba(241,196,15,.05)}
+.ip-last{color:var(--purple);border-color:rgba(142,68,173,.3);background:rgba(142,68,173,.05)}
+
 .empty{text-align:center;padding:80px 20px;font-family:'Creepster',cursive;color:var(--red-dim);font-size:2rem}
 
 /* scrollbar */
@@ -264,7 +271,7 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
   .stats-bar{padding-left:12px;padding-right:12px}
 }
 
-/* Hover effects — only on pointer devices (prevents stuck hover on touch) */
+/* Hover effects — only on pointer devices */
 @media (hover: hover) and (pointer: fine) {
   .year-btn:hover{border-color:var(--red-dim);color:var(--parchment);background:rgba(192,57,43,.07)}
   .action-btn:hover{background:var(--red);color:#fff}
@@ -309,19 +316,114 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
 .popup-close{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border);color:var(--text-dim);width:26px;height:26px;cursor:pointer;font-size:.8rem;display:flex;align-items:center;justify-content:center;transition:all .15s;font-family:'Cutive Mono',monospace}
 .popup-close:hover{border-color:var(--red);color:var(--red)}
 @media(max-width:480px){.popup-title{font-size:1.5rem}.popup-msg{font-size:.85rem}}
+
+/* ── Generic Modal ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:800;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .22s ease}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal{background:var(--deep);border:1px solid var(--red-dim);max-width:560px;width:100%;max-height:85vh;display:flex;flex-direction:column;position:relative;animation:popIn .3s cubic-bezier(.34,1.56,.64,1)}
+.modal-header{padding:16px 20px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;background:linear-gradient(135deg,#1c0000,#0f0000)}
+.modal-header::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--red);box-shadow:0 0 12px var(--red)}
+.modal-title{font-family:'Creepster',cursive;font-size:1.6rem;color:var(--red);letter-spacing:.06em;text-shadow:1px 1px 0 #000}
+.modal-close{background:transparent;border:1px solid var(--border);color:var(--text-dim);width:28px;height:28px;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:all .15s;font-family:'Cutive Mono',monospace}
+.modal-close:hover{border-color:var(--red);color:var(--red)}
+.modal-body{padding:20px;overflow-y:auto;flex:1}
+.modal-body::-webkit-scrollbar{width:4px}
+.modal-body::-webkit-scrollbar-thumb{background:var(--red-dim)}
+
+/* ── This Day in HHN modal ── */
+.today-empty{font-family:'Special Elite',serif;color:var(--text-dim);font-size:1rem;text-align:center;padding:30px 0}
+.today-card{background:var(--card);border:1px solid var(--border);padding:12px 14px;margin-bottom:8px;display:flex;align-items:flex-start;gap:12px}
+.today-year-badge{font-family:'Creepster',cursive;font-size:1.4rem;color:var(--red);min-width:52px;line-height:1}
+.today-info{flex:1}
+.today-name{font-family:'Special Elite',serif;font-size:.92rem;color:var(--parchment);margin-bottom:4px}
+.today-meta{font-family:'Cutive Mono',monospace;font-size:.7rem;color:var(--text-dim)}
+
+/* ── Checklist modal ── */
+.checklist-actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.checklist-actions .action-btn{font-size:.72rem;padding:5px 10px}
+.checklist-progress{font-family:'Cutive Mono',monospace;font-size:.8rem;color:var(--text-dim);margin-bottom:12px}
+.checklist-progress b{color:var(--green)}
+.cl-year-group{margin-bottom:16px}
+.cl-year-label{font-family:'Creepster',cursive;font-size:1.3rem;color:var(--red);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.cl-item{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid rgba(58,26,26,.4);cursor:pointer}
+.cl-item:last-child{border-bottom:none}
+.cl-check{width:18px;height:18px;border:1px solid var(--border);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:.65rem;flex-shrink:0;transition:all .12s}
+.cl-item.checked .cl-check{background:var(--green);border-color:var(--green);color:#000}
+.cl-name{font-family:'Special Elite',serif;font-size:.85rem;color:var(--text);flex:1}
+.cl-item.checked .cl-name{color:var(--text-dim);text-decoration:line-through}
+.cl-type{font-family:'Cutive Mono',monospace;font-size:.65rem;color:var(--text-dim)}
+
+/* ── Stats page ── */
+#statsPage{display:none;padding:20px;max-width:1200px;margin:0 auto;animation:fadeUp .25s ease}
+.stats-page-header{display:flex;align-items:center;gap:14px;margin-bottom:28px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+.stats-back-btn{background:transparent;border:1px solid var(--red-dim);color:var(--red);font-family:'Cutive Mono',monospace;font-size:.8rem;padding:7px 14px;cursor:pointer;transition:all .12s;white-space:nowrap}
+.stats-back-btn:hover{background:var(--red);color:#fff}
+.stats-page-title{font-family:'Creepster',cursive;font-size:2.2rem;color:var(--red);text-shadow:2px 2px 0 #000;letter-spacing:.06em}
+
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:28px}
+.stat-card{background:var(--card);border:1px solid var(--border);padding:18px 20px;position:relative;overflow:hidden}
+.stat-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%}
+.stat-card.sc-red::before{background:var(--red)}
+.stat-card.sc-orange::before{background:var(--orange)}
+.stat-card.sc-yellow::before{background:var(--yellow)}
+.stat-card.sc-green::before{background:var(--green)}
+.stat-card.sc-purple::before{background:var(--purple)}
+.stat-card.sc-blue::before{background:#7fb3d3}
+.stat-card-label{font-family:'Cutive Mono',monospace;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-dim);margin-bottom:6px}
+.stat-card-value{font-family:'Creepster',cursive;font-size:2.8rem;color:var(--parchment);line-height:1;text-shadow:1px 1px 0 #000}
+.stat-card-sub{font-family:'Special Elite',serif;font-size:.8rem;color:var(--text-dim);margin-top:4px}
+
+.stats-section-title{font-family:'Creepster',cursive;font-size:1.6rem;color:var(--red);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border);text-shadow:1px 1px 0 #000;letter-spacing:.05em}
+
+/* Bar charts */
+.bar-chart{margin-bottom:28px}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.bar-label{font-family:'Cutive Mono',monospace;font-size:.72rem;color:var(--text-dim);width:180px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{flex:1;background:var(--border);height:18px;position:relative;overflow:hidden}
+.bar-fill{height:100%;transition:width .6s ease;position:relative}
+.bar-fill::after{content:attr(data-val);position:absolute;right:6px;top:50%;transform:translateY(-50%);font-family:'Cutive Mono',monospace;font-size:.65rem;color:rgba(255,255,255,.8);white-space:nowrap}
+.bar-fill-red{background:linear-gradient(90deg,var(--red-dim),var(--red))}
+.bar-fill-orange{background:linear-gradient(90deg,var(--orange-dim),var(--orange))}
+.bar-fill-yellow{background:linear-gradient(90deg,#8a7000,var(--yellow))}
+.bar-fill-green{background:linear-gradient(90deg,#1a5c38,var(--green))}
+.bar-fill-blue{background:linear-gradient(90deg,#3a607a,#7fb3d3)}
+.bar-fill-purple{background:linear-gradient(90deg,#4a1f6a,var(--purple))}
+
+/* Fun facts */
+.fun-facts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:28px}
+.fun-fact{background:var(--card);border:1px solid var(--border);padding:16px 18px}
+.fun-fact-emoji{font-size:1.6rem;margin-bottom:8px}
+.fun-fact-label{font-family:'Cutive Mono',monospace;font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-dim);margin-bottom:4px}
+.fun-fact-value{font-family:'Special Elite',serif;font-size:.95rem;color:var(--parchment);line-height:1.4}
+
+/* IP Tracker table */
+.ip-table{width:100%;border-collapse:collapse;margin-bottom:28px}
+.ip-table th{font-family:'Cutive Mono',monospace;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-dim);padding:8px 10px;border-bottom:1px solid var(--border);text-align:left}
+.ip-table td{font-family:'Special Elite',serif;font-size:.85rem;color:var(--text);padding:7px 10px;border-bottom:1px solid rgba(58,26,26,.4)}
+.ip-table tr:hover td{background:rgba(192,57,43,.04)}
+.ip-table .td-count{font-family:'Cutive Mono',monospace;color:var(--orange);font-weight:bold}
+.ip-table .td-year{font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--text-dim)}
+.ip-table .td-first{color:var(--yellow)}
+.ip-table .td-last{color:var(--purple)}
+.ip-years-pills{display:flex;flex-wrap:wrap;gap:3px}
+.ip-year-pill{font-family:'Cutive Mono',monospace;font-size:.6rem;padding:1px 5px;border:1px solid var(--border);color:var(--text-dim);border-radius:2px}
+
+@media(max-width:600px){
+  .bar-label{width:110px;font-size:.65rem}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .stat-card-value{font-size:2rem}
+}
 </style>
 </head>
 <body>
 
 <header>
   <div class="drip-bar" id="drips"></div>
-  <!-- fog layers -->
   <div class="fog-wrap">
     <div class="fog" style="--fd:20s;--fdelay:0s"></div>
     <div class="fog fog2" style="--fd:15s;--fdelay:-5s"></div>
     <div class="fog fog3" style="--fd:12s;--fdelay:-8s"></div>
   </div>
-  <!-- floating embers -->
   <div class="ember-wrap" id="embers"></div>
   <div class="site-title">HHN TRACKER</div>
   <div class="site-sub">Please Follow <a href="https://www.pangolinfl.com/" target="_blank" rel="noopener" style="color:var(--parchment);text-decoration:none;border-bottom:1px dashed var(--parchment-dim);transition:color .15s" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--parchment)'">@PangolinFL</a></div>
@@ -338,8 +440,6 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
     <button class="drawer-close" onclick="closeDrawer()">✕</button>
   </div>
   <div class="drawer-body">
-
-    <!-- Year filter -->
     <div>
       <div class="drawer-section-title">Year</div>
       <div class="drawer-year-actions">
@@ -348,8 +448,6 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
       </div>
       <div class="year-buttons" id="yearBtns"></div>
     </div>
-
-    <!-- Type filter -->
     <div>
       <div class="drawer-section-title">Type</div>
       <button class="type-btn tb-house active" data-type="HOUSE" onclick="toggleType(this)">🏚 Houses</button>
@@ -357,16 +455,12 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
       <button class="type-btn tb-show active" data-type="SHOW" onclick="toggleType(this)">🎭 Shows</button>
       <button class="type-btn tb-note active" data-type="NOTE" onclick="toggleType(this)">📌 Notes</button>
     </div>
-
-    <!-- IP / Original filter -->
     <div>
       <div class="drawer-section-title">IP or Original</div>
       <button class="type-btn tb-ip active" data-ip="IP" onclick="toggleIP(this)">🎬 IP</button>
       <button class="type-btn tb-orig active" data-ip="ORIG" onclick="toggleIP(this)">✨ Original</button>
       <button class="type-btn tb-untagged active" data-ip="NONE" onclick="toggleIP(this)">— Untagged</button>
     </div>
-
-    <!-- Location filter -->
     <div>
       <div class="drawer-section-title">Day of Week</div>
       <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px">
@@ -380,8 +474,6 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
         <button class="type-btn tb-day active" data-day="NONE" onclick="toggleDay(this)">— Untagged</button>
       </div>
     </div>
-
-    <!-- Location filter -->
     <div>
       <div class="drawer-section-title">Location <span id="locBadge" class="drawer-active-badge" style="display:none"></span></div>
       <div class="loc-actions">
@@ -401,7 +493,6 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
         <div class="loc-buttons" id="locBtnsShow"></div>
       </div>
     </div>
-
   </div>
   <div class="drawer-footer">
     <button class="action-btn" onclick="fetchSheets()" style="width:100%;justify-content:center">↻ Reload Data</button>
@@ -409,10 +500,16 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
   </div>
 </div>
 
-<!-- Top bar: menu button + search -->
+<!-- Top bar -->
 <div class="topbar">
   <button class="menu-btn" onclick="openDrawer()" title="Open filters">☰ Filters</button>
   <input class="search-input" id="searchInput" type="text" placeholder="Search attractions, locations, years…" oninput="render()">
+  <div class="topbar-right">
+    <button class="action-btn" onclick="openTodayModal()" title="This Day in HHN History">📅 Today</button>
+    <button class="action-btn" onclick="randomYear()" title="Jump to a random year">🎲 Random</button>
+    <button class="action-btn" onclick="openChecklistModal()">🩸 My HHN <span class="checklist-count" id="checklistCount"></span></button>
+    <button class="action-btn" onclick="showStatsPage()">📊 Stats</button>
+  </div>
 </div>
 
 <div id="loadingBar"><div></div></div>
@@ -420,7 +517,33 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid var(--border);ma
 <div class="stats-bar" id="statsBar"></div>
 
 <main id="main"></main>
-<footer>HHN ARCHIVE &bull; 456 ATTRACTIONS + NOTES &bull; 1991 – PRESENT &bull; DATA VIA @GARYPOUNDS ON TWITTER</footer>
+
+<!-- Stats page (hidden by default) -->
+<div id="statsPage"></div>
+
+<footer>HHN ARCHIVE &bull; 1991 – PRESENT &bull; DATA VIA @GARYPOUNDS ON TWITTER</footer>
+
+<!-- This Day in HHN modal -->
+<div class="modal-overlay" id="todayModal">
+  <div class="modal" style="max-width:500px">
+    <div class="modal-header">
+      <div class="modal-title" id="todayModalTitle">📅 This Day in HHN</div>
+      <button class="modal-close" onclick="closeModal('todayModal')">✕</button>
+    </div>
+    <div class="modal-body" id="todayModalBody"></div>
+  </div>
+</div>
+
+<!-- Checklist modal -->
+<div class="modal-overlay" id="checklistModal">
+  <div class="modal" style="max-width:600px">
+    <div class="modal-header">
+      <div class="modal-title">🩸 My HHN Checklist</div>
+      <button class="modal-close" onclick="closeModal('checklistModal')">✕</button>
+    </div>
+    <div class="modal-body" id="checklistModalBody"></div>
+  </div>
+</div>
 
 <script>
 const DATA_URL = 'hhn_data.json';
@@ -430,13 +553,163 @@ const TYPE_CLS = {HOUSE:'house',SCAREZONE:'scarezone',SHOW:'show',NOTE:'note'};
 
 let liveData = [];
 const WEATHER_DATA = {"1991":{"rain":false,"temp":76},"1992":{"rain":true,"temp":67},"1993":{"rain":true,"temp":70},"1994":{"rain":false,"temp":78},"1995":{"rain":false,"temp":80},"1996":{"rain":false,"temp":70},"1997":{"rain":false,"temp":76},"1998":{"rain":false,"temp":80},"1999":{"rain":false,"temp":79},"2000":{"rain":false,"temp":81},"2001":{"rain":false,"temp":78},"2002":{"rain":false,"temp":79},"2003":{"rain":false,"temp":74},"2004":{"rain":false,"temp":81},"2005":{"rain":false,"temp":80},"2006":{"rain":false,"temp":79},"2007":{"rain":false,"temp":78},"2008":{"rain":false,"temp":78},"2009":{"rain":true,"temp":82},"2010":{"rain":true,"temp":79},"2011":{"rain":true,"temp":73},"2012":{"rain":true,"temp":73},"2013":{"rain":false,"temp":79},"2014":{"rain":true,"temp":72},"2015":{"rain":false,"temp":80},"2016":{"rain":true,"temp":82},"2017":{"rain":false,"temp":81},"2018":{"rain":false,"temp":88},"2019":{"rain":false,"temp":86},"2020":{"rain":true,"temp":77},"2021":{"rain":true,"temp":77},"2022":{"rain":true,"temp":82},"2023":{"rain":true,"temp":77},"2024":{"rain":false,"temp":81},"2025":{"rain":false,"temp":81}};
+
 let selectedYears = new Set();
 let selectedTypes = new Set(['HOUSE','SCAREZONE','SHOW','NOTE']);
 let selectedLocs = new Set();
 let selectedIPs = new Set(['IP','ORIG','NONE']);
-let selectedDays = new Set(['Mon','Tue','Wed','Thu','Fri','Sat','Sun','NONE']); // NONE = untagged
+let selectedDays = new Set(['Mon','Tue','Wed','Thu','Fri','Sat','Sun','NONE']);
 
-// ── fetch ────────────────────────────────────
+// ── Checklist (localStorage) ──────────────────
+let checkedItems = new Set();
+const CL_KEY = 'hhn-checklist-v1';
+
+function loadChecklist() {
+  try {
+    const raw = localStorage.getItem(CL_KEY);
+    if (raw) checkedItems = new Set(JSON.parse(raw));
+  } catch(e) {}
+  updateChecklistBadge();
+}
+function saveChecklist() {
+  try { localStorage.setItem(CL_KEY, JSON.stringify([...checkedItems])); } catch(e) {}
+  updateChecklistBadge();
+}
+function makeItemKey(d) {
+  return `${d.year}||${d.attraction}||${d.type}`;
+}
+function toggleCheck(key) {
+  if (checkedItems.has(key)) checkedItems.delete(key);
+  else checkedItems.add(key);
+  saveChecklist();
+  // update card UI if visible
+  const card = document.querySelector(`.card[data-key="${CSS.escape(key)}"]`);
+  if (card) {
+    card.classList.toggle('checked', checkedItems.has(key));
+    const chk = card.querySelector('.card-check');
+    if (chk) chk.textContent = checkedItems.has(key) ? '✓' : '';
+  }
+  // update checklist modal if open
+  const clItem = document.querySelector(`.cl-item[data-key="${CSS.escape(key)}"]`);
+  if (clItem) {
+    clItem.classList.toggle('checked', checkedItems.has(key));
+    const chk = clItem.querySelector('.cl-check');
+    if (chk) chk.textContent = checkedItems.has(key) ? '✓' : '';
+  }
+  updateChecklistBadge();
+}
+function updateChecklistBadge() {
+  const el = document.getElementById('checklistCount');
+  if (!el) return;
+  if (checkedItems.size > 0) {
+    el.textContent = checkedItems.size;
+    el.style.display = 'inline-block';
+  } else {
+    el.style.display = 'none';
+  }
+}
+
+// Export checklist
+function exportChecklist() {
+  const data = {
+    exported: new Date().toISOString(),
+    version: 1,
+    checked: [...checkedItems]
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'my-hhn-checklist.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// Import checklist
+function importChecklist() {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json';
+  input.onchange = e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      try {
+        const data = JSON.parse(ev.target.result);
+        if (data.checked && Array.isArray(data.checked)) {
+          checkedItems = new Set(data.checked);
+          saveChecklist();
+          openChecklistModal();
+          setStatus(`✅ Imported ${checkedItems.size} checked items!`, 'ok', 3000);
+          render();
+        } else throw new Error('Invalid format');
+      } catch(err) {
+        setStatus('⚠️ Could not import checklist file.', 'warn', 3000);
+      }
+    };
+    reader.readAsText(file);
+  };
+  input.click();
+}
+
+// Share checklist as URL
+function shareChecklist() {
+  try {
+    const encoded = btoa(JSON.stringify([...checkedItems]));
+    const url = `${location.origin}${location.pathname}?cl=${encoded}`;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        setStatus('✅ Share link copied to clipboard!', 'ok', 3000);
+      });
+    } else {
+      prompt('Copy this link to share your checklist:', url);
+    }
+  } catch(e) {
+    setStatus('⚠️ Could not generate share link.', 'warn', 3000);
+  }
+}
+
+// Load shared checklist from URL
+function loadSharedChecklist() {
+  try {
+    const params = new URLSearchParams(location.search);
+    const cl = params.get('cl');
+    if (cl) {
+      const items = JSON.parse(atob(cl));
+      checkedItems = new Set(items);
+      saveChecklist();
+      setStatus(`✅ Loaded shared checklist with ${checkedItems.size} items!`, 'ok', 4000);
+    }
+  } catch(e) {}
+}
+
+// ── IP appearance map (auto-calculated) ───────
+let ipAppearanceMap = {}; // key: attraction name (normalized), value: {years:[], first, last}
+
+function buildIPMap() {
+  ipAppearanceMap = {};
+  // Only for IP-tagged attractions (not NOTEs)
+  liveData.filter(d => d.ip === 'IP' && d.type !== 'NOTE').forEach(d => {
+    const key = d.attraction.trim().toUpperCase();
+    if (!ipAppearanceMap[key]) ipAppearanceMap[key] = {years: new Set(), name: d.attraction};
+    ipAppearanceMap[key].years.add(d.year);
+  });
+  // Convert sets to sorted arrays
+  Object.values(ipAppearanceMap).forEach(v => {
+    v.years = [...v.years].sort((a,b) => a-b);
+    v.first = v.years[0];
+    v.last = v.years[v.years.length-1];
+    v.count = v.years.length;
+  });
+}
+
+function getIPInfo(d) {
+  if (d.ip !== 'IP' || d.type === 'NOTE') return null;
+  const key = d.attraction.trim().toUpperCase();
+  return ipAppearanceMap[key] || null;
+}
+
+// ── fetch ─────────────────────────────────────
 async function fetchSheets() {
   setStatus('🩸 Loading Data…','loading');
   showLoading(true);
@@ -450,8 +723,9 @@ async function fetchSheets() {
     if (!Array.isArray(json)||!json.length) throw new Error('Empty response');
     liveData = json;
     selectedYears = new Set();
-    const nonNotes=json.filter(r=>r.type!=='NOTE').length;
-    const notes=json.length-nonNotes;
+    buildIPMap();
+    const nonNotes = json.filter(r=>r.type!=='NOTE').length;
+    const notes = json.length-nonNotes;
     setStatus(`✅ ${nonNotes} attractions + ${notes} notes loaded!`,'ok',4000);
     refresh();
   } catch(err) {
@@ -477,7 +751,7 @@ function setStatus(msg,type,autoDismissMs){
   }
 }
 
-// ── year buttons ─────────────────────────────
+// ── year buttons ──────────────────────────────
 function refresh(){
   const years=[...new Set(liveData.map(d=>d.year))].sort((a,b)=>b-a);
   if (!selectedYears.size) selectedYears=new Set(years);
@@ -501,17 +775,11 @@ function buildYearBtns(years){
 function selectAll(){selectedYears=new Set([...new Set(liveData.map(d=>d.year))]);refresh()}
 function clearAll(){selectedYears=new Set();const years=[...new Set(liveData.map(d=>d.year))].sort((a,b)=>b-a);buildYearBtns(years);render()}
 
-// ── type filter ──────────────────────────────
+// ── type filter ───────────────────────────────
 function toggleType(btn){
   const t=btn.dataset.type;
-  if (selectedTypes.has(t)){
-    if (selectedTypes.size===1) return; // keep at least one
-    selectedTypes.delete(t);
-    btn.classList.remove('active');
-  } else {
-    selectedTypes.add(t);
-    btn.classList.add('active');
-  }
+  if(selectedTypes.has(t)){if(selectedTypes.size===1)return;selectedTypes.delete(t);btn.classList.remove('active');}
+  else{selectedTypes.add(t);btn.classList.add('active');}
   render();
 }
 
@@ -544,25 +812,40 @@ function render(){
     (noteCount?`<div class="stat">${TYPE_LABELS['NOTE'].split(' ').slice(1).join(' ')}: <b>${noteCount}</b></div>`:'');
 
   const main=document.getElementById('main');
-  if (!filtered.length){main.innerHTML='<div class="empty">Nothing Stirs in the Dark…</div>';return}
+  if(!filtered.length){main.innerHTML='<div class="empty">Nothing Stirs in the Dark…</div>';return}
 
   const byYear={};
   filtered.forEach(d=>{(byYear[d.year]=byYear[d.year]||[]).push(d)});
 
   main.innerHTML=years.map(year=>{
     const entries=byYear[year];
-    // group by type within year
     const byType={};
     entries.forEach(e=>{(byType[e.type]=byType[e.type]||[]).push(e)});
 
     const typeGroups=TYPE_ORDER.filter(t=>byType[t]&&byType[t].length).map(t=>{
       const cls=TYPE_CLS[t];
       const cards=byType[t].map(e=>{
+        const key=makeItemKey(e);
+        const checked=checkedItems.has(key);
         const title=q?e.attraction.replace(new RegExp(`(${esc})`,'gi'),'<mark>$1</mark>'):e.attraction;
         const locHtml=q&&e.location?e.location.replace(new RegExp(`(${esc})`,'gi'),'<mark>$1</mark>'):e.location;
         const ipBadge=e.ip==='IP'?'<div class="ip-badge ip-badge-ip">IP</div>':e.ip==='ORIG'?'<div class="ip-badge ip-badge-orig">ORIG</div>':'';
         const pr=e.ip?'padding-right:50px':'';
-        return `<div class="card card-${cls}">
+
+        // IP appearances info
+        const ipInfo=getIPInfo(e);
+        let ipMeta='';
+        if(ipInfo && ipInfo.count>1){
+          const isFirst=(ipInfo.first===year);
+          const isLast=(ipInfo.last===year);
+          ipMeta+=`<span class="meta-tag ip-appearances">🔁 ${ipInfo.count}× appeared</span>`;
+          if(isFirst) ipMeta+=`<span class="meta-tag ip-first">⭐ First appearance</span>`;
+          if(isLast && ipInfo.last!==ipInfo.first) ipMeta+=`<span class="meta-tag ip-last">🔮 Last appearance</span>`;
+        } else if(ipInfo && ipInfo.count===1){
+          ipMeta+=`<span class="meta-tag ip-first">⭐ Only appearance</span>`;
+        }
+
+        return `<div class="card card-${cls}${checked?' checked':''}" data-key="${key.replace(/"/g,'&quot;')}" onclick="toggleCheck('${key.replace(/'/g,"\\'")}')">
           <div class="card-inner">
             ${ipBadge}
             <div class="card-title" style="${pr}">${title}</div>
@@ -571,7 +854,9 @@ function render(){
             ${e.date?`<span class="meta-tag meta-date">📅 ${e.date}</span>`:''}
             ${e.day?`<span class="meta-tag meta-day">📆 ${e.day}</span>`:''}
             ${e.location?`<span class="meta-tag meta-loc">📍 ${locHtml}</span>`:''}
+            ${ipMeta}
           </div>
+          <div class="card-check">${checked?'✓':''}</div>
         </div>`;
       }).join('');
       return `<div class="type-group">
@@ -598,125 +883,320 @@ function render(){
   }).join('');
 }
 
-// ── location filter ──────────────────────────
-function getLocsByType(type) {
-  return [...new Set(
-    liveData.filter(d => d.type === type && d.location).map(d => d.location)
-  )].sort();
-}
-function getAllLocs() {
-  return [...new Set(liveData.map(d=>d.location).filter(Boolean))].sort();
-}
-function buildLocBtns() {
-  const allLocs = getAllLocs();
-  const groups = [
-    { type:'HOUSE',     id:'locBtnsHouse' },
-    { type:'SCAREZONE', id:'locBtnsScarezone' },
-    { type:'SHOW',      id:'locBtnsShow' },
-  ];
-  groups.forEach(({ type, id }) => {
-    const locs = getLocsByType(type);
-    const container = document.getElementById(id);
-    container.innerHTML = '';
-    locs.forEach(loc => {
-      const b = document.createElement('button');
-      const isActive = selectedLocs.size === 0 || selectedLocs.has(loc);
-      b.className = 'loc-btn' + (isActive ? ' active' : '');
-      b.textContent = loc;
-      b.onclick = () => toggleLoc(loc);
+// ── Location filter ───────────────────────────
+function getLocsByType(type){return[...new Set(liveData.filter(d=>d.type===type&&d.location).map(d=>d.location))].sort()}
+function getAllLocs(){return[...new Set(liveData.map(d=>d.location).filter(Boolean))].sort()}
+function buildLocBtns(){
+  const allLocs=getAllLocs();
+  [{type:'HOUSE',id:'locBtnsHouse'},{type:'SCAREZONE',id:'locBtnsScarezone'},{type:'SHOW',id:'locBtnsShow'}].forEach(({type,id})=>{
+    const locs=getLocsByType(type);
+    const container=document.getElementById(id);
+    container.innerHTML='';
+    locs.forEach(loc=>{
+      const b=document.createElement('button');
+      const isActive=selectedLocs.size===0||selectedLocs.has(loc);
+      b.className='loc-btn'+(isActive?' active':'');
+      b.textContent=loc;
+      b.onclick=()=>toggleLoc(loc);
       container.appendChild(b);
     });
   });
-  // update badge
-  const badge = document.getElementById('locBadge');
-  if (selectedLocs.size > 0 && selectedLocs.size < allLocs.length) {
-    badge.textContent = selectedLocs.size + ' selected';
-    badge.style.display = 'inline-block';
-  } else {
-    badge.style.display = 'none';
-  }
+  const badge=document.getElementById('locBadge');
+  if(selectedLocs.size>0&&selectedLocs.size<allLocs.length){badge.textContent=selectedLocs.size+' selected';badge.style.display='inline-block';}
+  else badge.style.display='none';
 }
-function toggleLoc(loc) {
-  const locs = getAllLocs();
-  if (selectedLocs.size === 0) {
-    locs.forEach(l => { if (l !== loc) selectedLocs.add(l); });
-  } else if (selectedLocs.has(loc)) {
-    selectedLocs.delete(loc);
-    if (selectedLocs.size === 0) selectedLocs = new Set();
-  } else {
-    selectedLocs.add(loc);
-    if (selectedLocs.size === locs.length) selectedLocs = new Set();
-  }
-  buildLocBtns();
-  render();
+function toggleLoc(loc){
+  const locs=getAllLocs();
+  if(selectedLocs.size===0){locs.forEach(l=>{if(l!==loc)selectedLocs.add(l)});}
+  else if(selectedLocs.has(loc)){selectedLocs.delete(loc);if(selectedLocs.size===0)selectedLocs=new Set();}
+  else{selectedLocs.add(loc);if(selectedLocs.size===locs.length)selectedLocs=new Set();}
+  buildLocBtns();render();
 }
-function selectAllLocs() { selectedLocs = new Set(); buildLocBtns(); render(); }
-function clearAllLocs()  {
-  selectedLocs = new Set(['__NONE__']);
-  buildLocBtns();
-  render();
-}
+function selectAllLocs(){selectedLocs=new Set();buildLocBtns();render()}
+function clearAllLocs(){selectedLocs=new Set(['__NONE__']);buildLocBtns();render()}
 
-// ── IP/ORIG filter ───────────────────────────
-function toggleIP(btn) {
-  const ip = btn.dataset.ip;
-  if (selectedIPs.has(ip)) {
-    if (selectedIPs.size === 1) return;
-    selectedIPs.delete(ip);
-    btn.classList.remove('active');
-  } else {
-    selectedIPs.add(ip);
-    btn.classList.add('active');
-  }
+// ── IP / Day filter ───────────────────────────
+function toggleIP(btn){
+  const ip=btn.dataset.ip;
+  if(selectedIPs.has(ip)){if(selectedIPs.size===1)return;selectedIPs.delete(ip);btn.classList.remove('active');}
+  else{selectedIPs.add(ip);btn.classList.add('active');}
+  render();
+}
+function toggleDay(btn){
+  const day=btn.dataset.day;
+  if(selectedDays.has(day)){if(selectedDays.size===1)return;selectedDays.delete(day);btn.classList.remove('active');}
+  else{selectedDays.add(day);btn.classList.add('active');}
   render();
 }
 
-// ── Day of week filter ───────────────────────
-function toggleDay(btn) {
-  const day = btn.dataset.day;
-  if (selectedDays.has(day)) {
-    if (selectedDays.size === 1) return;
-    selectedDays.delete(day);
-    btn.classList.remove('active');
+// ── Drawer ────────────────────────────────────
+function openDrawer(){document.getElementById('drawer').classList.add('open');document.getElementById('drawerOverlay').classList.add('open');document.body.style.overflow='hidden'}
+function closeDrawer(){document.getElementById('drawer').classList.remove('open');document.getElementById('drawerOverlay').classList.remove('open');document.body.style.overflow=''}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDrawer();closeModal('todayModal');closeModal('checklistModal')}});
+
+// ── Modal helpers ─────────────────────────────
+function openModal(id){document.getElementById(id).classList.add('open');document.body.style.overflow='hidden'}
+function closeModal(id){document.getElementById(id).classList.remove('open');document.body.style.overflow=''}
+
+// ── This Day in HHN History ───────────────────
+function openTodayModal(){
+  const now=new Date();
+  const month=now.getMonth()+1;
+  const day=now.getDate();
+
+  // Parse dates from data — format varies but mostly "MM/DD" or "Month DD" style stored as strings
+  // We match against month/day numbers within the date string
+  const monthNames=['','january','february','march','april','may','june','july','august','september','october','november','december'];
+  const monthName=monthNames[month];
+
+  const matches=liveData.filter(d=>{
+    if(!d.date||d.type==='NOTE') return false;
+    const ds=d.date.toLowerCase();
+    // Try numeric: month/day pattern
+    const numRe=new RegExp(`\\b${month}[/\\-]${day}\\b`);
+    if(numRe.test(ds)) return true;
+    // Try named month + day
+    if(ds.includes(monthName)){
+      const dayRe=new RegExp(`\\b${day}\\b`);
+      if(dayRe.test(ds)) return true;
+    }
+    return false;
+  }).sort((a,b)=>a.year-b.year);
+
+  const monthLabel=['','January','February','March','April','May','June','July','August','September','October','November','December'][month];
+  document.getElementById('todayModalTitle').textContent=`📅 ${monthLabel} ${day} in HHN History`;
+
+  let html='';
+  if(!matches.length){
+    html=`<div class="today-empty">
+      <div style="font-size:2rem;margin-bottom:12px">🦇</div>
+      <div>No recorded HHN events on ${monthLabel} ${day}.</div>
+      <div style="margin-top:8px;font-size:.8rem;opacity:.6">Most HHN events run September–November</div>
+    </div>`;
   } else {
-    selectedDays.add(day);
-    btn.classList.add('active');
+    html=`<div style="font-family:'Cutive Mono',monospace;font-size:.72rem;color:var(--text-dim);margin-bottom:14px">${matches.length} event${matches.length!==1?'s':''} found on this date</div>`;
+    matches.forEach(d=>{
+      const cls=TYPE_CLS[d.type]||'house';
+      html+=`<div class="today-card">
+        <div class="today-year-badge" style="color:var(--red)">${d.year}</div>
+        <div class="today-info">
+          <div class="today-name">${d.attraction}</div>
+          <div class="today-meta">${d.type}${d.location?' · '+d.location:''}${d.ip&&d.ip!=='NONE'?' · '+d.ip:''}</div>
+        </div>
+      </div>`;
+    });
   }
-  render();
+
+  document.getElementById('todayModalBody').innerHTML=html;
+  openModal('todayModal');
 }
 
-// ── drawer ───────────────────────────────────
-function openDrawer(){
-  document.getElementById('drawer').classList.add('open');
-  document.getElementById('drawerOverlay').classList.add('open');
-  document.body.style.overflow='hidden';
+// ── Random Year ───────────────────────────────
+function randomYear(){
+  const years=[...new Set(liveData.map(d=>d.year))];
+  if(!years.length) return;
+  const pick=years[Math.floor(Math.random()*years.length)];
+  // Set only that year active
+  selectedYears=new Set([pick]);
+  refresh();
+  closeDrawer();
+  // Scroll to top of main
+  setTimeout(()=>{document.getElementById('main').scrollIntoView({behavior:'smooth',block:'start'})},100);
+  setStatus(`🎲 Jumped to ${pick}!`,'ok',2500);
 }
-function closeDrawer(){
-  document.getElementById('drawer').classList.remove('open');
-  document.getElementById('drawerOverlay').classList.remove('open');
-  document.body.style.overflow='';
-}
-// Close drawer on Escape key
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer()});
 
-// ── accessibility ────────────────────────────
+// ── Checklist modal ───────────────────────────
+function openChecklistModal(){
+  const attractions=liveData.filter(d=>d.type!=='NOTE').sort((a,b)=>b.year-a.year||(a.type>b.type?1:-1));
+  const years=[...new Set(attractions.map(d=>d.year))].sort((a,b)=>b-a);
+  const total=attractions.length;
+  const done=attractions.filter(d=>checkedItems.has(makeItemKey(d))).length;
+  const pct=total?Math.round(done/total*100):0;
+
+  let html=`<div class="checklist-progress">Attended: <b>${done}</b> / ${total} attractions (<b>${pct}%</b>)</div>`;
+  html+=`<div style="background:var(--border);height:4px;margin-bottom:16px;border-radius:2px;overflow:hidden"><div style="height:100%;width:${pct}%;background:var(--green);transition:width .4s ease;border-radius:2px"></div></div>`;
+  html+=`<div class="checklist-actions">
+    <button class="action-btn" onclick="exportChecklist()">⬇ Export</button>
+    <button class="action-btn" onclick="importChecklist()">⬆ Import</button>
+    <button class="action-btn" onclick="shareChecklist()">🔗 Share Link</button>
+    <button class="action-btn" style="border-color:var(--red-dim)" onclick="if(confirm('Clear all checked items?')){checkedItems=new Set();saveChecklist();openChecklistModal();render()}">✕ Clear All</button>
+  </div>`;
+
+  years.forEach(year=>{
+    const items=attractions.filter(d=>d.year===year);
+    html+=`<div class="cl-year-group"><div class="cl-year-label">${year}</div>`;
+    items.forEach(d=>{
+      const key=makeItemKey(d);
+      const checked=checkedItems.has(key);
+      const cls=TYPE_CLS[d.type]||'house';
+      html+=`<div class="cl-item${checked?' checked':''}" data-key="${key.replace(/"/g,'&quot;')}" onclick="toggleCheck('${key.replace(/'/g,"\\'")}');updateChecklistProgress()">
+        <div class="cl-check">${checked?'✓':''}</div>
+        <div class="cl-name">${d.attraction}</div>
+        <div class="cl-type">${d.type}${d.location?' · '+d.location:''}</div>
+      </div>`;
+    });
+    html+='</div>';
+  });
+
+  document.getElementById('checklistModalBody').innerHTML=html;
+  openModal('checklistModal');
+}
+
+function updateChecklistProgress(){
+  const attractions=liveData.filter(d=>d.type!=='NOTE');
+  const total=attractions.length;
+  const done=attractions.filter(d=>checkedItems.has(makeItemKey(d))).length;
+  const pct=total?Math.round(done/total*100):0;
+  const prog=document.querySelector('#checklistModalBody .checklist-progress');
+  if(prog) prog.innerHTML=`Attended: <b>${done}</b> / ${total} attractions (<b>${pct}%</b>)`;
+  const bar=document.querySelector('#checklistModalBody [style*="background:var(--green)"]');
+  if(bar) bar.style.width=pct+'%';
+}
+
+// ── Stats Page ────────────────────────────────
+function showStatsPage(){
+  document.getElementById('main').style.display='none';
+  document.getElementById('statsBar').style.display='none';
+  document.getElementById('statsPage').style.display='block';
+  buildStatsPage();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function hideStatsPage(){
+  document.getElementById('main').style.display='';
+  document.getElementById('statsBar').style.display='';
+  document.getElementById('statsPage').style.display='none';
+}
+
+function buildStatsPage(){
+  const data=liveData;
+  const attractions=data.filter(d=>d.type!=='NOTE');
+  const houses=attractions.filter(d=>d.type==='HOUSE');
+  const scarezones=attractions.filter(d=>d.type==='SCAREZONE');
+  const shows=attractions.filter(d=>d.type==='SHOW');
+  const ipItems=attractions.filter(d=>d.ip==='IP');
+  const origItems=attractions.filter(d=>d.ip==='ORIG');
+  const years=[...new Set(data.map(d=>d.year))].sort((a,b)=>a-b);
+  const totalYears=years.length;
+
+  // Houses per year
+  const housesByYear={};
+  years.forEach(y=>housesByYear[y]=houses.filter(d=>d.year===y).length);
+  const maxHousesYear=years.reduce((a,b)=>housesByYear[a]>=housesByYear[b]?a:b);
+
+  // Rainiest / hottest
+  const rainyYears=Object.entries(WEATHER_DATA).filter(([,v])=>v.rain).map(([k])=>+k);
+  const hottest=Object.entries(WEATHER_DATA).reduce((a,b)=>b[1].temp>a[1].temp?b:a);
+  const coolest=Object.entries(WEATHER_DATA).reduce((a,b)=>b[1].temp<a[1].temp?b:a);
+
+  // Returning IPs (appeared 2+ times)
+  const returningIPs=Object.values(ipAppearanceMap).filter(v=>v.count>1).sort((a,b)=>b.count-a.count);
+  const singleAppearanceIPs=Object.values(ipAppearanceMap).filter(v=>v.count===1);
+
+  // Top locations
+  const locCount={};
+  houses.forEach(d=>{if(d.location){locCount[d.location]=(locCount[d.location]||0)+1}});
+  const topLocs=Object.entries(locCount).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const maxLoc=topLocs[0]?topLocs[0][1]:1;
+
+  // Houses per year chart data
+  const maxHouses=Math.max(...Object.values(housesByYear));
+
+  // Attractions per year
+  const attrByYear={};
+  years.forEach(y=>attrByYear[y]=attractions.filter(d=>d.year===y).length);
+
+  let html=`<div class="stats-page-header">
+    <button class="stats-back-btn" onclick="hideStatsPage()">← Back to Tracker</button>
+    <div class="stats-page-title">HHN By The Numbers</div>
+  </div>`;
+
+  // Key stats grid
+  html+=`<div class="stats-grid">
+    <div class="stat-card sc-red"><div class="stat-card-label">Total Attractions</div><div class="stat-card-value">${attractions.length}</div><div class="stat-card-sub">Across ${totalYears} years of terror</div></div>
+    <div class="stat-card sc-orange"><div class="stat-card-label">Haunted Houses</div><div class="stat-card-value">${houses.length}</div><div class="stat-card-sub">Avg ${(houses.length/totalYears).toFixed(1)} per year</div></div>
+    <div class="stat-card sc-yellow"><div class="stat-card-label">Scare Zones</div><div class="stat-card-value">${scarezones.length}</div><div class="stat-card-sub">Avg ${(scarezones.length/totalYears).toFixed(1)} per year</div></div>
+    <div class="stat-card sc-purple"><div class="stat-card-label">Shows</div><div class="stat-card-value">${shows.length}</div><div class="stat-card-sub">Avg ${(shows.length/totalYears).toFixed(1)} per year</div></div>
+    <div class="stat-card sc-red"><div class="stat-card-label">IP Attractions</div><div class="stat-card-value">${ipItems.length}</div><div class="stat-card-sub">${attractions.length?Math.round(ipItems.length/attractions.length*100):0}% of all attractions</div></div>
+    <div class="stat-card sc-green"><div class="stat-card-label">Original Concepts</div><div class="stat-card-value">${origItems.length}</div><div class="stat-card-sub">${attractions.length?Math.round(origItems.length/attractions.length*100):0}% of all attractions</div></div>
+  </div>`;
+
+  // Fun facts
+  html+=`<div class="stats-section-title">🩸 Fun Facts & Records</div>`;
+  html+=`<div class="fun-facts-grid">
+    <div class="fun-fact"><div class="fun-fact-emoji">🏚</div><div class="fun-fact-label">Most Houses in a Single Year</div><div class="fun-fact-value">${maxHousesYear} — ${housesByYear[maxHousesYear]} haunted houses</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🔁</div><div class="fun-fact-label">Most Returning IP</div><div class="fun-fact-value">${returningIPs[0]?`${returningIPs[0].name} — appeared ${returningIPs[0].count} times (${returningIPs[0].first}–${returningIPs[0].last})`:'N/A'}</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🌧️</div><div class="fun-fact-label">Rainy Years</div><div class="fun-fact-value">${rainyYears.length} out of ${totalYears} years had notable rain</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🔥</div><div class="fun-fact-label">Hottest Year on Record</div><div class="fun-fact-value">${hottest[0]} — avg ${hottest[1].temp}°F</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🧊</div><div class="fun-fact-label">Coolest Year on Record</div><div class="fun-fact-value">${coolest[0]} — avg ${coolest[1].temp}°F</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🎬</div><div class="fun-fact-label">Unique IP Franchises</div><div class="fun-fact-value">${Object.keys(ipAppearanceMap).length} distinct IP attractions tracked</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">⭐</div><div class="fun-fact-label">One-Time Only IPs</div><div class="fun-fact-value">${singleAppearanceIPs.length} IP attractions never returned</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">📅</div><div class="fun-fact-label">Years Tracked</div><div class="fun-fact-value">HHN ${years[0]} through HHN ${years[years.length-1]}</div></div>
+  </div>`;
+
+  // Houses per year bar chart
+  html+=`<div class="stats-section-title">🏚 Houses Per Year</div><div class="bar-chart">`;
+  years.slice().reverse().forEach(y=>{
+    const count=housesByYear[y]||0;
+    const pct=maxHouses?Math.round(count/maxHouses*100):0;
+    html+=`<div class="bar-row"><div class="bar-label">${y}</div><div class="bar-track"><div class="bar-fill bar-fill-red" style="width:${pct}%" data-val="${count}"></div></div></div>`;
+  });
+  html+='</div>';
+
+  // Top house locations
+  if(topLocs.length){
+    html+=`<div class="stats-section-title">📍 Most Used House Locations</div><div class="bar-chart">`;
+    topLocs.forEach(([loc,count])=>{
+      const pct=Math.round(count/maxLoc*100);
+      html+=`<div class="bar-row"><div class="bar-label">${loc}</div><div class="bar-track"><div class="bar-fill bar-fill-orange" style="width:${pct}%" data-val="${count}x"></div></div></div>`;
+    });
+    html+='</div>';
+  }
+
+  // IP vs Original by year
+  html+=`<div class="stats-section-title">🎬 IP vs ✨ Original by Year</div><div class="bar-chart">`;
+  years.slice().reverse().forEach(y=>{
+    const yearAttr=attractions.filter(d=>d.year===y);
+    const ipC=yearAttr.filter(d=>d.ip==='IP').length;
+    const origC=yearAttr.filter(d=>d.ip==='ORIG').length;
+    const total=yearAttr.length||1;
+    const ipPct=Math.round(ipC/total*100);
+    const origPct=Math.round(origC/total*100);
+    html+=`<div class="bar-row" style="margin-bottom:2px"><div class="bar-label">${y} IP</div><div class="bar-track"><div class="bar-fill bar-fill-red" style="width:${ipPct}%" data-val="${ipC}"></div></div></div>`;
+    html+=`<div class="bar-row" style="margin-bottom:8px"><div class="bar-label">${y} Orig</div><div class="bar-track"><div class="bar-fill bar-fill-green" style="width:${origPct}%" data-val="${origC}"></div></div></div>`;
+  });
+  html+='</div>';
+
+  // Returning IPs table
+  if(returningIPs.length){
+    html+=`<div class="stats-section-title">🔁 Returning IP Attractions</div>`;
+    html+=`<div style="overflow-x:auto"><table class="ip-table"><thead><tr><th>IP / Attraction</th><th>Times</th><th>First</th><th>Last</th><th>Years</th></tr></thead><tbody>`;
+    returningIPs.forEach(ip=>{
+      html+=`<tr>
+        <td>${ip.name}</td>
+        <td class="td-count">${ip.count}×</td>
+        <td class="td-first">${ip.first}</td>
+        <td class="td-last">${ip.last}</td>
+        <td><div class="ip-years-pills">${ip.years.map(y=>`<span class="ip-year-pill">${y}</span>`).join('')}</div></td>
+      </tr>`;
+    });
+    html+='</tbody></table></div>';
+  }
+
+  document.getElementById('statsPage').innerHTML=html;
+}
+
+// ── Accessibility ─────────────────────────────
 function toggleA11y(){
-  const on = document.body.classList.toggle('hc');
-  document.getElementById('a11yBtn').innerHTML = on ? '⚡ Standard' : '⚡ Contrast';
-  try { localStorage.setItem('hhn-hc', on ? '1' : ''); } catch(e){}
+  const on=document.body.classList.toggle('hc');
+  document.getElementById('a11yBtn').innerHTML=on?'⚡ Standard':'⚡ Contrast';
+  try{localStorage.setItem('hhn-hc',on?'1':'');}catch(e){}
 }
 function initA11y(){
-  try {
-    if (localStorage.getItem('hhn-hc') === '1') {
-      document.body.classList.add('hc');
-      document.getElementById('a11yBtn').innerHTML = '⚡ Standard';
-    }
-  } catch(e){}
+  try{if(localStorage.getItem('hhn-hc')==='1'){document.body.classList.add('hc');document.getElementById('a11yBtn').innerHTML='⚡ Standard';}}catch(e){}
 }
 
 // ── init ──────────────────────────────────────
 function init(){
-  // drips
   const bar=document.getElementById('drips');
   for(let i=0;i<28;i++){
     const d=document.createElement('div');
@@ -724,7 +1204,6 @@ function init(){
     d.style.cssText=`--h1:${(Math.random()*10+4).toFixed(0)}px;--h2:${(Math.random()*38+10).toFixed(0)}px;--dur:${(Math.random()*2+2).toFixed(1)}s;--delay:${(Math.random()*3).toFixed(1)}s`;
     bar.appendChild(d);
   }
-  // embers
   const emberWrap=document.getElementById('embers');
   for(let i=0;i<28;i++){
     const e=document.createElement('div');
@@ -736,46 +1215,32 @@ function init(){
     emberWrap.appendChild(e);
   }
   initA11y();
+  loadChecklist();
+  loadSharedChecklist();
   fetchSheets();
 }
 
 init();
 
 document.addEventListener('touchend',e=>{
-  const t = e.target;
-  if(t.classList.contains('type-btn') ||
-     t.classList.contains('year-btn') ||
-     t.classList.contains('action-btn') ||
-     t.classList.contains('a11y-btn') ||
-     t.classList.contains('loc-btn') ||
-     t.classList.contains('menu-btn')){
+  const t=e.target;
+  if(t.classList.contains('type-btn')||t.classList.contains('year-btn')||t.classList.contains('action-btn')||t.classList.contains('a11y-btn')||t.classList.contains('loc-btn')||t.classList.contains('menu-btn')){
     setTimeout(()=>t.blur(),50);
   }
 },{passive:true});
 
-
 // ── Welcome popup ─────────────────────────────
-function dismissPopup() {
-  const overlay = document.getElementById('popupOverlay');
-  overlay.style.transition = 'opacity .25s ease';
-  overlay.style.opacity = '0';
-  setTimeout(() => overlay.remove(), 260);
-  try { sessionStorage.setItem('hhn-popup-seen','1'); } catch(e){}
+function dismissPopup(){
+  const overlay=document.getElementById('popupOverlay');
+  overlay.style.transition='opacity .25s ease';
+  overlay.style.opacity='0';
+  setTimeout(()=>overlay.remove(),260);
+  try{sessionStorage.setItem('hhn-popup-seen','1');}catch(e){}
 }
-function initPopup() {
-  // Show once per session
-  try { if (sessionStorage.getItem('hhn-popup-seen')) {
-    document.getElementById('popupOverlay').remove();
-    return;
-  }} catch(e){}
-  // Close on overlay click (but not on the popup itself)
-  document.getElementById('popupOverlay').addEventListener('click', function(e) {
-    if (e.target === this) dismissPopup();
-  });
-  // Close on Escape
-  document.addEventListener('keydown', function handler(e) {
-    if (e.key === 'Escape') { dismissPopup(); document.removeEventListener('keydown', handler); }
-  });
+function initPopup(){
+  try{if(sessionStorage.getItem('hhn-popup-seen')){document.getElementById('popupOverlay').remove();return;}}catch(e){}
+  document.getElementById('popupOverlay').addEventListener('click',function(e){if(e.target===this)dismissPopup()});
+  document.addEventListener('keydown',function handler(e){if(e.key==='Escape'){dismissPopup();document.removeEventListener('keydown',handler)}});
 }
 initPopup();
 </script>
