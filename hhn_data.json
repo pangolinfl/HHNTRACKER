@@ -3472,7 +3472,8 @@
     "location": "SS23",
     "date": "9/14/2020",
     "ip": "IP",
-    "day": "Mon"
+    "day": "Mon",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2021,
@@ -3527,7 +3528,8 @@
     "location": "SS23",
     "date": "7/15/2021",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2021,
