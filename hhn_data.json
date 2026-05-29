@@ -28,7 +28,7 @@
   },
   {
     "year": 1992,
-    "attraction": "PEOPLE UNDER THE STAIRS",
+    "attraction": "THE PEOPLE UNDER THE STAIRS",
     "type": "HOUSE",
     "location": "SS23",
     "date": "",
@@ -66,7 +66,7 @@
   },
   {
     "year": 1993,
-    "attraction": "PEOPLE UNDER THE STAIRS",
+    "attraction": "THE PEOPLE UNDER THE STAIRS",
     "type": "HOUSE",
     "location": "SS23",
     "date": "",
@@ -211,8 +211,9 @@
     "type": "HOUSE",
     "location": "SS23",
     "date": "",
-    "ip": "ORIG",
-    "day": ""
+    "ip": "IP",
+    "day": "",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 1995,
@@ -285,8 +286,9 @@
     "type": "HOUSE",
     "location": "SS23",
     "date": "",
-    "ip": "ORIG",
-    "day": ""
+    "ip": "IP",
+    "day": "",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 1996,
@@ -359,8 +361,9 @@
     "type": "HOUSE",
     "location": "SS22",
     "date": "",
-    "ip": "ORIG",
-    "day": ""
+    "ip": "IP",
+    "day": "",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 1997,
@@ -441,8 +444,9 @@
     "type": "HOUSE",
     "location": "SS22",
     "date": "",
-    "ip": "ORIG",
-    "day": ""
+    "ip": "IP",
+    "day": "",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 1998,
@@ -450,7 +454,7 @@
     "type": "HOUSE",
     "location": "SS22",
     "date": "",
-    "ip": "ORIG",
+    "ip": "IP",
     "day": ""
   },
   {
@@ -543,7 +547,7 @@
     "type": "HOUSE",
     "location": "NAZARMANS",
     "date": "",
-    "ip": "ORIG",
+    "ip": "IP",
     "day": ""
   },
   {
@@ -634,8 +638,9 @@
     "type": "HOUSE",
     "location": "EQ QUEUE",
     "date": "",
-    "ip": "ORIG",
-    "day": ""
+    "ip": "IP",
+    "day": "",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2000,
@@ -817,7 +822,7 @@
     "type": "HOUSE",
     "location": "THUNDERFALLS",
     "date": "",
-    "ip": "ORIG",
+    "ip": "IP",
     "day": ""
   },
   {
@@ -1362,8 +1367,9 @@
     "type": "HOUSE",
     "location": "SPRUNG TENT 2",
     "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
+    "ip": "IP",
+    "day": "Fri",
+    "ipName": "The People Under the Stairs"
   },
   {
     "year": 2006,
@@ -1446,7 +1452,7 @@
     "date": "8/22/2007",
     "ip": "IP",
     "day": "Wed",
-    "ipName": "A Nightmare on Elm Street"
+    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
   },
   {
     "year": 2007,
@@ -1454,7 +1460,7 @@
     "type": "HOUSE",
     "location": "SS22",
     "date": "8/22/2007",
-    "ip": "ORIG",
+    "ip": "IP",
     "day": "Wed"
   },
   {
@@ -1465,7 +1471,7 @@
     "date": "8/22/2007",
     "ip": "IP",
     "day": "Wed",
-    "ipName": "Friday the 13th"
+    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
   },
   {
     "year": 2007,
@@ -1501,8 +1507,9 @@
     "type": "HOUSE",
     "location": "SPRUNG TENT 1",
     "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
+    "ip": "IP",
+    "day": "Wed",
+    "ipName": "The Thing"
   },
   {
     "year": 2007,
@@ -1629,7 +1636,7 @@
     "type": "HOUSE",
     "location": "EQ QUEUE",
     "date": "8/28/2008",
-    "ip": "ORIG",
+    "ip": "IP",
     "day": "Thu"
   },
   {
@@ -1769,7 +1776,7 @@
     "date": "8/27/2009",
     "ip": "IP",
     "day": "Thu",
-    "ipName": "Dracula"
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2009,
@@ -1823,8 +1830,9 @@
     "type": "HOUSE",
     "location": "SS22",
     "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
+    "ip": "IP",
+    "day": "Thu",
+    "ipName": "Universal Monsters"
   },
   {
     "year": 2009,
@@ -2115,7 +2123,8 @@
     "location": "SS23",
     "date": "7/19/2011",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "The Thing"
   },
   {
     "year": 2011,
@@ -2389,7 +2398,8 @@
     "location": "SS24",
     "date": "7/16/2013",
     "ip": "IP",
-    "day": "Tue"
+    "day": "Tue",
+    "ipName": "Evil Dead"
   },
   {
     "year": 2013,
@@ -2985,7 +2995,8 @@
     "location": "PARADE",
     "date": "7/27/2017",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Evil Dead"
   },
   {
     "year": 2017,
@@ -4192,7 +4203,8 @@
     "location": "FF QUEUE",
     "date": "6/13/2025",
     "ip": "IP",
-    "day": "Fri"
+    "day": "Fri",
+    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
   },
   {
     "year": 2025,
