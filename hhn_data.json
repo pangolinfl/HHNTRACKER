@@ -1491,8 +1491,9 @@
     "type": "HOUSE",
     "location": "EQ QUEUE",
     "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
+    "ip": "IP",
+    "day": "Wed",
+    "ipName": "The Texas Chainsaw Massacre"
   },
   {
     "year": 2007,
@@ -3504,8 +3505,9 @@
     "type": "HOUSE",
     "location": "SS23",
     "date": "7/15/2021",
-    "ip": "ORIG",
-    "day": "Thu"
+    "ip": "IP",
+    "day": "Thu",
+    "ipName": "The Texas Chainsaw Massacre"
   },
   {
     "year": 2021,
