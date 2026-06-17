@@ -202,6 +202,7 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 .year-header::after{content:'';position:absolute;bottom:-1px;left:0;width:48px;height:2px;background:var(--red);box-shadow:0 0 8px var(--red)}
 .year-label{font-family:'Creepster',cursive;font-size:3rem;color:var(--red);text-shadow:2px 2px 0 #000,0 0 20px rgba(192,57,43,.2);line-height:1;display:inline-flex;align-items:center;gap:6px}
 .year-weather-tag{font-family:'Cutive Mono',monospace;font-size:.72rem;color:#7fb3d3;border:1px solid rgba(127,179,211,.3);padding:3px 8px;background:rgba(127,179,211,.06);white-space:nowrap;align-self:center}
+.hhn-number-tag{font-family:'Cutive Mono',monospace;font-size:.72rem;color:var(--red);border:1px solid rgba(192,57,43,.4);padding:3px 8px;background:rgba(192,57,43,.08);white-space:nowrap;align-self:center;letter-spacing:.05em;font-weight:bold}
 .year-count{font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--text-dim);background:var(--card);border:1px solid var(--border);padding:3px 8px}
 .year-count-group{margin-left:auto;display:flex;gap:6px;align-items:center}
 
@@ -250,13 +251,12 @@ main{padding:20px;max-width:1500px;margin:0 auto}
 
 /* ── IP appearances badge on cards ── */
 .ip-appearances{font-family:'Cutive Mono',monospace;font-size:.65rem;color:var(--orange);border:1px solid rgba(230,126,18,.3);padding:1px 5px;background:rgba(230,126,18,.06);white-space:nowrap;cursor:pointer;transition:all .15s;display:inline-block}
-.ip-appearances:hover{background:rgba(230,126,18,.2);border-color:var(--orange);color:#fff}
-.ip-appearances.ip-filter-active{background:var(--orange);border-color:var(--orange);color:#000;font-weight:bold}
+.ip-appearances:hover{background:rgba(230,126,18,.2);border-color:var(--orange)}
+.ip-appearances.ip-filter-active{background:var(--orange);border-color:var(--orange);color:#000}
 .ip-first{color:var(--yellow);border-color:rgba(241,196,15,.3);background:rgba(241,196,15,.05)}
 .ip-last{color:var(--purple);border-color:rgba(142,68,173,.3);background:rgba(142,68,173,.05)}
-/* IP filter active banner in stats bar */
 .ip-filter-banner{font-family:'Cutive Mono',monospace;font-size:.75rem;color:var(--orange);border:1px solid rgba(230,126,18,.4);padding:2px 10px;background:rgba(230,126,18,.08);cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap}
-.ip-filter-banner:hover{background:rgba(230,126,18,.15)}
+.ip-filter-banner:hover{background:rgba(230,126,18,.18)}
 
 .empty{text-align:center;padding:80px 20px;font-family:'Creepster',cursive;color:var(--red-dim);font-size:2rem}
 
@@ -559,20 +559,29 @@ const TYPE_CLS = {HOUSE:'house',SCAREZONE:'scarezone',SHOW:'show',NOTE:'note'};
 let liveData = [];
 const WEATHER_DATA = {"1991":{"rain":false,"temp":76},"1992":{"rain":true,"temp":67},"1993":{"rain":true,"temp":70},"1994":{"rain":false,"temp":78},"1995":{"rain":false,"temp":80},"1996":{"rain":false,"temp":70},"1997":{"rain":false,"temp":76},"1998":{"rain":false,"temp":80},"1999":{"rain":false,"temp":79},"2000":{"rain":false,"temp":81},"2001":{"rain":false,"temp":78},"2002":{"rain":false,"temp":79},"2003":{"rain":false,"temp":74},"2004":{"rain":false,"temp":81},"2005":{"rain":false,"temp":80},"2006":{"rain":false,"temp":79},"2007":{"rain":false,"temp":78},"2008":{"rain":false,"temp":78},"2009":{"rain":true,"temp":82},"2010":{"rain":true,"temp":79},"2011":{"rain":true,"temp":73},"2012":{"rain":true,"temp":73},"2013":{"rain":false,"temp":79},"2014":{"rain":true,"temp":72},"2015":{"rain":false,"temp":80},"2016":{"rain":true,"temp":82},"2017":{"rain":false,"temp":81},"2018":{"rain":false,"temp":88},"2019":{"rain":false,"temp":86},"2020":{"rain":true,"temp":77},"2021":{"rain":true,"temp":77},"2022":{"rain":true,"temp":82},"2023":{"rain":true,"temp":77},"2024":{"rain":false,"temp":81},"2025":{"rain":false,"temp":81}};
 
+// HHN numbered event per year. 2020 was cancelled (no numbered event), so numbering
+// jumps from HHN 29 (2019) to HHN 30 (2021). This is permanent historical fact and
+// needs no future maintenance except extending the range for new years.
+const HHN_NUMBERS = {};
+(function buildHHNNumbers(){
+  for(let y=1991;y<=2019;y++) HHN_NUMBERS[y]=y-1990;
+  // 2020 intentionally has no number (event cancelled)
+  for(let y=2021;y<=2035;y++) HHN_NUMBERS[y]=y-1991;
+})();
+
 let selectedYears = new Set();
 let selectedTypes = new Set(['HOUSE','SCAREZONE','SHOW','NOTE']);
 let selectedLocs = new Set();
 let selectedIPs = new Set(['IP','ORIG','NONE']);
 let selectedDays = new Set(['Mon','Tue','Wed','Thu','Fri','Sat','Sun','NONE']);
-let activeIPFilter = null; // canonical ipName string, or null
+let activeIPFilter = null;
 
 function filterByIPName(ipName, event) {
   if (event) event.stopPropagation();
   if (activeIPFilter === ipName) {
-    activeIPFilter = null; // click again to clear
+    activeIPFilter = null;
   } else {
     activeIPFilter = ipName;
-    // expand all years so no appearances are hidden
     selectedYears = new Set([...new Set(liveData.map(d=>d.year))]);
     buildYearBtns([...selectedYears].sort((a,b)=>b-a));
   }
@@ -826,11 +835,6 @@ function render(){
   const filtered=liveData.filter(d=>{
     const ipKey=d.ip?d.ip:'NONE';
     const dayKey=d.day?d.day:'NONE';
-    // IP name filter: only show entries sharing this canonical IP
-    if(activeIPFilter){
-      const canonical=(d.ipName?d.ipName:d.attraction).trim();
-      if(canonical!==activeIPFilter) return false;
-    }
     return selectedYears.has(d.year)&&
     selectedTypes.has(d.type)&&
     selectedIPs.has(ipKey)&&
@@ -911,10 +915,13 @@ function render(){
     const w=WEATHER_DATA[String(year)];
     const rainIcon=w&&w.rain?' 🌧️':'';
     const tempTag=w?`<span class="year-weather-tag">${w.temp}°F avg</span>`:'';
+    const hhnNum=HHN_NUMBERS[year];
+    const hhnTag=hhnNum?`<span class="hhn-number-tag">HHN ${hhnNum}</span>`:'';
     const yearNotes=entries.filter(e=>e.type==='NOTE').length;
     return `<section class="year-section">
       <div class="year-header">
         <div class="year-label">${year}${rainIcon}</div>
+        ${hhnTag}
         ${tempTag}
         <div class="year-count-group">
           <div class="year-count">${entries.filter(e=>e.type!=='NOTE').length} attractions</div>
