@@ -4378,5 +4378,16 @@
     "date": "05/21/2026",
     "ip": "IP",
     "day": "Thu"
+  },
+  {
+    "year": 2026,
+    "attraction": "STRANGER THINGS 5",
+    "type": "HOUSE",
+    "location": "TBA",
+    "date": "05/21/2026",
+    "ip": "IP",
+    "day": "Thu",
+    "ipName": "Stranger Things"
+  
   }
 ]
