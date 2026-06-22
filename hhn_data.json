@@ -4389,5 +4389,15 @@
     "day": "Wed",
     "ipName": "Stranger Things"
   
+  },
+  {
+    "year": 2026,
+    "attraction": "H.R. BLOODENGUTZ PRESENTS: A HALLOWEEN FRIGHT-TACULAR!",
+    "type": "HOUSE",
+    "location": "TBA",
+    "date": "06/22/2026",
+    "ip": "ORIG",
+    "day": "Mon"
+  
   }
 ]
