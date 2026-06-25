@@ -4409,5 +4409,15 @@
     "ip": "ORIG",
     "day": "Wed"
   
+  },
+  {
+    "year": 2026,
+    "attraction": "CYBERGORIA",
+    "type": "HOUSE",
+    "location": "TBA",
+    "date": "06/25/2026",
+    "ip": "ORIG",
+    "day": "Thu"
+  
   }
 ]
