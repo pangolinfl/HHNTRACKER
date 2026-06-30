@@ -4429,5 +4429,15 @@
     "ip": "ORIG",
     "day": "Fri"
   
+  },
+  {
+    "year": 2026,
+    "attraction": "HELLRAISER",
+    "type": "HOUSE",
+    "location": "TBD",
+    "date": "06/30/2026",
+    "ip": "IP",
+    "day": "Tue",
+    "ipName": "Hellraiser"
   }
 ]
