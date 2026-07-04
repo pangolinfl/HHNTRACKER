@@ -1301,10 +1301,10 @@ function buildStatsPage(){
 
     html += `<div class="stats-section-title">📣 House Announcement Timing</div>`;
     html += `<div class="fun-facts-grid" style="margin-bottom:20px">
-      <div class="fun-fact"><div class="fun-fact-emoji">⚡</div><div class="fun-fact-label">Earliest First Announcement</div><div class="fun-fact-value">${earliestFirst.year} — ${fmtDays(earliestFirst.daysFirst)}</div></div>
-      <div class="fun-fact"><div class="fun-fact-emoji">🐢</div><div class="fun-fact-label">Latest First Announcement</div><div class="fun-fact-value">${latestFirst.year} — ${fmtDays(latestFirst.daysFirst)}</div></div>
-      <div class="fun-fact"><div class="fun-fact-emoji">🔔</div><div class="fun-fact-label">Earliest Last Announcement</div><div class="fun-fact-value">${earliestLast.year} — ${fmtDays(earliestLast.daysLast)}</div></div>
-      <div class="fun-fact"><div class="fun-fact-emoji">🕯️</div><div class="fun-fact-label">Latest Last Announcement</div><div class="fun-fact-value">${latestLast.year} — ${fmtDays(latestLast.daysLast)}</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">⚡</div><div class="fun-fact-label">First Year to Start Revealing Houses</div><div class="fun-fact-value">${earliestFirst.year} — ${fmtDays(earliestFirst.daysFirst)} (${fmtDate(earliestFirst.firstAnn)})</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">🐢</div><div class="fun-fact-label">Last Year to Make First Reveal</div><div class="fun-fact-value">${latestFirst.year} — ${fmtDays(latestFirst.daysFirst)} (${fmtDate(latestFirst.firstAnn)})</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">🔔</div><div class="fun-fact-label">First Year to Finish All Reveals</div><div class="fun-fact-value">${earliestLast.year} — ${fmtDays(earliestLast.daysLast)} (${fmtDate(earliestLast.lastAnn)})</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">🕯️</div><div class="fun-fact-label">Last Year to Finish All Reveals</div><div class="fun-fact-value">${latestLast.year} — ${fmtDays(latestLast.daysLast)} (${fmtDate(latestLast.lastAnn)})</div></div>
     </div>`;
 
     // Per-year table
