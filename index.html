@@ -1266,7 +1266,7 @@ function buildStatsPage(){
 
   const announceRows = [];
   years.forEach(y => {
-    const yearHouses = houses.filter(d => d.year === y && d.date);
+    const yearHouses = houses.filter(d => d.year === y && d.date && d.year !== 2020);
     if (!yearHouses.length) return;
     const sorted = yearHouses.map(d => d.date)
       .map(s => ({ s, d: parseEntryDate(s) }))
