@@ -1247,15 +1247,6 @@ function buildStatsPage(){
     <div class="fun-fact"><div class="fun-fact-emoji">📅</div><div class="fun-fact-label">Years Tracked</div><div class="fun-fact-value">HHN ${years[0]} through HHN ${years[years.length-1]}</div></div>
   </div>`;
 
-  // Houses per year bar chart
-  html+=`<div class="stats-section-title">🏚 Houses Per Year</div><div class="bar-chart">`;
-  years.slice().reverse().forEach(y=>{
-    const count=housesByYear[y]||0;
-    const pct=maxHouses?Math.round(count/maxHouses*100):0;
-    html+=`<div class="bar-row"><div class="bar-label">${y}</div><div class="bar-track"><div class="bar-fill bar-fill-red" style="width:${pct}%" data-val="${count}"></div></div></div>`;
-  });
-  html+='</div>';
-
   // Top house locations
   if(topLocs.length){
     html+=`<div class="stats-section-title">📍 Most Used House Locations</div><div class="bar-chart">`;
@@ -1285,8 +1276,9 @@ function buildStatsPage(){
     html+=`<div class="stats-section-title">🔁 Returning IP Attractions</div>`;
     html+=`<div style="overflow-x:auto"><table class="ip-table"><thead><tr><th>IP / Attraction</th><th>Times</th><th>First</th><th>Last</th><th>Years</th></tr></thead><tbody>`;
     returningIPs.forEach(ip=>{
+      const safeIP=ip.name.replace(/'/g,"\\'");
       html+=`<tr>
-        <td>${ip.name}</td>
+        <td><span style="cursor:pointer;border-bottom:1px dashed var(--rust);color:var(--bone)" onclick="hideStatsPage();filterByIPName('${safeIP}',event)" title="Filter tracker by ${ip.name}">${ip.name}</span></td>
         <td class="td-count">${ip.count}×</td>
         <td class="td-first">${ip.first}</td>
         <td class="td-last">${ip.last}</td>
@@ -1355,7 +1347,6 @@ function buildStatsPage(){
         <th>vs. Opening Night</th>
         <th>Last Announced</th>
         <th>vs. Opening Night</th>
-        <th>Houses w/ Date</th>
       </tr></thead><tbody>`;
     announceRows.slice().reverse().forEach(r => {
       const df = r.daysFirst;
@@ -1368,7 +1359,6 @@ function buildStatsPage(){
         <td style="font-family:var(--font-mono);font-size:.75rem;color:${dfColor}">${df < 0 ? '−'+Math.abs(df)+'d' : df === 0 ? '0d' : '+'+df+'d'}</td>
         <td>${fmtDate(r.lastAnn)}</td>
         <td style="font-family:var(--font-mono);font-size:.75rem;color:${dlColor}">${dl < 0 ? '−'+Math.abs(dl)+'d' : dl === 0 ? '0d' : '+'+dl+'d'}</td>
-        <td class="td-count">${r.count}</td>
       </tr>`;
     });
     html += '</tbody></table></div>';
