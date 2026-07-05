@@ -1,4444 +1,1480 @@
-[
-  {
-    "year": 1991,
-    "attraction": "DUNGEON OF TERROR '91",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1991,
-    "attraction": "BEETLEJUICE DEAD IN CONCERT! FEATURING THE GHOSTBUSTERS!",
-    "type": "SHOW",
-    "location": "NEW YORK",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 1992,
-    "attraction": "DUNGEON OF TERROR '92",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1992,
-    "attraction": "THE PEOPLE UNDER THE STAIRS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "The People Under the Stairs"
-  },
-  {
-    "year": 1992,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1992,
-    "attraction": "THE PENDRAGONS",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1992,
-    "attraction": "ROBOSAURUS",
-    "type": "SHOW",
-    "location": "NEW YORK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1993,
-    "attraction": "THE PEOPLE UNDER THE STAIRS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "The People Under the Stairs"
-  },
-  {
-    "year": 1993,
-    "attraction": "THE PSYCHO PATH MAZE '93",
-    "type": "HOUSE",
-    "location": "BATES MOTEL",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Psycho (Bates Motel)"
-  },
-  {
-    "year": 1993,
-    "attraction": "THE SLAUGHTERHOUSE",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1993,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1993,
-    "attraction": "ROBOSAURUS",
-    "type": "SHOW",
-    "location": "NEW YORK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1994,
-    "attraction": "DUNGEON OF TERROR '94",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 1994,
-    "attraction": "HELL'S KITCHEN",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1994,
-    "attraction": "THE BONEYARD",
-    "type": "HOUSE",
-    "location": "THE BONE YARD",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1994,
-    "attraction": "THE PSYCHO PATH MAZE '94",
-    "type": "HOUSE",
-    "location": "BATES MOTEL",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Psycho (Bates Motel)"
-  },
-  {
-    "year": 1994,
-    "attraction": "BILL & TED MEET TIMECOP",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1994,
-    "attraction": "THE PRICE IS FRIGHT",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 1994,
-    "attraction": "ROBOSAURUS II",
-    "type": "SHOW",
-    "location": "NEW YORK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1994,
-    "attraction": "HORRORWOOD",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1995,
-    "attraction": "CRYPTKEEPER'S DUNGEON OF TERROR",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Crypt Keeper (Tales from the Crypt)"
-  },
-  {
-    "year": 1995,
-    "attraction": "TERROR UNDERGROUND: TRANSIT TO TORMENT",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1995,
-    "attraction": "UNIVERSAL'S HOUSE OF HORRORS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 1995,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE IV",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1995,
-    "attraction": "THE PRICE IS FRIGHT",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1995,
-    "attraction": "ROCK OF AGES",
-    "type": "SHOW",
-    "location": "NEW YORK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1995,
-    "attraction": "HORRORWOOD BLVD",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1995,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1996,
-    "attraction": "THE CRYPT KEEPER'S STUDIO TOUR OF TERROR",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Crypt Keeper (Tales from the Crypt)"
-  },
-  {
-    "year": 1996,
-    "attraction": "TOY HELL: NIGHTMARE IN THE SCREAM FACTORY",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1996,
-    "attraction": "UNIVERSAL'S NEW HOUSE OF HORRORS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 1996,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1996,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1996,
-    "attraction": "THE CRYPT KEEPER'S FESTIVAL OF THE DEAD PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Crypt Keeper (Tales from the Crypt)"
-  },
-  {
-    "year": 1996,
-    "attraction": "TRICKS, TREATS, & TRANCES",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1996,
-    "attraction": "WELCOME TO MY NIGHTMARE",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1997,
-    "attraction": "HOTEL HELL",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1997,
-    "attraction": "TOMBS OF TERROR",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1997,
-    "attraction": "UNIVERSAL'S MUSEUM OF HORROR",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 1997,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1997,
-    "attraction": "ABRA-CADAVER",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1997,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE VI: THE FINAL FRONTIER",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1997,
-    "attraction": "FESTIVAL OF THE DEAD PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1997,
-    "attraction": "FRIGHTMARES",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "HELL'S HIGH",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "S.S. FRIGHTANIC: CARNAGE CREW",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "S.S. FRIGHTANIC: FEAR IN FIRST CLASS",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "UNIVERSAL'S MUSEUM OF HORROR: CHAMBER OF HORRORS",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 1998,
-    "attraction": "UNIVERSAL'S MUSEUM OF HORROR: UNNATURAL HISTORY",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE VII: DIAL \"E\" FOR EXCELLENT!",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1998,
-    "attraction": "FESTIVAL OF THE DEAD PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "HORRORPALOOZA",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1998,
-    "attraction": "INFERNO",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "DOOMSDAY",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "PSYCHO: THROUGH THE MIND OF NORMAN BATES",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Psycho (Bates Motel)"
-  },
-  {
-    "year": 1999,
-    "attraction": "INSANITY",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "THE MUMMY",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "The Mummy"
-  },
-  {
-    "year": 1999,
-    "attraction": "UNIVERSAL'S CREATURE FEATURES IN 3-D",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE VIII",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 1999,
-    "attraction": "DEADLY D'ILLUSIONS",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "FESTIVAL OF THE DEAD PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 1999,
-    "attraction": "TRICKS OR TREATS: DEAD MAN'S PARTY",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "ANXIETY IN 3-D",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "DARK TORMENT",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "THE FEARHOUSE",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "TOTAL CHAOS",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "UNIVERSAL CLASSIC MONSTER MANIA",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2000,
-    "attraction": "THE GAUNTLET",
-    "type": "SCAREZONE",
-    "location": "AMBLIN WAY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "MIDWAY OF DR. MOROSE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "APOCALYPSE ISLAND",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "CLOWN ATTACK",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "FESTIVAL OF THE DEAD PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2000,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2000,
-    "attraction": "JACKED UP",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "PITCH BLACK",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "RUN",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "SCARY TALES",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "SUPERSTITIONS",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "THE MUMMY RETURNS: THE CURSE CONTINUES",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "The Mummy"
-  },
-  {
-    "year": 2001,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "AMITY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "NIGHTMARE ALLEY",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "THE UNKNOWN",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "THE BOOGEYMEN",
-    "type": "SHOW",
-    "location": "PANTAGES THEATER",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "WILD WEST STAGE",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2001,
-    "attraction": "DEADLY D'ILLUSIONS",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2001,
-    "attraction": "NIGHTMARES ON PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "FEAR FACTOR",
-    "type": "HOUSE",
-    "location": "THUNDERFALLS",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "MAXIMUM CARNAGE",
-    "type": "HOUSE",
-    "location": "CARNAGE WH",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "PROJECT EVILUTION",
-    "type": "HOUSE",
-    "location": "TRICERATOPS DT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "SCARY TALES II",
-    "type": "HOUSE",
-    "location": "BLUTO QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "SCREAM HOUSE",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "BOO-VILLE",
-    "type": "SCAREZONE",
-    "location": "SUESS LANDING",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "ISLAND OF EVIL SOULS",
-    "type": "SCAREZONE",
-    "location": "LOST CONTINENT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "ISLAND UNDER SIEGE",
-    "type": "SCAREZONE",
-    "location": "MARVEL SH ISLAND",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "JP EXTINCTION",
-    "type": "SCAREZONE",
-    "location": "JURASSIC PARK",
-    "date": "",
-    "ip": "IP",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "PORT OF EVIL",
-    "type": "SCAREZONE",
-    "location": "PORT OF ENTRY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "TREAKS AND FOONS",
-    "type": "SCAREZONE",
-    "location": "TOON LAGOON",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2002,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "TOON LAGOON THEATER",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2002,
-    "attraction": "STUDIO 666",
-    "type": "SHOW",
-    "location": "ENCHANTED OAK TAVERN",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "ALL NITE DIE-IN",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "FUNHOUSE OF FEAR",
-    "type": "HOUSE",
-    "location": "THUNDERFALLS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "JUNGLE OF DOOM",
-    "type": "HOUSE",
-    "location": "TRICERATOPS DT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "PSYCHOSCAREAPY",
-    "type": "HOUSE",
-    "location": "JP DISC",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "SCREAM HOUSE REVISITED",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "SHIP OF SCREAMS",
-    "type": "HOUSE",
-    "location": "BLUTO QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "BOO-VILLE",
-    "type": "SCAREZONE",
-    "location": "SUESS LANDING",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "HIDE & SHRIEEEK!",
-    "type": "SCAREZONE",
-    "location": "TOON LAGOON",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "IMMORTAL ISLAND",
-    "type": "SCAREZONE",
-    "location": "LOST CONTINENT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "NIGHT PREY",
-    "type": "SCAREZONE",
-    "location": "JURASSIC PARK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "PORT OF EVIL",
-    "type": "SCAREZONE",
-    "location": "PORT OF ENTRY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "TOXIC CITY",
-    "type": "SCAREZONE",
-    "location": "MARVEL SH ISLAND",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2003,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "TOON LAGOON THEATER",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2003,
-    "attraction": "INFESTATION",
-    "type": "SHOW",
-    "location": "ENCHANTED OAK TAVERN",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "CASTLE VAMPYR",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "DEADTROPOLIS",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "DISORIENTORIUM",
-    "type": "HOUSE",
-    "location": "CARNAGE WH",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "GHOST TOWN",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "HELLGATE PRISON",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "HORROR IN WAX",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "HORROR NIGHTS NIGHTMARES",
-    "type": "HOUSE",
-    "location": "SS44",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "FIELD OF SCREAMS",
-    "type": "SCAREZONE",
-    "location": "SUESS BACKLOT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "THE FRIGHT YARD",
-    "type": "SCAREZONE",
-    "location": "NY BACKLOT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "THE BONEYARD",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "POINT OF EVIL",
-    "type": "SCAREZONE",
-    "location": "PORT OF ENTRY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2004,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "TOON LAGOON THEATER",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2004,
-    "attraction": "FESTIVAL OF THE DEAD PARADE",
-    "type": "SHOW",
-    "location": "PARADE ROUTE",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "BLOOD RUINS",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "BODY COLLECTORS",
-    "type": "HOUSE",
-    "location": "JP DISC",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "COLD BLIND TERROR",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "DEMON CANTINA",
-    "type": "HOUSE",
-    "location": "CARNAGE WH",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "TERROR MINES",
-    "type": "HOUSE",
-    "location": "POSEIDON Q",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "THE SKOOL",
-    "type": "HOUSE",
-    "location": "THUNDERFALLS",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "WHERE EVIL HIDES",
-    "type": "HOUSE",
-    "location": "SS18",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "BLOOD THUNDER ALLEY",
-    "type": "SCAREZONE",
-    "location": "MARVEL SH ISLAND",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "THE CEMETERY MINES",
-    "type": "SCAREZONE",
-    "location": "JURASSIC PARK",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "THE FIRE PITS",
-    "type": "SCAREZONE",
-    "location": "LOST CONTINENT",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "GOREWOOD FOREST",
-    "type": "SCAREZONE",
-    "location": "TOON LAGOON",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "TERRA GUARD RUN",
-    "type": "SCAREZONE",
-    "location": "SUESS LANDING",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2005,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "",
-    "ip": "IP",
-    "day": "",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2005,
-    "attraction": "TERRA THRONE",
-    "type": "SHOW",
-    "location": "PORT OF ENTRY",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2006,
-    "attraction": "ALL NITE DIE-IN: TAKE 2",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "DUNGEON OF TERROR: RETOLD",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "PSYCHO PATH: THE RETURN OF NORMAN BATES",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "9/1/2006",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "Psycho (Bates Motel)"
-  },
-  {
-    "year": 2006,
-    "attraction": "PSYCHOSCAREAPY: MAXIMUM MADNESS",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "RUN: HOSTILE TERRITORY",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "SCREAM HOUSE: RESURRECTION",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "THE PEOPLE UNDER THE STAIRS: UNDER CONSTRUCTION",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "9/1/2006",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "The People Under the Stairs"
-  },
-  {
-    "year": 2006,
-    "attraction": "BLOOD MASQUERADE",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "DEADTROPOLIS: ZOMBIE SIEGE",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "HARVEST OF THE SOULS",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "HORROR COMES HOME",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "9/1/2006",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2006,
-    "attraction": "THE ARRIVAL",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "SWEET 16: THE DIRECTOR'S CUT",
-    "type": "SHOW",
-    "location": "LAGOON",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2006,
-    "attraction": "ROBOSAURUS",
-    "type": "SHOW",
-    "location": "NEW YORK",
-    "date": "9/1/2006",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2007,
-    "attraction": "A NIGHTMARE ON ELM STREET: DREAMWALKERS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
-  },
-  {
-    "year": 2007,
-    "attraction": "DEAD SILENCE: THE CURSE OF MARY SHAW",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "FRIDAY THE 13TH: CAMP BLOOD",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
-  },
-  {
-    "year": 2007,
-    "attraction": "JACK'S FUNHOUSE IN CLOWN-O-VISION",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "PSYCHOSCAREAPY: HOME FOR THE HOLIDAYS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "THE TEXAS CHAINSAW MASSACRE: FLESH WOUNDS",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "The Texas Chainsaw Massacre"
-  },
-  {
-    "year": 2007,
-    "attraction": "THE THING: ASSIMILATION",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "The Thing"
-  },
-  {
-    "year": 2007,
-    "attraction": "VAMPYR: BLOOD BATH",
-    "type": "HOUSE",
-    "location": "NAZARMANS",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "MIDWAY OF THE BIZARRE",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "KILLER CARNIES",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "MOTORMANIACS",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "TREAKS & FOONS",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "TROUPE MACABE",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2007,
-    "attraction": "JACK'S CARNIVAL OF CARNAGE",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2007,
-    "attraction": "THE ROCKY HORROR PICTURE SHOW: A TRIBUTE",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "8/22/2007",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "The Rocky Horror Picture Show"
-  },
-  {
-    "year": 2007,
-    "attraction": "FREAK SHOW",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "8/22/2007",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2008,
-    "attraction": "BODY COLLECTORS: COLLECTIONS OF THE PAST",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "CREATURES!",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "DEAD EXPOSURE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "DOOMSDAY",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/28/2008",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "INTERSTELLAR TERROR",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "REFLECTIONS OF FEAR",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "SCARY TALES: ONCE UPON A NIGHTMARE",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "THE HALLOW",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "AMERICAN GOTHIC",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "ASYLUM IN WONDERLAND",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "FRACTURED TALES",
-    "type": "SCAREZONE",
-    "location": "KIDZONE",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "THE PATH OF THE WICKED",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "THE SKOOLHOUSE",
-    "type": "SCAREZONE",
-    "location": "MEL'S DRIVE-IN",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "STREETS OF BLOOD: BODY COLLECTORS",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/28/2008",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2008,
-    "attraction": "BILL & TED MEET HELLBOY",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/28/2008",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2008,
-    "attraction": "THE ROCKY HORROR PICTURE SHOW: A TRIBUTE",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "8/28/2008",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Rocky Horror Picture Show"
-  },
-  {
-    "year": 2008,
-    "attraction": "BRIAN BRUSHWOOD",
-    "type": "SHOW",
-    "location": "ANIMAL ACTOR'S STAGE",
-    "date": "8/28/2008",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "CHUCKY: FRIENDS 'TIL THE END",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Chucky"
-  },
-  {
-    "year": 2009,
-    "attraction": "DRACULA: LEGACY IN BLOOD",
-    "type": "HOUSE",
-    "location": "SS23A",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2009,
-    "attraction": "FRANKENSTEIN: CREATION OF THE DAMNED",
-    "type": "HOUSE",
-    "location": "SS23B",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2009,
-    "attraction": "LEAVE IT TO CLEAVER",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "SAW",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Saw"
-  },
-  {
-    "year": 2009,
-    "attraction": "SILVER SCREAMS",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "THE SPAWNING",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "THE WOLFMAN",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2009,
-    "attraction": "APOCALYPSE: CITY OF CANNIBALS",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "CIRQUE DU FREAK",
-    "type": "SCAREZONE",
-    "location": "KIDZONE",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "CONTAINMENT",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "HORRORWOOD DIE-IN",
-    "type": "SCAREZONE",
-    "location": "MEL'S DRIVE-IN",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "LIGHTS, CAMERA, HACKTION!",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "WAR OF THE LIVING DEAD",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "SHADOWS FROM THE PAST",
-    "type": "SCAREZONE",
-    "location": "STING ALLEY",
-    "date": "8/27/2009",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2009,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2009,
-    "attraction": "THE ROCKY HORROR PICTURE SHOW: A TRIBUTE",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "8/27/2009",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Rocky Horror Picture Show"
-  },
-  {
-    "year": 2010,
-    "attraction": "CATACOMBS: BLACK DEATH RISING",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "HADES: THE GATES OF RUIN",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "HAVOC: DOGS OF WAR",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "HORROR NIGHTS: THE HALLOW'D PAST",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "LEGENDARY TRUTH: THE WYANDOT ESTATE",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "PSYCHOSCAREAPY: ECHOES OF SHADYBROOK",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "THE ORFANAGE: ASHES TO ASHES",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "ZOMBIEGEDDON",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "HHN: 20 YEARS OF FEAR",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "FEAR REVEALED",
-    "type": "SCAREZONE",
-    "location": "MEL'S DRIVE-IN",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "ZOMBIE GRAS",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "SAWS N' STEAM",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "THE COVEN",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "ESQUELETO MUERTE",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "9/14/2010",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2010,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "9/14/2010",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2010,
-    "attraction": "BRIAN BRUSHWOOD: MENACE AND MALICE",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "9/14/2010",
-    "ip": "IP",
-    "day": "Tue"
-  },
-  {
-    "year": 2011,
-    "attraction": "H.R. BLOODENGUTZ PRESENTS HOLIDAYS OF HORROR",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "NEVERMORE: THE MADNESS OF POE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "NIGHTINGALES: BLOOD PREY",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "SAWS N' STEAM: INTO THE MACHINE",
-    "type": "HOUSE",
-    "location": "JAWS QUEUE",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "THE FORSAKEN",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "THE IN BETWEEN",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "THE THING",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "7/19/2011",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "The Thing"
-  },
-  {
-    "year": 2011,
-    "attraction": "WINTER'S NIGHT: THE HAUNTING OF HAWTHORN CEMETERY",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "YOUR LUCK HAS RUN OUT",
-    "type": "SCAREZONE",
-    "location": "STING ALLEY",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "NIGHTMAZE",
-    "type": "SCAREZONE",
-    "location": "SHREK ALLEY",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "GROWN EVIL",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "CANYON OF DARK SOULS",
-    "type": "SCAREZONE",
-    "location": "INTL FOOD BAZAAR",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "7",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "ACID ASSAULT",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2011,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/21/2011",
-    "ip": "IP",
-    "day": "Sun",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2011,
-    "attraction": "DEATH DRUMS",
-    "type": "SHOW",
-    "location": "PARK-WIDE",
-    "date": "8/21/2011",
-    "ip": "ORIG",
-    "day": "Sun"
-  },
-  {
-    "year": 2012,
-    "attraction": "ALICE COOPER: WELCOME TO MY NIGHTMARE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "7/25/2012",
-    "ip": "IP",
-    "day": "Wed"
-  },
-  {
-    "year": 2012,
-    "attraction": "DEAD END",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "GOTHIC",
-    "type": "HOUSE",
-    "location": "SS20",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "PENN & TELLER: NEW(KD) LAS VEGAS 3-D",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/3/2012",
-    "ip": "IP",
-    "day": "Fri"
-  },
-  {
-    "year": 2012,
-    "attraction": "THE WALKING DEAD: DEAD INSIDE",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "7/14/2012",
-    "ip": "IP",
-    "day": "Sat",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2012,
-    "attraction": "UNIVERSAL'S HOUSE OF HORRORS",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "8/26/2012",
-    "ip": "IP",
-    "day": "Sun"
-  },
-  {
-    "year": 2012,
-    "attraction": "WELCOME TO SILENT HILL",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "7/14/2012",
-    "ip": "IP",
-    "day": "Sat"
-  },
-  {
-    "year": 2012,
-    "attraction": "THE INIQUITUS",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: VAMPIRES",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: BEASTS",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: WARRIORS",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: PRISONERS",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: TRADITIONALS",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: TRICK-OR-TREATERS",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "DARK LEGIONS: ZOMBIES",
-    "type": "SCAREZONE",
-    "location": "PARK-WIDE",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/30/2012",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2012,
-    "attraction": "20 PENNY CIRCUS: FULLY EXPOSED",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "8/30/2012",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2012,
-    "attraction": "HALLOWEEN HORROR NIGHTS CINEMATIC SPECTACULAR",
-    "type": "SHOW",
-    "location": "LAGOON",
-    "date": "8/30/2012",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2013,
-    "attraction": "AFTERLIFE: DEATH'S VENGEANCE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/29/2013",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2013,
-    "attraction": "AN AMERICAN WEREWOLF IN LONDON",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/16/2013",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "An American Werewolf in London"
-  },
-  {
-    "year": 2013,
-    "attraction": "EVIL DEAD",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "7/16/2013",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Evil Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "HAVOC: DERAILED",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/29/2013",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2013,
-    "attraction": "RESIDENT EVIL: ESCAPE FROM RACCOON CITY",
-    "type": "HOUSE",
-    "location": "SS21",
-    "date": "8/29/2013",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE CABIN IN THE WOODS",
-    "type": "HOUSE",
-    "location": "SS21",
-    "date": "6/27/2013",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE WALKING DEAD: NO SAFE HAVEN",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "7/25/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "URBAN LEGENDS: LA LLORONA",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/13/2013",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE WALKING DEAD: THE FALL OF ATLANTA",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "7/25/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE WALKING DEAD: WOODLANDS",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "7/25/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE WALKING DEAD: SURVIVOR'S CAMP",
-    "type": "SCAREZONE",
-    "location": "KIDZONE",
-    "date": "7/25/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE WALKING DEAD: THE FARM",
-    "type": "SCAREZONE",
-    "location": "MEL'S DRIVE-IN",
-    "date": "7/25/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE WALKING DEAD: CLEAR",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "7/25/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2013,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/29/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2013,
-    "attraction": "THE ROCKY HORROR PICTURE SHOW: A TRIBUTE",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "8/29/2013",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Rocky Horror Picture Show"
-  },
-  {
-    "year": 2014,
-    "attraction": "AVP: ALIEN VS. PREDATOR",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/4/2014",
-    "ip": "IP",
-    "day": "Mon"
-  },
-  {
-    "year": 2014,
-    "attraction": "DOLLHOUSE OF THE DAMNED",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/12/2014",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2014,
-    "attraction": "DRACULA UNTOLD: REIGN OF BLOOD",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/7/2014",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Dracula"
-  },
-  {
-    "year": 2014,
-    "attraction": "FROM DUSK TILL DAWN",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "7/14/2014",
-    "ip": "IP",
-    "day": "Mon"
-  },
-  {
-    "year": 2014,
-    "attraction": "GIGGLES & GORE INC.",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/12/2014",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2014,
-    "attraction": "HALLOWEEN",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/27/2014",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Halloween"
-  },
-  {
-    "year": 2014,
-    "attraction": "ROANOKE: CANNIBAL COLONY",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "8/12/2014",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2014,
-    "attraction": "THE WALKING DEAD: THE END OF THE LINE",
-    "type": "HOUSE",
-    "location": "SS25",
-    "date": "6/9/2014",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2014,
-    "attraction": "THE PURGE: ANARCHY",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "7/21/2014",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "The Purge"
-  },
-  {
-    "year": 2014,
-    "attraction": "FACE OFF: IN THE FLESH",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "7/16/2014",
-    "ip": "IP",
-    "day": "Wed"
-  },
-  {
-    "year": 2014,
-    "attraction": "BAYOU OF BLOOD",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/12/2014",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2014,
-    "attraction": "MASKERADE: UNSTITCHED",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/12/2014",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2014,
-    "attraction": "THE ROCKY HORROR PICTURE SHOW: A TRIBUTE",
-    "type": "SHOW",
-    "location": "BEETLEJUICE STAGE",
-    "date": "8/12/2014",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "The Rocky Horror Picture Show"
-  },
-  {
-    "year": 2014,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/12/2014",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2015,
-    "attraction": "AN AMERICAN WEREWOLF IN LONDON",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/27/2015",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "An American Werewolf in London"
-  },
-  {
-    "year": 2015,
-    "attraction": "ASYLUM IN WONDERLAND 3D",
-    "type": "HOUSE",
-    "location": "SHREK",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "BODY COLLECTORS: RECOLLECTIONS",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "FREDDY VS. JASON",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "6/10/2015",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
-  },
-  {
-    "year": 2015,
-    "attraction": "INSIDIOUS",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "7/16/2015",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Insidious"
-  },
-  {
-    "year": 2015,
-    "attraction": "JACK PRESENTS: 25 YEARS OF MONSTERS AND MAYHEM",
-    "type": "HOUSE",
-    "location": "SS21",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "RUN: BLOOD, SWEAT, AND FEARS",
-    "type": "HOUSE",
-    "location": "EQ QUEUE",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "THE PURGE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/17/2015",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "The Purge"
-  },
-  {
-    "year": 2015,
-    "attraction": "THE WALKING DEAD: THE LIVING AND THE DEAD",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "7/30/2015",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2015,
-    "attraction": "PSYCHOSCAREAPY: UNLEASHED",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "ICONS: HHN",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "SCARY TALES: SCREAMPUNK",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "EVIL'S ROOTS",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "ALL NITE DIE-IN: DOUBLE FEATURE",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2015,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/27/2015",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2015,
-    "attraction": "THE CARNAGE RETURNS",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "8/27/2015",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2016,
-    "attraction": "AMERICAN HORROR STORY",
-    "type": "HOUSE",
-    "location": "SS19",
-    "date": "8/16/2016",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "American Horror Story"
-  },
-  {
-    "year": 2016,
-    "attraction": "GHOST TOWN: THE CURSE OF LIGHTNING GULCH",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "HALLOWEEN: HELL COMES TO HADDONFIELD",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "7/7/2016",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Halloween"
-  },
-  {
-    "year": 2016,
-    "attraction": "THE WALKING DEAD",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "6/3/2016",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2016,
-    "attraction": "KRAMPUS",
-    "type": "HOUSE",
-    "location": "SHREK",
-    "date": "8/4/2016",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2016,
-    "attraction": "LUNATICS PLAYGROUND 3D: YOU WON'T STAND A CHANCE",
-    "type": "HOUSE",
-    "location": "MIB TENT",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "THE EXORCIST",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "4/26/2016",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "The Exorcist"
-  },
-  {
-    "year": 2016,
-    "attraction": "THE REPOSITORY VR EXPERIENCE",
-    "type": "NOTE",
-    "location": "SS19",
-    "date": "8/12/2016",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2016,
-    "attraction": "THE TEXAS CHAINSAW MASSACRE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "4/14/2016",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Texas Chainsaw Massacre"
-  },
-  {
-    "year": 2016,
-    "attraction": "TOMB OF THE ANCIENTS",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "THE WALKING DEAD",
-    "type": "SCAREZONE",
-    "location": "WHOLE PARK",
-    "date": "6/3/2016",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "The Walking Dead"
-  },
-  {
-    "year": 2016,
-    "attraction": "SURVIVE OR DIE: APOCALYPSE",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "LAIR OF THE BANSHEE",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "DEAD MAN'S WHARF",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "VAMP '55",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "A CHANCE IN HELL",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/10/2016",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2016,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/10/2016",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2016,
-    "attraction": "ACADEMY OF VILLAINS: HOUSE OF FEAR",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "8/10/2016",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Academy of Villains"
-  },
-  {
-    "year": 2017,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "2/23/2017",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "AMERICAN HORROR STORY",
-    "type": "HOUSE",
-    "location": "SS21",
-    "date": "3/29/2017",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "American Horror Story"
-  },
-  {
-    "year": 2017,
-    "attraction": "ASH VS EVIL DEAD",
-    "type": "HOUSE",
-    "location": "PARADE",
-    "date": "7/27/2017",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Evil Dead"
-  },
-  {
-    "year": 2017,
-    "attraction": "DEAD WATERS",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/31/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "HIVE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/31/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "SAW: THE GAMES OF JIGSAW",
-    "type": "HOUSE",
-    "location": "SHREK",
-    "date": "8/14/2017",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "Saw"
-  },
-  {
-    "year": 2017,
-    "attraction": "SCARECROW: THE REAPING",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/31/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "THE FALLEN",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/31/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "THE HORRORS OF BLUMHOUSE",
-    "type": "HOUSE",
-    "location": "MIB TENT",
-    "date": "8/29/2017",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "The Horrors of Blumhouse"
-  },
-  {
-    "year": 2017,
-    "attraction": "THE SHINING",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "5/19/2017",
-    "ip": "IP",
-    "day": "Fri"
-  },
-  {
-    "year": 2017,
-    "attraction": "TRICK 'R TREAT",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/17/2017",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Trick 'r Treat"
-  },
-  {
-    "year": 2017,
-    "attraction": "THE PURGE",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/17/2017",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Purge"
-  },
-  {
-    "year": 2017,
-    "attraction": "ALTARS OF HORROR",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/17/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "FESTIVAL OF THE DEADLIEST",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/17/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "INVASION!",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "8/17/2017",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2017,
-    "attraction": "BILL & TED'S EXCELLENT HALLOWEEN ADVENTURE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/17/2017",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Bill & Ted's Excellent Halloween Adventure"
-  },
-  {
-    "year": 2017,
-    "attraction": "ACADEMY OF VILLAINS: AFTERLIFE",
-    "type": "SHOW",
-    "location": "MEL'S DRIVE-IN STAGE",
-    "date": "8/17/2017",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Academy of Villains"
-  },
-  {
-    "year": 2018,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "3/29/2018",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "DEAD EXPOSURE: PATIENT ZERO",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "4/26/2018",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "SEEDS OF EXTINCTION",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 2",
-    "date": "8/8/2018",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2018,
-    "attraction": "POLTERGEIST",
-    "type": "HOUSE",
-    "location": "SS25",
-    "date": "8/9/2018",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "HALLOWEEN 4",
-    "type": "HOUSE",
-    "location": "SHREK",
-    "date": "8/14/2018",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Halloween"
-  },
-  {
-    "year": 2018,
-    "attraction": "HORRORS OF BLUMHOUSE 2",
-    "type": "HOUSE",
-    "location": "MIB TENT",
-    "date": "8/20/2018",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "The Horrors of Blumhouse"
-  },
-  {
-    "year": 2018,
-    "attraction": "SLAUGHTER SINEMA",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "6/21/2018",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "CARNIVAL GRAVEYARD",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "7/25/2018",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2018,
-    "attraction": "STRANGER THINGS",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "4/3/2018",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Stranger Things"
-  },
-  {
-    "year": 2018,
-    "attraction": "TRICK 'R TREAT",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 1",
-    "date": "5/16/2018",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2018,
-    "attraction": "THE HARVEST",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "6/7/2018",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "VAMP '85: NEW YEAR’S EVE",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "6/7/2018",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "TWISTED TRADITION",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "6/7/2018",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2018,
-    "attraction": "REVENGE OF CHUCKY",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "6/28/2018",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Chucky"
-  },
-  {
-    "year": 2018,
-    "attraction": "KILLER KLOWNS FROM OUTER SPACE",
-    "type": "SCAREZONE",
-    "location": "SOUTH STREET",
-    "date": "6/28/2018",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Killer Klowns from Outer Space"
-  },
-  {
-    "year": 2018,
-    "attraction": "ACADEMY OF VILLAINS",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "6/7/2018",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Academy of Villains"
-  },
-  {
-    "year": 2019,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "2/5/2019",
-    "ip": "",
-    "day": "Tue"
-  },
-  {
-    "year": 2019,
-    "attraction": "STRANGER THINGS 2",
-    "type": "HOUSE",
-    "location": "SS25",
-    "date": "3/27/2019",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Stranger Things"
-  },
-  {
-    "year": 2019,
-    "attraction": "NIGHTINGALES: BLOOD PIT",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "4/12/2019",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2019,
-    "attraction": "UNIVERSAL MONSTERS",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 2",
-    "date": "4/29/2019",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2019,
-    "attraction": "DEPTHS OF FEAR",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "5/21/2019",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2019,
-    "attraction": "YETI: TERROR OF THE YUKON",
-    "type": "HOUSE",
-    "location": "SS24A",
-    "date": "6/24/2019",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2019,
-    "attraction": "GHOSTBUSTERS",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "7/17/2019",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Ghostbusters"
-  },
-  {
-    "year": 2019,
-    "attraction": "KILLER KLOWNS FROM OUTER SPACE",
-    "type": "HOUSE",
-    "location": "SHREK",
-    "date": "7/25/2019",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Killer Klowns from Outer Space"
-  },
-  {
-    "year": 2019,
-    "attraction": "US",
-    "type": "HOUSE",
-    "location": "SS24B",
-    "date": "8/7/2019",
-    "ip": "IP",
-    "day": "Wed"
-  },
-  {
-    "year": 2019,
-    "attraction": "GRAVEYARD GAMES",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 1",
-    "date": "8/8/2019",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2019,
-    "attraction": "ZOMBIELAND DOUBLE TAP",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/12/2019",
-    "ip": "IP",
-    "day": "Mon"
-  },
-  {
-    "year": 2019,
-    "attraction": "ROB ZOMBIE: HELLBILLY DELUXE",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "8/12/2019",
-    "ip": "IP",
-    "day": "Mon"
-  },
-  {
-    "year": 2019,
-    "attraction": "ANARCH-CADE",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/12/2019",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2019,
-    "attraction": "VANITY BALL",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/12/2019",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2019,
-    "attraction": "VIKINGS UNDEAD",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/12/2019",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2019,
-    "attraction": "ACADEMY OF VILLAINS: ALTERED STATES",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/12/2019",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "Academy of Villains"
-  },
-  {
-    "year": 2019,
-    "attraction": "HOUSE OF 1000 CORPSES",
-    "type": "HOUSE",
-    "location": "MIB TENT",
-    "date": "8/14/2019",
-    "ip": "IP",
-    "day": "Wed"
-  },
-  {
-    "year": 2019,
-    "attraction": "MARATHON OF MAYHEM",
-    "type": "SHOW",
-    "location": "LAGOON",
-    "date": "8/15/2019",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2020,
-    "attraction": "EVENT CANCELLED",
-    "type": "NOTE",
-    "location": "",
-    "date": "7/24/2020",
-    "ip": "",
-    "day": "Fri"
-  },
-  {
-    "year": 2020,
-    "attraction": "REVENGE OF THE TOOTH FAIRY",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "9/14/2020",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2020,
-    "attraction": "THE BRIDE OF FRANKENSTEIN LIVES",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "9/14/2020",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2021,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "6/5/2021",
-    "ip": "",
-    "day": "Sun"
-  },
-  {
-    "year": 2021,
-    "attraction": "BEETLEJUICE",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 1",
-    "date": "3/5/2021",
-    "ip": "IP",
-    "day": "Fri"
-  },
-  {
-    "year": 2021,
-    "attraction": "JACK IS BACK! (AGAIN)",
-    "type": "NOTE",
-    "location": "",
-    "date": "6/17/2021",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "THE HAUNTING OF HILL HOUSE",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 2",
-    "date": "7/8/2021",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "THE TEXAS CHAINSAW MASSACRE",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "7/15/2021",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Texas Chainsaw Massacre"
-  },
-  {
-    "year": 2021,
-    "attraction": "THE BRIDE OF FRANKENSTEIN LIVES",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "7/15/2021",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2021,
-    "attraction": "FREQUENT FEAR PASSES ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "8/5/2021",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "HHN ICONS CAPTURED",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/5/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "CRYPT TV",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "8/12/2021",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "30 YEARS 30 FEARS",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "SEEK AND DESTROY",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "GOREWOOD FOREST",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "LIGHTS CAMERA HACKTION: EDDIE'S REVENGE",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "MARATHON OF MAYHEM: CARNAGE FACTORY",
-    "type": "SHOW",
-    "location": "LAGOON",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "NIGHTMARE FUEL",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "WELCOME TO SCAREY",
-    "type": "HOUSE",
-    "location": "MIB TENT",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "CASE FILES: UNEARTHED",
-    "type": "HOUSE",
-    "location": "SHREK",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "THE WICKED GROWTH: REALM OF THE PUMPKIN",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "PUPPET THEATRE: CAPTIVE AUDIENCE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2021,
-    "attraction": "REVENGE OF THE TOOTH FAIRY",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/12/2021",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2022,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "3/24/2022",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2022,
-    "attraction": "UNIVERSAL MONSTERS: LEGENDS COLLIDE",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 1",
-    "date": "5/17/2022",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2022,
-    "attraction": "HALLOWEEN",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "6/8/2022",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Halloween"
-  },
-  {
-    "year": 2022,
-    "attraction": "THE HORRORS OF BLUMHOUSE",
-    "type": "HOUSE",
-    "location": "FF QUEUE",
-    "date": "6/23/2022",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "The Horrors of Blumhouse"
-  },
-  {
-    "year": 2022,
-    "attraction": "FREQUENT FEAR PASSES ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "7/26/2022",
-    "ip": "",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "THE WEEKND: AFTER HOURS NIGHTMARE",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 2",
-    "date": "7/26/2022",
-    "ip": "IP",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "SPIRITS OF THE COVEN",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "BUGS: EATEN ALIVE",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "FIESTA DE CHUPACABRAS",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "HELLBLOCK HORROR",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "DEAD MAN'S PIER",
-    "type": "HOUSE",
-    "location": "SS24",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "DESCENDANTS OF DESTRUCTION",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "HORRORS OF HALLOWEEN",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "SWEET REVENGE",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "CONJURE THE DARK",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "GRAVEYARD: DEADLY UNREST",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "SCARECROW: CURSED SOIL",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "NIGHTMARE FUEL: WILDFIRE",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2022,
-    "attraction": "GHOULISH! A HALLOWEEN TALE",
-    "type": "SHOW",
-    "location": "LAGOON",
-    "date": "8/16/2022",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2023,
-    "attraction": "CHUCKY: ULTIMATE KILL COUNT",
-    "type": "HOUSE",
-    "location": "FF QUEUE",
-    "date": "10/31/2022",
-    "ip": "IP",
-    "day": "Mon",
-    "ipName": "Chucky"
-  },
-  {
-    "year": 2023,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "3/23/2023",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2023,
-    "attraction": "THE LAST OF US",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 2",
-    "date": "6/15/2023",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2023,
-    "attraction": "FREQUENT FEAR PASSES ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "7/13/2023",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2023,
-    "attraction": "STRANGER THINGS 4",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "7/13/2023",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Stranger Things"
-  },
-  {
-    "year": 2023,
-    "attraction": "THE EXORCIST: BELIEVER",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "7/28/2023",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "The Exorcist"
-  },
-  {
-    "year": 2023,
-    "attraction": "UNIVERSAL MONSTERS: UNMASKED",
-    "type": "HOUSE",
-    "location": "PARADE WAREHOUSE 1",
-    "date": "7/28/2023",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2023,
-    "attraction": "DR. ODDFELLOW'S TWISTED ORIGINS",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "DUELING DRAGONS: CHOOSE THY FATE",
-    "type": "HOUSE",
-    "location": "SS24A",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "YETI: CAMPGROUND KILLS",
-    "type": "HOUSE",
-    "location": "SS24B",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "THE DARKEST DEAL",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "BLOODMOON: DARK OFFERINGS",
-    "type": "HOUSE",
-    "location": "SS23",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "DR. ODDFELLOW'S COLLECTION OF HORROR",
-    "type": "SCAREZONE",
-    "location": "ENTRANCE",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "DARK ZODIAC",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "JUNGLE OF DOOM: EXPEDITION OF HORROR",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "VAMP '69: SUMMER OF BLOOD",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "SHIPYARD 32: HORRORS UNHINGED",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "NIGHTMARE FUEL: REVENGE DREAM",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "7/28/2023",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2023,
-    "attraction": "DEATH EATERS IN DIAGON ALLEY",
-    "type": "NOTE",
-    "location": "",
-    "date": "8/22/2023",
-    "ip": "IP",
-    "day": "Tue"
-  },
-  {
-    "year": 2024,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "4/4/2024",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2024,
-    "attraction": "SLAUGHTER SINEMA 2",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "5/17/2024",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2024,
-    "attraction": "GOBLIN'S FEAST",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 4",
-    "date": "5/20/2024",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2024,
-    "attraction": "MAJOR SWEETS CANDY FACTORY",
-    "type": "HOUSE",
-    "location": "FF QUEUE",
-    "date": "5/21/2024",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2024,
-    "attraction": "THE MUSEUM: DEADLY EXHIBIT",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "5/22/2024",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2024,
-    "attraction": "MONSTRUOS: THE MONSTERS OF LATIN AMERICA",
-    "type": "HOUSE",
-    "location": "SS23A",
-    "date": "5/23/2024",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2024,
-    "attraction": "TRIPLETS OF TERROR",
-    "type": "HOUSE",
-    "location": "SS24B",
-    "date": "5/24/2024",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2024,
-    "attraction": "A QUIET PLACE",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "6/6/2024",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2024,
-    "attraction": "GHOSTBUSTERS: FROZEN EMPIRE",
-    "type": "HOUSE",
-    "location": "SS23B",
-    "date": "6/27/2024",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Ghostbusters"
-  },
-  {
-    "year": 2024,
-    "attraction": "FREQUENT FEAR PASSES ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "7/11/2024",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2024,
-    "attraction": "INSIDIOUS: THE FURTHER",
-    "type": "HOUSE",
-    "location": "SS24A",
-    "date": "7/11/2024",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Insidious"
-  },
-  {
-    "year": 2024,
-    "attraction": "TORTURE FAIRE",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "7/15/2024",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2024,
-    "attraction": "SWAMP OF THE UNDEAD",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "7/16/2024",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2024,
-    "attraction": "DUALITY OF FEAR",
-    "type": "SCAREZONE",
-    "location": "ENTRANCE",
-    "date": "7/24/2024",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2024,
-    "attraction": "DEMON QUEENS",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "7/24/2024",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2024,
-    "attraction": "ENTER THE BLUMHOUSE",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "7/25/2024",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2024,
-    "attraction": "UNIVERSAL MONSTERS: ETERNAL BLOODLINES",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 3",
-    "date": "7/25/2024",
-    "ip": "IP",
-    "day": "Thu",
-    "ipName": "Universal Monsters"
-  },
-  {
-    "year": 2024,
-    "attraction": "NIGHTMARE FUEL: NOCTURNAL CIRCUS",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "",
-    "ip": "ORIG",
-    "day": ""
-  },
-  {
-    "year": 2025,
-    "attraction": "FIVE NIGHTS AT FREDDY'S",
-    "type": "HOUSE",
-    "location": "SS23B",
-    "date": "6/1/2025",
-    "ip": "IP",
-    "day": "Sun"
-  },
-  {
-    "year": 2025,
-    "attraction": "FALLOUT",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 4",
-    "date": "6/5/2025",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "3/15/2025",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "JASON UNIVERSE",
-    "type": "HOUSE",
-    "location": "FF QUEUE",
-    "date": "6/13/2025",
-    "ip": "IP",
-    "day": "Fri",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
-  },
-  {
-    "year": 2025,
-    "attraction": "EL ARTISTA: A SPANISH HAUNTING",
-    "type": "HOUSE",
-    "location": "SS22",
-    "date": "6/20/2025",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2025,
-    "attraction": "HATCHET AND CHAINS",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 1",
-    "date": "6/23/2025",
-    "ip": "ORIG",
-    "day": "Mon"
-  },
-  {
-    "year": 2025,
-    "attraction": "DOLLS: LET'S PLAY DEAD",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 2",
-    "date": "6/25/2025",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2025,
-    "attraction": "GRAVE OF FLESH",
-    "type": "HOUSE",
-    "location": "SS24B",
-    "date": "6/26/2025",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "GALKN: MONSTERS OF THE NORTH",
-    "type": "HOUSE",
-    "location": "SPRUNG TENT 3",
-    "date": "6/27/2025",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2025,
-    "attraction": "FREQUENT FEAR PASSES ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "7/10/2025",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "TERRIFIER",
-    "type": "HOUSE",
-    "location": "SS25",
-    "date": "7/10/2025",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "THE ORIGINS OF HORROR",
-    "type": "SCAREZONE",
-    "location": "PLAZA OF THE STARS",
-    "date": "7/14/2025",
-    "ip": "IP",
-    "day": "Mon"
-  },
-  {
-    "year": 2025,
-    "attraction": "MASQUERADE: DANCE W/ DEATH",
-    "type": "SCAREZONE",
-    "location": "HOLLYWOOD",
-    "date": "7/15/2025",
-    "ip": "ORIG",
-    "day": "Tue"
-  },
-  {
-    "year": 2025,
-    "attraction": "THE CAT LADY OF CROOKED LANE",
-    "type": "SCAREZONE",
-    "location": "CENTRAL PARK",
-    "date": "7/16/2025",
-    "ip": "ORIG",
-    "day": "Wed"
-  },
-  {
-    "year": 2025,
-    "attraction": "MUTATIONS: TOXIC TWENTIES",
-    "type": "SCAREZONE",
-    "location": "NEW YORK",
-    "date": "7/17/2025",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "MEL'S DIE-IN ZOMBIES",
-    "type": "SCAREZONE",
-    "location": "MEL'S DRIVE-IN",
-    "date": "7/18/2025",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2025,
-    "attraction": "CLUB HORROR",
-    "type": "SCAREZONE",
-    "location": "SAN FRANCISCO",
-    "date": "7/18/2025",
-    "ip": "ORIG",
-    "day": "Fri"
-  },
-  {
-    "year": 2025,
-    "attraction": "NIGHTMARE FUEL: CIRCUS OF DECAY",
-    "type": "SHOW",
-    "location": "FEAR FACTOR",
-    "date": "7/24/2025",
-    "ip": "ORIG",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "HAUNT-O-PHONIC: A GHOULISH JOURNEY",
-    "type": "SHOW",
-    "location": "LAGOON",
-    "date": "7/24/2025",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2025,
-    "attraction": "WWE PRESENTS: THE HORRORS OF THE WYATT SICKS",
-    "type": "HOUSE",
-    "location": "SS23A",
-    "date": "7/29/2025",
-    "ip": "IP",
-    "day": "Wed"
-  },
-  {
-    "year": 2026,
-    "attraction": "JACK & ODDFELLOW: CHAOS & CONTROL",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "3/21/2026",
-    "ip": "ORIG",
-    "day": "Sat"
-  },
-  {
-    "year": 2026,
-    "attraction": "TICKETS ON SALE",
-    "type": "NOTE",
-    "location": "",
-    "date": "3/26/2026",
-    "ip": "",
-    "day": "Thu"
-  },
-  {
-    "year": 2026,
-    "attraction": "SINNERS",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "05/21/2026",
-    "ip": "IP",
-    "day": "Thu"
-  },
-  {
-    "year": 2026,
-    "attraction": "STRANGER THINGS 5",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "06/17/2026",
-    "ip": "IP",
-    "day": "Wed",
-    "ipName": "Stranger Things"
-  
-  },
-  {
-    "year": 2026,
-    "attraction": "H.R. BLOODENGUTZ PRESENTS: A HALLOWEEN FRIGHT-TACULAR!",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "06/22/2026",
-    "ip": "ORIG",
-    "day": "Mon"
-  
-  },
-  {
-    "year": 2026,
-    "attraction": "MADLANDS: CAGED CANNIBALS",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "06/24/2026",
-    "ip": "ORIG",
-    "day": "Wed"
-  
-  },
-  {
-    "year": 2026,
-    "attraction": "CYBERGORIA",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "06/25/2026",
-    "ip": "ORIG",
-    "day": "Thu"
-  
-  },
-  {
-    "year": 2026,
-    "attraction": "INVASION: ALIEN ABDUCTION",
-    "type": "HOUSE",
-    "location": "TBA",
-    "date": "06/26/2026",
-    "ip": "ORIG",
-    "day": "Fri"
-  
-  },
-  {
-    "year": 2026,
-    "attraction": "HELLRAISER",
-    "type": "HOUSE",
-    "location": "TBD",
-    "date": "06/30/2026",
-    "ip": "IP",
-    "day": "Tue",
-    "ipName": "Hellraiser"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HHN Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --blood:    #8B0000;
+  --blood-lt: #B22222;
+  --ember:    #C0392B;
+  --rust:     #7A2828;
+  --void:     #0A0A0A;
+  --pit:      #111111;
+  --crypt:    #1A1A1A;
+  --grave:    #252525;
+  --bone:     #E8DCC8;
+  --parchment:#D4C5A9;
+  --ash:      #888888;
+  --fog:      #555555;
+
+  /* map tracker vars to DB tokens so existing code keeps working */
+  --black:      var(--void);
+  --deep:       var(--pit);
+  --card:       var(--pit);
+  --red:        var(--blood-lt);
+  --red-dim:    var(--rust);
+  --orange:     #C0620A;
+  --orange-dim: #7A3A00;
+  --yellow:     #C8A840;
+  --purple:     #6B3FA0;
+  --green:      #2E7D52;
+  --text:       var(--bone);
+  --text-dim:   var(--ash);
+  --border:     var(--grave);
+
+  --font-display: 'Cinzel', serif;
+  --font-body:    'Crimson Text', serif;
+  --font-mono:    'Space Mono', monospace;
+  --font-gothic:  'UnifrakturMaguntia', cursive;
+
+  --radius: 2px;
+}
+
+/* ── High Contrast Mode ── */
+body.hc {
+  --blood:#ff4d4d; --blood-lt:#ff6666; --ember:#ff4d4d;
+  --rust:#cc3333; --void:#000; --pit:#111; --crypt:#1a1a1a;
+  --grave:#444; --bone:#fff; --parchment:#eee; --ash:#ccc; --fog:#999;
+  --orange:#ffaa00; --yellow:#ffe033; --purple:#cc66ff; --green:#33ff77;
+}
+body.hc .card { border-width:2px }
+body.hc .year-btn.active { box-shadow:0 0 0 2px #fff }
+body.hc .meta-tag { border-width:1px; opacity:1 }
+body.hc .card-title mark { background:rgba(255,77,77,.5); color:#fff }
+
+/* ── Accessibility toggle button ── */
+.a11y-btn {
+  background: transparent;
+  border: 1px solid var(--fog);
+  color: var(--ash);
+  font-family: var(--font-mono);
+  font-size: .65rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body.hc .a11y-btn { border-color:#fff; color:#fff; background:rgba(255,255,255,.1); }
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body {
+  background: var(--void);
+  color: var(--bone);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* scanline texture overlay matching DB site */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg, transparent, transparent 2px,
+    rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── header ── */
+header{position:relative;text-align:center;padding:48px 20px 32px;background:linear-gradient(180deg,#0A0A0A 0%,#111111 100%);border-bottom:1px solid var(--rust);overflow:hidden;z-index:1}
+header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--blood),transparent);pointer-events:none}
+header::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.03) 2px,rgba(0,0,0,.03) 4px);pointer-events:none;z-index:1}
+
+
+/* blood drips */
+.drip-bar{position:absolute;top:5px;left:0;right:0;display:flex;justify-content:space-around;pointer-events:none;z-index:2}
+.drip{width:7px;background:var(--red);border-radius:0 0 4px 4px;animation:drip var(--dur,3s) ease-in-out infinite;animation-delay:var(--delay,0s)}
+@keyframes drip{0%,100%{height:var(--h1,8px);opacity:.7}50%{height:var(--h2,35px);opacity:1}}
+@keyframes cardIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+
+/* fog layers */
+.fog-wrap{position:absolute;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.fog{position:absolute;bottom:-10px;left:-50%;width:200%;height:140px;background:radial-gradient(ellipse at center,rgba(180,160,160,.13) 0%,transparent 70%);border-radius:50%;animation:fogDrift var(--fd,18s) ease-in-out infinite alternate;animation-delay:var(--fdelay,0s);filter:blur(18px)}
+@keyframes fogDrift{0%{transform:translateX(0) scaleY(1)}100%{transform:translateX(8%) scaleY(1.15)}}
+.fog2{height:80px;bottom:20px;animation-direction:alternate-reverse;filter:blur(22px);opacity:.7}
+.fog3{height:60px;bottom:35px;left:-30%;width:160%;filter:blur(12px);opacity:.5;animation-duration:14s}
+
+/* floating embers */
+.ember-wrap{position:absolute;inset:0;pointer-events:none;z-index:2;overflow:hidden}
+.ember{position:absolute;bottom:0;width:3px;height:3px;border-radius:50%;background:var(--red);animation:float var(--dur,6s) ease-in infinite;animation-delay:var(--delay,0s);opacity:0}
+.ember.dim{background:var(--orange);width:2px;height:2px}
+@keyframes float{
+  0%{opacity:0;transform:translateY(0) translateX(0) scale(1)}
+  10%{opacity:.9}
+  50%{transform:translateY(-80px) translateX(var(--drift,20px)) scale(.8)}
+  90%{opacity:.2}
+  100%{opacity:0;transform:translateY(-160px) translateX(var(--drift2,40px)) scale(.3)}
+}
+
+/* title flicker */
+.site-title{
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  color: var(--bone);
+  letter-spacing: .02em;
+  line-height: 1;
+  text-shadow: 0 0 40px rgba(139,0,0,.4);
+  margin-bottom: 4px;
+  position: relative;
+  z-index: 3;
+}
+.site-sub{font-family:var(--font-mono);font-size:.65rem;letter-spacing:.25em;color:var(--ash);text-transform:uppercase;margin-top:8px;position:relative;z-index:3}
+
+/* scanline on header handled by body::before */
+
+/* ── Top bar ── */
+.topbar{position:sticky;top:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--grave);box-shadow:0 1px 0 rgba(139,0,0,.15);padding:10px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.menu-btn{background:var(--crypt);border:1px solid var(--grave);color:var(--ash);font-family:var(--font-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;cursor:pointer;transition:all .12s;flex:0 0 auto;line-height:1}
+.menu-btn:hover{background:var(--blood);border-color:var(--blood);color:var(--bone)}
+
+.search-input{flex:1;min-width:140px;background:var(--crypt);border:1px solid var(--grave);color:var(--bone);font-family:var(--font-mono);font-size:.75rem;padding:8px 14px;outline:none;transition:border-color .18s;border-radius:var(--radius)}
+.search-input:focus{border-color:var(--blood)}
+.search-input::placeholder{color:var(--fog)}
+.action-btn{background:var(--crypt);border:1px solid var(--grave);color:var(--ash);font-family:var(--font-mono);font-size:.65rem;padding:6px 12px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;flex:0 0 auto;border-radius:var(--radius)}
+.action-btn:hover{background:var(--blood);border-color:var(--blood);color:var(--bone)}
+.topbar-right{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+/* checklist badge on topbar */
+.checklist-count{font-family:var(--font-mono);font-size:.6rem;background:var(--green);color:var(--void);padding:1px 5px;border-radius:2px;margin-left:3px;display:none}
+
+/* ── Drawer overlay ── */
+.drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:300;opacity:0;pointer-events:none;transition:opacity .25s ease}
+.drawer-overlay.open{opacity:1;pointer-events:all}
+
+/* ── Drawer panel ── */
+.drawer{position:fixed;top:0;left:0;height:100%;width:300px;max-width:85vw;background:var(--pit);border-right:1px solid var(--grave);z-index:400;transform:translateX(-100%);transition:transform .28s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;overflow:hidden}
+.drawer.open{transform:translateX(0)}
+body.hc .drawer{border-right-color:var(--blood-lt)}
+
+.drawer-header{padding:16px 18px 14px;border-bottom:1px solid var(--grave);display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.drawer-title{font-family:var(--font-display);font-size:1.1rem;color:var(--bone);letter-spacing:.15em;text-transform:uppercase}
+.drawer-close{background:transparent;border:1px solid var(--grave);color:var(--ash);font-size:1rem;width:32px;height:32px;cursor:pointer;transition:all .12s;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono)}
+.drawer-close:hover{border-color:var(--blood-lt);color:var(--bone)}
+
+.drawer-body{padding:18px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:24px}
+.drawer-body::-webkit-scrollbar{width:4px}
+.drawer-body::-webkit-scrollbar-thumb{background:var(--rust)}
+
+.drawer-section-title{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.25em;color:var(--fog);text-transform:uppercase;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--grave)}
+
+/* Year buttons inside drawer */
+.ctrl-label{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.2em;color:var(--fog);text-transform:uppercase;white-space:nowrap}
+.year-buttons{display:flex;flex-wrap:wrap;gap:5px}
+.year-btn{background:var(--crypt);border:1px solid var(--grave);color:var(--ash);font-family:var(--font-mono);font-size:.65rem;padding:5px 10px;cursor:pointer;transition:all .12s;white-space:nowrap;border-radius:var(--radius)}
+.year-btn:hover{border-color:var(--ash);color:var(--bone)}
+.year-btn.active{background:var(--blood);border-color:var(--blood);color:var(--bone)}
+
+.drawer-year-actions{display:flex;gap:6px;margin-bottom:10px}
+
+/* Type buttons inside drawer */
+.type-btn{background:var(--crypt);border:1px solid var(--grave);font-family:var(--font-mono);font-size:.65rem;padding:6px 14px;cursor:pointer;transition:all .12s;text-transform:uppercase;letter-spacing:.08em;border-radius:var(--radius);-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none;width:100%;text-align:left;margin-bottom:5px;color:var(--ash)}
+.type-btn:focus{outline:none}
+.year-btn:focus,.action-btn:focus,.a11y-btn:focus,.loc-btn:focus,.menu-btn:focus{outline:none}
+.year-btn:focus:not(:focus-visible),.action-btn:focus:not(:focus-visible),.a11y-btn:focus:not(:focus-visible),.loc-btn:focus:not(:focus-visible),.type-btn:focus:not(:focus-visible){background:transparent;box-shadow:none}
+.type-btn.tb-house{color:#C0392B;border-color:rgba(192,57,43,.3)}
+.type-btn.tb-scarezone{color:#A0522D;border-color:rgba(160,82,45,.3)}
+.type-btn.tb-show{color:#8B7536;border-color:rgba(139,117,54,.3)}
+.type-btn.tb-note{color:#6B3FA0;border-color:rgba(107,63,160,.3)}
+.type-btn.tb-day{color:var(--ash);border-color:var(--grave);padding:4px 8px}
+.type-btn.tb-ip{color:#C0392B;border-color:rgba(192,57,43,.3)}
+.type-btn.tb-orig{color:#2E7D52;border-color:rgba(46,125,82,.3)}
+.type-btn.tb-untagged{color:var(--fog);border-color:var(--grave)}
+.type-btn.tb-house.active{background:var(--blood);color:var(--bone);border-color:var(--blood)}
+.type-btn.tb-scarezone.active{background:#7A3A18;color:var(--bone);border-color:#7A3A18}
+.type-btn.tb-show.active{background:#5C4A1A;color:var(--bone);border-color:#5C4A1A}
+.type-btn.tb-note.active{background:#4A2878;color:var(--bone);border-color:#4A2878}
+.type-btn.tb-day.active{background:var(--rust);color:var(--bone);border-color:var(--rust)}
+.type-btn.tb-ip.active{background:var(--blood);color:var(--bone);border-color:var(--blood)}
+.type-btn.tb-orig.active{background:#1E5C38;color:var(--bone);border-color:#1E5C38}
+.type-btn.tb-untagged.active{background:var(--fog);color:var(--void);border-color:var(--fog)}
+
+.drawer-footer{padding:14px 18px;border-top:1px solid var(--grave);display:flex;flex-direction:column;gap:8px;flex-shrink:0}
+
+/* Location filter chips */
+.loc-buttons{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
+.loc-btn{background:var(--crypt);border:1px solid var(--grave);color:var(--fog);font-family:var(--font-mono);font-size:.6rem;padding:3px 9px;cursor:pointer;transition:all .12s;white-space:nowrap;border-radius:var(--radius);letter-spacing:.03em}
+.loc-btn:hover{border-color:var(--ash);color:var(--bone)}
+.loc-btn.active{background:var(--rust);border-color:var(--rust);color:var(--bone)}
+.loc-actions{display:flex;gap:6px;margin-bottom:10px}
+.loc-type-group{margin-bottom:12px}
+.loc-type-label{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;padding:3px 8px;margin-bottom:6px;display:inline-flex;border-left:2px solid;opacity:.85;color:var(--ash);border-color:var(--fog)}
+.drawer-active-badge{display:inline-block;background:var(--blood);color:var(--bone);font-family:var(--font-mono);font-size:.55rem;padding:1px 5px;border-radius:2px;margin-left:6px;vertical-align:middle}
+
+/* status / loading */
+@keyframes shimmer{0%{left:-40%}100%{left:100%}}
+#loadingBar{display:none;background:var(--blood);height:2px;width:100%;position:relative;overflow:hidden}
+#loadingBar div{position:absolute;height:100%;width:40%;background:rgba(255,255,255,.2);animation:shimmer 1s infinite linear}
+#statusMsg{display:none;margin:10px 20px;font-family:var(--font-mono);font-size:.72rem;padding:10px 14px;border:1px solid;line-height:1.5;transition:opacity .6s ease}
+.status-loading{color:var(--ash);border-color:var(--grave);background:rgba(255,255,255,.02)}
+.status-ok{color:var(--green);border-color:rgba(46,125,82,.3);background:rgba(46,125,82,.05)}
+.status-warn{color:var(--orange);border-color:rgba(192,98,10,.3);background:rgba(192,98,10,.05)}
+
+/* stats */
+.stats-bar{padding:6px 20px;background:var(--pit);border-bottom:1px solid var(--grave);display:flex;gap:16px;flex-wrap:wrap;position:relative;z-index:1}
+.stat{font-family:var(--font-mono);font-size:.65rem;color:var(--ash)}
+.stat b{color:var(--bone)}
+
+/* main */
+main{padding:20px;max-width:1500px;margin:0 auto;position:relative;z-index:1}
+
+/* year section */
+.year-section{margin-bottom:48px;animation:fadeUp .22s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.year-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--grave);position:relative}
+.year-header::after{content:'';position:absolute;bottom:-1px;left:0;width:60px;height:1px;background:var(--blood)}
+.year-label{font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--bone);text-shadow:0 0 20px rgba(139,0,0,.3);line-height:1;display:inline-flex;align-items:center;gap:8px}
+.year-weather-tag{font-family:var(--font-mono);font-size:.6rem;color:var(--ash);border:1px solid var(--grave);padding:3px 8px;background:var(--crypt);white-space:nowrap;align-self:center;letter-spacing:.05em}
+.hhn-number-tag{font-family:var(--font-mono);font-size:.6rem;color:var(--bone);border:1px solid var(--rust);padding:3px 8px;background:rgba(139,0,0,.15);white-space:nowrap;align-self:center;letter-spacing:.08em}
+.year-count{font-family:var(--font-mono);font-size:.6rem;color:var(--fog);background:var(--crypt);border:1px solid var(--grave);padding:3px 8px}
+.year-count-group{margin-left:auto;display:flex;gap:6px;align-items:center}
+
+/* type group within year */
+.type-group{margin-bottom:20px}
+.type-group-header{font-family:var(--font-display);font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;padding:4px 12px;margin-bottom:10px;display:inline-flex;align-items:center;gap:6px;border-left:2px solid}
+.tgh-house{color:var(--blood-lt);border-color:var(--blood);background:rgba(139,0,0,.08)}
+.tgh-scarezone{color:#A0522D;border-color:#5C3317;background:rgba(92,51,23,.08)}
+.tgh-show{color:#8B7536;border-color:#5C4A1A;background:rgba(92,74,26,.08)}
+.tgh-note{color:#6B3FA0;border-color:#3A1F60;background:rgba(58,31,96,.08)}
+
+/* cards */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1px;background:var(--grave)}
+.card{background:var(--pit);padding:16px 18px;position:relative;transition:background .15s,border-color .15s;overflow:hidden;animation:cardIn .3s ease both;cursor:pointer;border:none}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;transition:background .15s}
+.card-house::before{background:var(--blood)}
+.card-scarezone::before{background:#5C3317}
+.card-show::before{background:#2C4A3E}
+.card-note::before{background:#3A1F60}
+.card:hover{background:var(--crypt)}
+.card-title{font-family:var(--font-display);font-size:.95rem;font-weight:600;color:var(--bone);line-height:1.3;margin-bottom:8px}
+.card-title mark{background:rgba(139,0,0,.35);color:var(--bone);border-radius:2px;padding:0 2px}
+.card-meta{display:flex;flex-wrap:wrap;gap:5px}
+.meta-tag{font-family:var(--font-mono);font-size:.6rem;color:var(--fog);background:transparent;border:none;padding:0;letter-spacing:.04em}
+.meta-date{color:var(--ash)}
+.meta-loc{color:var(--fog)}
+.meta-day{color:var(--ash)}
+.card-inner{position:relative;padding-right:0}
+.ip-badge{position:absolute;top:0;right:0;font-family:var(--font-mono);font-size:.55rem;padding:2px 7px;letter-spacing:.1em;text-transform:uppercase}
+.ip-badge-ip{background:var(--rust);color:var(--parchment)}
+.ip-badge-orig{background:#1E5C38;color:var(--parchment)}
+
+/* ── Checklist tick ── */
+.card-check{position:absolute;bottom:10px;right:12px;width:20px;height:20px;border:1px solid var(--grave);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;font-size:.7rem;color:var(--fog);transition:all .15s;background:var(--crypt);z-index:5;flex-shrink:0}
+.card.checked .card-check{background:var(--green);border-color:var(--green);color:var(--void)}
+.card.checked{outline:1px solid rgba(46,125,82,.3)}
+.card.checked::after{content:'';position:absolute;inset:0;background:rgba(46,125,82,.04);pointer-events:none}
+
+/* ── IP appearances badge on cards ── */
+.ip-appearances{font-family:var(--font-mono);font-size:.6rem;color:var(--ash);border:1px solid var(--grave);padding:1px 6px;background:var(--crypt);white-space:nowrap;cursor:pointer;transition:all .15s;display:inline-block;border-radius:var(--radius)}
+.ip-appearances:hover{border-color:var(--bone);color:var(--bone)}
+.ip-appearances.ip-filter-active{background:var(--rust);border-color:var(--rust);color:var(--bone)}
+.ip-first{color:var(--parchment);border-color:var(--rust);background:rgba(122,40,40,.15)}
+.ip-last{color:var(--ash);border-color:var(--grave);background:rgba(107,63,160,.1)}
+.ip-filter-banner{font-family:var(--font-mono);font-size:.65rem;color:var(--parchment);border:1px solid var(--rust);padding:2px 10px;background:rgba(139,0,0,.15);cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap;border-radius:var(--radius)}
+.ip-filter-banner:hover{background:rgba(139,0,0,.25)}
+
+.empty{text-align:center;padding:80px 20px;font-family:var(--font-display);color:var(--fog);font-size:1.4rem;letter-spacing:.1em}
+
+/* scrollbar */
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--void)}
+::-webkit-scrollbar-thumb{background:var(--rust);border-radius:2px}
+
+footer{text-align:center;padding:28px 20px;border-top:1px solid var(--grave);margin-top:28px;font-family:var(--font-mono);font-size:.6rem;color:var(--fog);letter-spacing:.15em;position:relative;z-index:1}
+
+@media(max-width:600px){
+  .cards-grid{grid-template-columns:1fr}
+  .site-title{font-size:3rem}
+  .year-header{flex-wrap:wrap}
+  .year-count{margin-left:0}
+  main{padding:12px}
+  .stats-bar{padding-left:12px;padding-right:12px}
+}
+
+/* Hover effects — only on pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .type-btn.tb-house:hover{background:var(--blood);color:var(--bone);border-color:var(--blood)}
+  .type-btn.tb-scarezone:hover{background:#7A3A18;color:var(--bone);border-color:#7A3A18}
+  .type-btn.tb-show:hover{background:#5C4A1A;color:var(--bone);border-color:#5C4A1A}
+  .type-btn.tb-note:hover{background:#4A2878;color:var(--bone);border-color:#4A2878}
+  .type-btn.tb-day:hover{background:var(--rust);color:var(--bone);border-color:var(--rust)}
+  .type-btn.tb-ip:hover{background:var(--blood);color:var(--bone);border-color:var(--blood)}
+  .type-btn.tb-orig:hover{background:#1E5C38;color:var(--bone);border-color:#1E5C38}
+  .type-btn.tb-untagged:hover{background:var(--fog);color:var(--void);border-color:var(--fog)}
+}
+
+/* ── Welcome popup ── */
+.popup-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadeInOverlay .3s ease}
+@keyframes fadeInOverlay{from{opacity:0}to{opacity:1}}
+.popup{background:var(--pit);border:1px solid var(--grave);max-width:420px;width:100%;position:relative;animation:popIn .35s cubic-bezier(.34,1.56,.64,1)}
+@keyframes popIn{from{opacity:0;transform:scale(.92) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.popup-top{background:linear-gradient(180deg,#0A0A0A,#111);padding:24px 24px 16px;text-align:center;border-bottom:1px solid var(--grave);position:relative}
+.popup-top::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--blood),transparent)}
+.popup-skull{font-size:2.8rem;line-height:1;margin-bottom:8px}
+.popup-title{font-family:var(--font-display);font-size:1.6rem;color:var(--bone);letter-spacing:.05em;text-shadow:0 0 20px rgba(139,0,0,.4)}
+.popup-body{padding:20px 24px}
+.popup-msg{font-family:var(--font-body);font-size:1rem;color:var(--parchment);line-height:1.7;margin-bottom:18px}
+.popup-msg strong{color:var(--bone)}
+.popup-links{display:flex;flex-direction:column;gap:8px;margin-bottom:18px}
+.popup-link-btn{display:flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid;text-decoration:none;font-family:var(--font-mono);font-size:.65rem;letter-spacing:.08em;transition:all .15s;text-transform:uppercase}
+.popup-link-btn .btn-icon{font-size:1.1rem;flex-shrink:0}
+.popup-link-btn .btn-label{flex:1}
+.popup-link-btn .btn-arrow{opacity:.5;font-size:.8rem}
+.btn-spotify{color:#1db954;border-color:rgba(29,185,84,.35);background:rgba(29,185,84,.05)}
+.btn-apple{color:#fc3c44;border-color:rgba(252,60,68,.35);background:rgba(252,60,68,.05)}
+.btn-web{color:var(--parchment-dim);border-color:var(--border);background:rgba(255,255,255,.02)}
+.popup-footer{display:flex;gap:8px;padding-top:4px}
+.popup-dismiss{flex:1;background:var(--blood);border:none;color:var(--bone);font-family:var(--font-mono);font-size:.65rem;padding:10px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase;transition:background .15s}
+.popup-dismiss:hover{background:var(--blood-lt)}
+.popup-later{background:transparent;border:1px solid var(--grave);color:var(--ash);font-family:var(--font-mono);font-size:.65rem;padding:10px 14px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:all .15s;white-space:nowrap}
+.popup-later:hover{border-color:var(--ash);color:var(--bone)}
+.popup-close{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--grave);color:var(--fog);width:26px;height:26px;cursor:pointer;font-size:.8rem;display:flex;align-items:center;justify-content:center;transition:all .15s;font-family:var(--font-mono)}
+.popup-close:hover{border-color:var(--ash);color:var(--bone)}
+@media(max-width:480px){.popup-title{font-size:1.5rem}.popup-msg{font-size:.85rem}}
+
+/* ── Generic Modal ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:800;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .22s ease}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal{background:var(--pit);border:1px solid var(--grave);max-width:560px;width:100%;max-height:85vh;display:flex;flex-direction:column;position:relative;animation:popIn .3s cubic-bezier(.34,1.56,.64,1)}
+.modal-header{padding:16px 20px 14px;border-bottom:1px solid var(--grave);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;background:linear-gradient(180deg,#0A0A0A,#111111)}
+.modal-header::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--blood),transparent)}
+.modal-title{font-family:var(--font-display);font-size:1.2rem;color:var(--bone);letter-spacing:.1em;text-transform:uppercase}
+.modal-close{background:transparent;border:1px solid var(--grave);color:var(--fog);width:28px;height:28px;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:all .15s;font-family:var(--font-mono)}
+.modal-close:hover{border-color:var(--ash);color:var(--bone)}
+.modal-body{padding:20px;overflow-y:auto;flex:1}
+.modal-body::-webkit-scrollbar{width:4px}
+.modal-body::-webkit-scrollbar-thumb{background:var(--red-dim)}
+
+/* ── This Day in HHN modal ── */
+.today-empty{font-family:var(--font-body);color:var(--ash);font-size:1rem;text-align:center;padding:30px 0}
+.today-card{background:var(--card);border:1px solid var(--grave);padding:12px 14px;margin-bottom:8px;display:flex;align-items:flex-start;gap:12px}
+.today-year-badge{font-family:var(--font-display);font-size:1.4rem;color:var(--red);min-width:52px;line-height:1}
+.today-info{flex:1}
+.today-name{font-family:var(--font-body);font-size:.92rem;color:var(--parchment);margin-bottom:4px}
+.today-meta{font-family:var(--font-mono);font-size:.7rem;color:var(--ash)}
+
+/* ── Checklist modal ── */
+.checklist-actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.checklist-actions .action-btn{font-size:.72rem;padding:5px 10px}
+.checklist-progress{font-family:var(--font-mono);font-size:.65rem;color:var(--ash);margin-bottom:12px}
+.checklist-progress b{color:var(--green)}
+.cl-year-group{margin-bottom:16px}
+.cl-year-label{font-family:var(--font-display);font-size:1rem;font-weight:700;color:var(--bone);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--grave);letter-spacing:.05em}
+.cl-item{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--grave);cursor:pointer}
+.cl-item:last-child{border-bottom:none}
+.cl-check{width:18px;height:18px;border:1px solid var(--grave);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:.65rem;flex-shrink:0;transition:all .12s}
+.cl-item.checked .cl-check{background:var(--green);border-color:var(--green);color:#000}
+.cl-name{font-family:var(--font-body);font-size:.95rem;color:var(--parchment);flex:1}
+.cl-item.checked .cl-name{color:var(--ash);text-decoration:line-through}
+.cl-type{font-family:var(--font-mono);font-size:.6rem;color:var(--fog)}
+
+/* ── Stats page ── */
+#statsPage{display:none;padding:20px;max-width:1200px;margin:0 auto;animation:fadeUp .25s ease}
+.stats-page-header{display:flex;align-items:center;gap:14px;margin-bottom:28px;padding-bottom:14px;border-bottom:1px solid var(--grave)}
+.stats-back-btn{background:var(--crypt);border:1px solid var(--grave);color:var(--ash);font-family:var(--font-mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;padding:7px 14px;cursor:pointer;transition:all .12s;white-space:nowrap;border-radius:var(--radius)}
+.stats-back-btn:hover{background:var(--blood);border-color:var(--blood);color:var(--bone)}
+.stats-page-title{font-family:var(--font-display);font-size:1.8rem;font-weight:700;color:var(--bone);letter-spacing:.05em}
+
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:28px}
+.stat-card{background:var(--card);border:1px solid var(--grave);padding:18px 20px;position:relative;overflow:hidden}
+.stat-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%}
+.stat-card.sc-red::before{background:var(--red)}
+.stat-card.sc-orange::before{background:var(--orange)}
+.stat-card.sc-yellow::before{background:var(--yellow)}
+.stat-card.sc-green::before{background:var(--green)}
+.stat-card.sc-purple::before{background:var(--purple)}
+.stat-card.sc-blue::before{background:#7fb3d3}
+.stat-card-label{font-family:var(--font-mono);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:var(--fog);margin-bottom:6px}
+.stat-card-value{font-family:var(--font-display);font-weight:700;font-size:2.2rem;color:var(--bone);line-height:1}
+.stat-card-sub{font-family:var(--font-body);font-size:.9rem;color:var(--ash);margin-top:4px}
+
+.stats-section-title{font-family:var(--font-display);font-size:1rem;font-weight:700;color:var(--bone);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--grave);letter-spacing:.2em;text-transform:uppercase;position:relative}
+.stats-section-title::after{content:'';position:absolute;bottom:-1px;left:0;width:60px;height:1px;background:var(--blood)}
+
+/* Bar charts */
+.bar-chart{margin-bottom:28px}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.bar-label{font-family:var(--font-mono);font-size:.6rem;color:var(--ash);width:180px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{flex:1;background:var(--border);height:18px;position:relative;overflow:hidden}
+.bar-fill{height:100%;transition:width .6s ease;position:relative}
+.bar-fill::after{content:attr(data-val);position:absolute;right:6px;top:50%;transform:translateY(-50%);font-family:var(--font-mono);font-size:.65rem;color:rgba(255,255,255,.8);white-space:nowrap}
+.bar-fill-red{background:linear-gradient(90deg,var(--red-dim),var(--red))}
+.bar-fill-orange{background:linear-gradient(90deg,var(--orange-dim),var(--orange))}
+.bar-fill-yellow{background:linear-gradient(90deg,#8a7000,var(--yellow))}
+.bar-fill-green{background:linear-gradient(90deg,#1a5c38,var(--green))}
+.bar-fill-blue{background:linear-gradient(90deg,#3a607a,#7fb3d3)}
+.bar-fill-purple{background:linear-gradient(90deg,#4a1f6a,var(--purple))}
+
+/* Fun facts */
+.fun-facts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:28px}
+.fun-fact{background:var(--card);border:1px solid var(--grave);padding:16px 18px}
+.fun-fact-emoji{font-size:1.6rem;margin-bottom:8px}
+.fun-fact-label{font-family:var(--font-mono);font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;color:var(--fog);margin-bottom:4px}
+.fun-fact-value{font-family:var(--font-body);font-size:1rem;color:var(--parchment);line-height:1.4}
+
+/* IP Tracker table */
+.ip-table{width:100%;border-collapse:collapse;margin-bottom:28px}
+.ip-table th{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ash);padding:8px 10px;border-bottom:1px solid var(--grave);text-align:left}
+.ip-table td{font-family:var(--font-body);font-size:.85rem;color:var(--bone);padding:7px 10px;border-bottom:1px solid var(--grave)}
+.ip-table tr:hover td{background:rgba(192,57,43,.04)}
+.ip-table .td-count{font-family:var(--font-mono);color:var(--orange);font-weight:bold}
+.ip-table .td-year{font-family:var(--font-mono);font-size:.75rem;color:var(--ash)}
+.ip-table .td-first{color:var(--yellow)}
+.ip-table .td-last{color:var(--purple)}
+.ip-years-pills{display:flex;flex-wrap:wrap;gap:3px}
+.ip-year-pill{font-family:var(--font-mono);font-size:.6rem;padding:1px 5px;border:1px solid var(--grave);color:var(--ash);border-radius:2px}
+
+@media(max-width:600px){
+  .bar-label{width:110px;font-size:.65rem}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .stat-card-value{font-size:2rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="drip-bar" id="drips"></div>
+  <div class="fog-wrap">
+    <div class="fog" style="--fd:20s;--fdelay:0s"></div>
+    <div class="fog fog2" style="--fd:15s;--fdelay:-5s"></div>
+    <div class="fog fog3" style="--fd:12s;--fdelay:-8s"></div>
+  </div>
+  <div class="ember-wrap" id="embers"></div>
+  <div class="site-title">HHN TRACKER</div>
+  <div class="site-sub">Please Follow <a href="https://www.pangolinfl.com/" target="_blank" rel="noopener" style="color:var(--parchment);text-decoration:none;border-bottom:1px dashed var(--parchment-dim);transition:color .15s" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--parchment)'">@PangolinFL</a></div>
+  <div class="site-sub">Halloween Horror Nights &bull; Full Tracker Archive &bull; 1991 – PRESENT</div>
+  <div class="site-sub" style="margin-top:8px">Also check out the <a href="https://pangolinfl.github.io/HHNDB/" target="_blank" rel="noopener" style="color:var(--red);text-decoration:none;border-bottom:1px dashed var(--red-dim);transition:color .15s" onmouseover="this.style.color='#e74c3c'" onmouseout="this.style.color='var(--red)'">HHN DB ↗</a></div>
+</header>
+
+<!-- Drawer overlay -->
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+
+<!-- Slide-in drawer -->
+<div class="drawer" id="drawer">
+  <div class="drawer-header">
+    <div class="drawer-title">Filters</div>
+    <button class="drawer-close" onclick="closeDrawer()">✕</button>
+  </div>
+  <div class="drawer-body">
+    <div>
+      <div class="drawer-section-title">Year</div>
+      <div class="drawer-year-actions">
+        <button class="action-btn" onclick="selectAll()">All</button>
+        <button class="action-btn" onclick="clearAll()">Clear</button>
+      </div>
+      <div class="year-buttons" id="yearBtns"></div>
+    </div>
+    <div>
+      <div class="drawer-section-title">Type</div>
+      <button class="type-btn tb-house active" data-type="HOUSE" onclick="toggleType(this)">🏚 Houses</button>
+      <button class="type-btn tb-scarezone active" data-type="SCAREZONE" onclick="toggleType(this)">🌫 Scare Zones</button>
+      <button class="type-btn tb-show active" data-type="SHOW" onclick="toggleType(this)">🎭 Shows</button>
+      <button class="type-btn tb-note active" data-type="NOTE" onclick="toggleType(this)">📌 Notes</button>
+    </div>
+    <div>
+      <div class="drawer-section-title">IP or Original</div>
+      <button class="type-btn tb-ip active" data-ip="IP" onclick="toggleIP(this)">🎬 IP</button>
+      <button class="type-btn tb-orig active" data-ip="ORIG" onclick="toggleIP(this)">✨ Original</button>
+      <button class="type-btn tb-untagged active" data-ip="NONE" onclick="toggleIP(this)">— Untagged</button>
+    </div>
+    <div>
+      <div class="drawer-section-title">Day of Week</div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px">
+        <button class="type-btn tb-day active" data-day="Mon" onclick="toggleDay(this)">Mon</button>
+        <button class="type-btn tb-day active" data-day="Tue" onclick="toggleDay(this)">Tue</button>
+        <button class="type-btn tb-day active" data-day="Wed" onclick="toggleDay(this)">Wed</button>
+        <button class="type-btn tb-day active" data-day="Thu" onclick="toggleDay(this)">Thu</button>
+        <button class="type-btn tb-day active" data-day="Fri" onclick="toggleDay(this)">Fri</button>
+        <button class="type-btn tb-day active" data-day="Sat" onclick="toggleDay(this)">Sat</button>
+        <button class="type-btn tb-day active" data-day="Sun" onclick="toggleDay(this)">Sun</button>
+        <button class="type-btn tb-day active" data-day="NONE" onclick="toggleDay(this)">— Untagged</button>
+      </div>
+    </div>
+    <div>
+      <div class="drawer-section-title">Location <span id="locBadge" class="drawer-active-badge" style="display:none"></span></div>
+      <div class="loc-actions">
+        <button class="action-btn" onclick="selectAllLocs()">All</button>
+        <button class="action-btn" onclick="clearAllLocs()">Clear</button>
+      </div>
+      <div class="loc-type-group">
+        <div class="loc-type-label tgh-house">🏚 Houses</div>
+        <div class="loc-buttons" id="locBtnsHouse"></div>
+      </div>
+      <div class="loc-type-group">
+        <div class="loc-type-label tgh-scarezone">🌫 Scare Zones</div>
+        <div class="loc-buttons" id="locBtnsScarezone"></div>
+      </div>
+      <div class="loc-type-group">
+        <div class="loc-type-label tgh-show">🎭 Shows</div>
+        <div class="loc-buttons" id="locBtnsShow"></div>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-footer">
+    <button class="action-btn" onclick="fetchSheets()" style="width:100%;justify-content:center">↻ Reload Data</button>
+    <button class="a11y-btn" id="a11yBtn" onclick="toggleA11y()" style="width:100%;justify-content:center">⚡ High Contrast</button>
+  </div>
+</div>
+
+<!-- Top bar -->
+<div class="topbar">
+  <button class="menu-btn" onclick="openDrawer()" title="Open filters">☰ Filters</button>
+  <input class="search-input" id="searchInput" type="text" placeholder="Search attractions, locations, years…" oninput="activeIPFilter=null;render()">
+  <div class="topbar-right">
+    <button class="action-btn" onclick="openTodayModal()" title="This Day in HHN History">📅 Today</button>
+    <button class="action-btn" onclick="randomYear()" title="Jump to a random year">🎲 Random</button>
+    <button class="action-btn" onclick="openChecklistModal()">🩸 My HHN <span class="checklist-count" id="checklistCount"></span></button>
+    <button class="action-btn" onclick="showStatsPage()">📊 Stats</button>
+  </div>
+</div>
+
+<div id="loadingBar"><div></div></div>
+<div id="statusMsg"></div>
+<div class="stats-bar" id="statsBar"></div>
+
+<main id="main"></main>
+
+<!-- Stats page (hidden by default) -->
+<div id="statsPage"></div>
+
+<footer>HHN ARCHIVE &bull; 1991 – PRESENT &bull; DATA VIA @GARYPOUNDS ON TWITTER</footer>
+
+<!-- This Day in HHN modal -->
+<div class="modal-overlay" id="todayModal">
+  <div class="modal" style="max-width:500px">
+    <div class="modal-header">
+      <div class="modal-title" id="todayModalTitle">📅 This Day in HHN</div>
+      <button class="modal-close" onclick="closeModal('todayModal')">✕</button>
+    </div>
+    <div class="modal-body" id="todayModalBody"></div>
+  </div>
+</div>
+
+<!-- Checklist modal -->
+<div class="modal-overlay" id="checklistModal">
+  <div class="modal" style="max-width:600px">
+    <div class="modal-header">
+      <div class="modal-title">🩸 My HHN Checklist</div>
+      <button class="modal-close" onclick="closeModal('checklistModal')">✕</button>
+    </div>
+    <div class="modal-body" id="checklistModalBody"></div>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'hhn_data.json';
+const TYPE_ORDER = ['HOUSE','SCAREZONE','SHOW','NOTE'];
+const TYPE_LABELS = {HOUSE:'🏚 Houses',SCAREZONE:'🌫 Scare Zones',SHOW:'🎭 Shows',NOTE:'📌 Notes'};
+const TYPE_CLS = {HOUSE:'house',SCAREZONE:'scarezone',SHOW:'show',NOTE:'note'};
+
+let liveData = [];
+const WEATHER_DATA = {"1991":{"rain":false,"temp":76},"1992":{"rain":true,"temp":67},"1993":{"rain":true,"temp":70},"1994":{"rain":false,"temp":78},"1995":{"rain":false,"temp":80},"1996":{"rain":false,"temp":70},"1997":{"rain":false,"temp":76},"1998":{"rain":false,"temp":80},"1999":{"rain":false,"temp":79},"2000":{"rain":false,"temp":81},"2001":{"rain":false,"temp":78},"2002":{"rain":false,"temp":79},"2003":{"rain":false,"temp":74},"2004":{"rain":false,"temp":81},"2005":{"rain":false,"temp":80},"2006":{"rain":false,"temp":79},"2007":{"rain":false,"temp":78},"2008":{"rain":false,"temp":78},"2009":{"rain":true,"temp":82},"2010":{"rain":true,"temp":79},"2011":{"rain":true,"temp":73},"2012":{"rain":true,"temp":73},"2013":{"rain":false,"temp":79},"2014":{"rain":true,"temp":72},"2015":{"rain":false,"temp":80},"2016":{"rain":true,"temp":82},"2017":{"rain":false,"temp":81},"2018":{"rain":false,"temp":88},"2019":{"rain":false,"temp":86},"2020":{"rain":true,"temp":77},"2021":{"rain":true,"temp":77},"2022":{"rain":true,"temp":82},"2023":{"rain":true,"temp":77},"2024":{"rain":false,"temp":81},"2025":{"rain":false,"temp":81}};
+
+// HHN numbered event per year. 2020 was cancelled (no numbered event), so numbering
+// jumps from HHN 29 (2019) to HHN 30 (2021). This is permanent historical fact and
+// needs no future maintenance except extending the range for new years.
+const HHN_NUMBERS = {};
+(function buildHHNNumbers(){
+  for(let y=1991;y<=2019;y++) HHN_NUMBERS[y]=y-1990;
+  // 2020 intentionally has no number (event cancelled)
+  for(let y=2021;y<=2035;y++) HHN_NUMBERS[y]=y-1991;
+})();
+
+// First night of each HHN event. 2020 cancelled. Format: YYYY-MM-DD for easy Date parsing.
+const HHN_OPEN_DATES = {
+  1991:'1991-10-25', 1992:'1992-10-23', 1993:'1993-10-15', 1994:'1994-10-14',
+  1995:'1995-10-13', 1996:'1996-10-11', 1997:'1997-10-03', 1998:'1998-10-02',
+  1999:'1999-10-01', 2000:'2000-09-29', 2001:'2001-10-05', 2002:'2002-10-04',
+  2003:'2003-10-03', 2004:'2004-09-17', 2005:'2005-09-30', 2006:'2006-09-29',
+  2007:'2007-09-28', 2008:'2008-09-26', 2009:'2009-09-25', 2010:'2010-09-24',
+  2011:'2011-09-23', 2012:'2012-09-21', 2013:'2013-09-20', 2014:'2014-09-19',
+  2015:'2015-09-18', 2016:'2016-09-16', 2017:'2017-09-15', 2018:'2018-09-14',
+  2019:'2019-09-06', 2021:'2021-09-03', 2022:'2022-09-02', 2023:'2023-09-01',
+  2024:'2024-08-30', 2025:'2025-08-29', 2026:'2026-08-28'
+};
+
+// Returns days between an announcement date and the event open date for that year.
+// Negative = announced before event opened, Positive = announced after.
+// announcedVal can be a Date object or a date string.
+function daysBeforeOpen(year, announcedVal) {
+  if (!announcedVal || !HHN_OPEN_DATES[year]) return null;
+  const open = new Date(HHN_OPEN_DATES[year]);
+  const announced = announcedVal instanceof Date ? announcedVal : new Date(announcedVal);
+  if (isNaN(open) || isNaN(announced)) return null;
+  return Math.round((announced - open) / (1000 * 60 * 60 * 24));
+}
+
+let selectedYears = new Set();
+let selectedTypes = new Set(['HOUSE','SCAREZONE','SHOW','NOTE']);
+let selectedLocs = new Set();
+let selectedIPs = new Set(['IP','ORIG','NONE']);
+let selectedDays = new Set(['Mon','Tue','Wed','Thu','Fri','Sat','Sun','NONE']);
+let activeIPFilter = null;
+
+function filterByIPName(ipName, event) {
+  if (event) event.stopPropagation();
+  if (activeIPFilter === ipName) {
+    activeIPFilter = null;
+  } else {
+    activeIPFilter = ipName;
+    selectedYears = new Set([...new Set(liveData.map(d=>d.year))]);
+    buildYearBtns([...selectedYears].sort((a,b)=>b-a));
   }
-]
+  render();
+}
+
+function clearIPFilter() {
+  activeIPFilter = null;
+  render();
+}
+
+// ── Checklist (localStorage) ──────────────────
+let checkedItems = new Set();
+const CL_KEY = 'hhn-checklist-v1';
+
+function loadChecklist() {
+  try {
+    const raw = localStorage.getItem(CL_KEY);
+    if (raw) checkedItems = new Set(JSON.parse(raw));
+  } catch(e) {}
+  updateChecklistBadge();
+}
+function saveChecklist() {
+  try { localStorage.setItem(CL_KEY, JSON.stringify([...checkedItems])); } catch(e) {}
+  updateChecklistBadge();
+}
+function makeItemKey(d) {
+  return `${d.year}||${d.attraction}||${d.type}`;
+}
+function toggleCheck(key) {
+  if (checkedItems.has(key)) checkedItems.delete(key);
+  else checkedItems.add(key);
+  saveChecklist();
+  // update card UI if visible
+  const card = document.querySelector(`.card[data-key="${CSS.escape(key)}"]`);
+  if (card) {
+    card.classList.toggle('checked', checkedItems.has(key));
+    const chk = card.querySelector('.card-check');
+    if (chk) chk.textContent = checkedItems.has(key) ? '✓' : '';
+  }
+  // update checklist modal if open
+  const clItem = document.querySelector(`.cl-item[data-key="${CSS.escape(key)}"]`);
+  if (clItem) {
+    clItem.classList.toggle('checked', checkedItems.has(key));
+    const chk = clItem.querySelector('.cl-check');
+    if (chk) chk.textContent = checkedItems.has(key) ? '✓' : '';
+  }
+  updateChecklistBadge();
+}
+function updateChecklistBadge() {
+  const el = document.getElementById('checklistCount');
+  if (!el) return;
+  if (checkedItems.size > 0) {
+    el.textContent = checkedItems.size;
+    el.style.display = 'inline-block';
+  } else {
+    el.style.display = 'none';
+  }
+}
+
+// Export checklist
+function exportChecklist() {
+  const data = {
+    exported: new Date().toISOString(),
+    version: 1,
+    checked: [...checkedItems]
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'my-hhn-checklist.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// Import checklist
+function importChecklist() {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json';
+  input.onchange = e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      try {
+        const data = JSON.parse(ev.target.result);
+        if (data.checked && Array.isArray(data.checked)) {
+          checkedItems = new Set(data.checked);
+          saveChecklist();
+          openChecklistModal();
+          setStatus(`✅ Imported ${checkedItems.size} checked items!`, 'ok', 3000);
+          render();
+        } else throw new Error('Invalid format');
+      } catch(err) {
+        setStatus('⚠️ Could not import checklist file.', 'warn', 3000);
+      }
+    };
+    reader.readAsText(file);
+  };
+  input.click();
+}
+
+// Share checklist as URL
+function shareChecklist() {
+  try {
+    const encoded = btoa(JSON.stringify([...checkedItems]));
+    const url = `${location.origin}${location.pathname}?cl=${encoded}`;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        setStatus('✅ Share link copied to clipboard!', 'ok', 3000);
+      });
+    } else {
+      prompt('Copy this link to share your checklist:', url);
+    }
+  } catch(e) {
+    setStatus('⚠️ Could not generate share link.', 'warn', 3000);
+  }
+}
+
+// Load shared checklist from URL
+function loadSharedChecklist() {
+  try {
+    const params = new URLSearchParams(location.search);
+    const cl = params.get('cl');
+    if (cl) {
+      const items = JSON.parse(atob(cl));
+      checkedItems = new Set(items);
+      saveChecklist();
+      setStatus(`✅ Loaded shared checklist with ${checkedItems.size} items!`, 'ok', 4000);
+    }
+  } catch(e) {}
+}
+
+// ── IP appearance map (auto-calculated) ───────
+// Groups by ipName if present, otherwise by attraction name.
+// ipName is an optional field you can add to JSON entries to consolidate
+// variants of the same IP (e.g. "Stranger Things", "Stranger Things 4" → ipName: "Stranger Things").
+// Originals never need ipName — they are excluded entirely.
+let ipAppearanceMap = {}; // key: canonical IP name (normalized), value: {years:[], first, last, name, attractions:[]}
+
+function buildIPMap() {
+  ipAppearanceMap = {};
+  // Only for IP-tagged attractions (not NOTEs)
+  liveData.filter(d => d.ip === 'IP' && d.type !== 'NOTE').forEach(d => {
+    // Use ipName if provided, otherwise fall back to attraction name
+    const canonical = (d.ipName ? d.ipName : d.attraction).trim();
+    const key = canonical.toUpperCase();
+    if (!ipAppearanceMap[key]) {
+      ipAppearanceMap[key] = {years: new Set(), name: canonical, attractions: new Set()};
+    }
+    ipAppearanceMap[key].years.add(d.year);
+    ipAppearanceMap[key].attractions.add(d.attraction.trim());
+  });
+  // Convert sets to sorted arrays
+  Object.values(ipAppearanceMap).forEach(v => {
+    v.years = [...v.years].sort((a,b) => a-b);
+    v.first = v.years[0];
+    v.last = v.years[v.years.length-1];
+    v.count = v.years.length;
+    v.attractions = [...v.attractions].sort();
+  });
+}
+
+function getIPInfo(d) {
+  if (d.ip !== 'IP' || d.type === 'NOTE') return null;
+  // Look up by ipName first, fall back to attraction name
+  const canonical = (d.ipName ? d.ipName : d.attraction).trim().toUpperCase();
+  return ipAppearanceMap[canonical] || null;
+}
+
+// ── fetch ─────────────────────────────────────
+async function fetchSheets() {
+  setStatus('🩸 Loading Data…','loading');
+  showLoading(true);
+  try {
+    const res = await Promise.race([
+      fetch(DATA_URL),
+      new Promise((_,rej)=>setTimeout(()=>rej(new Error('Timeout')),10000))
+    ]);
+    if (!res.ok) throw new Error('HTTP '+res.status);
+    const json = await res.json();
+    if (!Array.isArray(json)||!json.length) throw new Error('Empty response');
+    liveData = json;
+    selectedYears = new Set();
+    buildIPMap();
+    const nonNotes = json.filter(r=>r.type!=='NOTE').length;
+    const notes = json.length-nonNotes;
+    setStatus(`✅ ${nonNotes} attractions + ${notes} notes loaded!`,'ok',4000);
+    refresh();
+  } catch(err) {
+    console.warn('Data load failed:',err.message);
+    setStatus('⚠️ Could not load data file ('+err.message+').','warn',5000);
+    refresh();
+  } finally { showLoading(false); }
+}
+
+function showLoading(on){document.getElementById('loadingBar').style.display=on?'block':'none'}
+
+let _statusTimer=null;
+function setStatus(msg,type,autoDismissMs){
+  const el=document.getElementById('statusMsg');
+  clearTimeout(_statusTimer);
+  el.style.opacity='1';
+  el.textContent=msg; el.className='status-'+type; el.style.display='block';
+  if(autoDismissMs){
+    _statusTimer=setTimeout(()=>{
+      el.style.opacity='0';
+      setTimeout(()=>{el.style.display='none';el.style.opacity='1';},650);
+    },autoDismissMs);
+  }
+}
+
+// ── year buttons ──────────────────────────────
+function refresh(){
+  const years=[...new Set(liveData.map(d=>d.year))].sort((a,b)=>b-a);
+  if (!selectedYears.size) selectedYears=new Set(years);
+  buildYearBtns(years);
+  buildLocBtns();
+  render();
+}
+
+function buildYearBtns(years){
+  const c=document.getElementById('yearBtns');
+  c.innerHTML='';
+  years.forEach(y=>{
+    const b=document.createElement('button');
+    b.className='year-btn'+(selectedYears.has(y)?' active':'');
+    b.textContent=y;
+    b.onclick=()=>{selectedYears.has(y)?selectedYears.delete(y):selectedYears.add(y);buildYearBtns(years);render()};
+    c.appendChild(b);
+  });
+}
+
+function selectAll(){selectedYears=new Set([...new Set(liveData.map(d=>d.year))]);refresh()}
+function clearAll(){selectedYears=new Set();const years=[...new Set(liveData.map(d=>d.year))].sort((a,b)=>b-a);buildYearBtns(years);render()}
+
+// ── type filter ───────────────────────────────
+function toggleType(btn){
+  const t=btn.dataset.type;
+  if(selectedTypes.has(t)){if(selectedTypes.size===1)return;selectedTypes.delete(t);btn.classList.remove('active');}
+  else{selectedTypes.add(t);btn.classList.add('active');}
+  render();
+}
+
+// ── render ────────────────────────────────────
+function render(){
+  const q=document.getElementById('searchInput').value.toLowerCase().trim();
+  const esc=q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+
+  const filtered=liveData.filter(d=>{
+    const ipKey=d.ip?d.ip:'NONE';
+    const dayKey=d.day?d.day:'NONE';
+    if(activeIPFilter){
+      const canonical=(d.ipName?d.ipName:d.attraction).trim();
+      if(canonical!==activeIPFilter) return false;
+    }
+    return selectedYears.has(d.year)&&
+    selectedTypes.has(d.type)&&
+    selectedIPs.has(ipKey)&&
+    selectedDays.has(dayKey)&&
+    (selectedLocs.size===0||selectedLocs.has(d.location)||(!d.location&&selectedLocs.size===0))&&
+    (!q||d.attraction.toLowerCase().includes(q)||d.location.toLowerCase().includes(q)||String(d.year).includes(q)||d.date.toLowerCase().includes(q)||(d.ip&&d.ip.toLowerCase().includes(q))||(d.day&&d.day.toLowerCase().includes(q)));
+  });
+
+  const years=[...new Set(filtered.map(d=>d.year))].sort((a,b)=>b-a);
+  const counts={};
+  TYPE_ORDER.forEach(t=>{counts[t]=filtered.filter(d=>d.type===t).length});
+  const attractionCount=filtered.filter(d=>d.type!=='NOTE').length;
+  const noteCount=counts['NOTE']||0;
+
+  document.getElementById('statsBar').innerHTML=
+    (activeIPFilter?`<button class="ip-filter-banner" onclick="clearIPFilter()">🔁 "${activeIPFilter}" &nbsp;✕ clear</button>`:'') +
+    `<div class="stat">Showing <b>${attractionCount}</b> attractions</div>`+
+    `<div class="stat">Years: <b>${years.length}</b></div>`+
+    TYPE_ORDER.filter(t=>t!=='NOTE'&&counts[t]>0).map(t=>`<div class="stat">${TYPE_LABELS[t].split(' ').slice(1).join(' ')}: <b>${counts[t]}</b></div>`).join('')+
+    (noteCount?`<div class="stat">${TYPE_LABELS['NOTE'].split(' ').slice(1).join(' ')}: <b>${noteCount}</b></div>`:'');
+
+  const main=document.getElementById('main');
+  if(!filtered.length){main.innerHTML='<div class="empty">Nothing Stirs in the Dark…</div>';return}
+
+  const byYear={};
+  filtered.forEach(d=>{(byYear[d.year]=byYear[d.year]||[]).push(d)});
+
+  main.innerHTML=years.map(year=>{
+    const entries=byYear[year];
+    const byType={};
+    entries.forEach(e=>{(byType[e.type]=byType[e.type]||[]).push(e)});
+
+    const typeGroups=TYPE_ORDER.filter(t=>byType[t]&&byType[t].length).map(t=>{
+      const cls=TYPE_CLS[t];
+      const cards=byType[t].map(e=>{
+        const key=makeItemKey(e);
+        const checked=checkedItems.has(key);
+        const title=q?e.attraction.replace(new RegExp(`(${esc})`,'gi'),'<mark>$1</mark>'):e.attraction;
+        const locHtml=q&&e.location?e.location.replace(new RegExp(`(${esc})`,'gi'),'<mark>$1</mark>'):e.location;
+        const ipBadge=e.ip==='IP'?'<div class="ip-badge ip-badge-ip">IP</div>':e.ip==='ORIG'?'<div class="ip-badge ip-badge-orig">ORIG</div>':'';
+        const pr=e.ip?'padding-right:50px':'';
+
+        // IP appearances info
+        const ipInfo=getIPInfo(e);
+        let ipMeta='';
+        if(ipInfo && ipInfo.count>1){
+          const isFirst=(ipInfo.first===year);
+          const isLast=(ipInfo.last===year);
+          const isActive=activeIPFilter===ipInfo.name;
+          const safeIP=ipInfo.name.replace(/'/g,"\\'");
+          ipMeta+=`<span class="meta-tag ip-appearances${isActive?' ip-filter-active':''}" onclick="filterByIPName('${safeIP}',event)" title="Click to show all ${ipInfo.count} appearances of ${ipInfo.name}">🔁 ${ipInfo.count}× appeared</span>`;
+          if(isFirst) ipMeta+=`<span class="meta-tag ip-first">⭐ First appearance</span>`;
+          if(isLast && ipInfo.last!==ipInfo.first) ipMeta+=`<span class="meta-tag ip-last">🔮 Last appearance</span>`;
+        } else if(ipInfo && ipInfo.count===1){
+          ipMeta+=`<span class="meta-tag ip-first">⭐ Only appearance</span>`;
+        }
+
+        return `<div class="card card-${cls}${checked?' checked':''}" data-key="${key.replace(/"/g,'&quot;')}" onclick="toggleCheck('${key.replace(/'/g,"\\'")}')">
+          <div class="card-inner">
+            ${ipBadge}
+            <div class="card-title" style="${pr}">${title}</div>
+          </div>
+          <div class="card-meta">
+            ${e.date?`<span class="meta-tag meta-date">📅 ${e.date}</span>`:''}
+            ${e.day?`<span class="meta-tag meta-day">📆 ${e.day}</span>`:''}
+            ${e.location?`<span class="meta-tag meta-loc">📍 ${locHtml}</span>`:''}
+            ${ipMeta}
+          </div>
+          <div class="card-check">${checked?'✓':''}</div>
+        </div>`;
+      }).join('');
+      return `<div class="type-group">
+        <div class="type-group-header tgh-${cls}">${TYPE_LABELS[t]} <span style="opacity:.6;font-size:.9em">(${byType[t].length})</span></div>
+        <div class="cards-grid">${cards}</div>
+      </div>`;
+    }).join('');
+
+    const w=WEATHER_DATA[String(year)];
+    const rainIcon=w&&w.rain?' 🌧️':'';
+    const tempTag=w?`<span class="year-weather-tag">${w.temp}°F avg</span>`:'';
+    const hhnNum=HHN_NUMBERS[year];
+    const hhnTag=hhnNum?`<span class="hhn-number-tag">HHN ${hhnNum}</span>`:'';
+    const yearNotes=entries.filter(e=>e.type==='NOTE').length;
+    return `<section class="year-section">
+      <div class="year-header">
+        <div class="year-label">${year}${rainIcon}</div>
+        ${hhnTag}
+        ${tempTag}
+        <div class="year-count-group">
+          <div class="year-count">${entries.filter(e=>e.type!=='NOTE').length} attractions</div>
+          ${yearNotes?`<div class="year-count" style="opacity:.6">${yearNotes} note${yearNotes!==1?'s':''}</div>`:''}
+        </div>
+      </div>
+      ${typeGroups}
+    </section>`;
+  }).join('');
+}
+
+// ── Location filter ───────────────────────────
+function getLocsByType(type){return[...new Set(liveData.filter(d=>d.type===type&&d.location).map(d=>d.location))].sort()}
+function getAllLocs(){return[...new Set(liveData.map(d=>d.location).filter(Boolean))].sort()}
+function buildLocBtns(){
+  const allLocs=getAllLocs();
+  [{type:'HOUSE',id:'locBtnsHouse'},{type:'SCAREZONE',id:'locBtnsScarezone'},{type:'SHOW',id:'locBtnsShow'}].forEach(({type,id})=>{
+    const locs=getLocsByType(type);
+    const container=document.getElementById(id);
+    container.innerHTML='';
+    locs.forEach(loc=>{
+      const b=document.createElement('button');
+      const isActive=selectedLocs.size===0||selectedLocs.has(loc);
+      b.className='loc-btn'+(isActive?' active':'');
+      b.textContent=loc;
+      b.onclick=()=>toggleLoc(loc);
+      container.appendChild(b);
+    });
+  });
+  const badge=document.getElementById('locBadge');
+  if(selectedLocs.size>0&&selectedLocs.size<allLocs.length){badge.textContent=selectedLocs.size+' selected';badge.style.display='inline-block';}
+  else badge.style.display='none';
+}
+function toggleLoc(loc){
+  const locs=getAllLocs();
+  if(selectedLocs.size===0){locs.forEach(l=>{if(l!==loc)selectedLocs.add(l)});}
+  else if(selectedLocs.has(loc)){selectedLocs.delete(loc);if(selectedLocs.size===0)selectedLocs=new Set();}
+  else{selectedLocs.add(loc);if(selectedLocs.size===locs.length)selectedLocs=new Set();}
+  buildLocBtns();render();
+}
+function selectAllLocs(){selectedLocs=new Set();buildLocBtns();render()}
+function clearAllLocs(){selectedLocs=new Set(['__NONE__']);buildLocBtns();render()}
+
+// ── IP / Day filter ───────────────────────────
+function toggleIP(btn){
+  const ip=btn.dataset.ip;
+  if(selectedIPs.has(ip)){if(selectedIPs.size===1)return;selectedIPs.delete(ip);btn.classList.remove('active');}
+  else{selectedIPs.add(ip);btn.classList.add('active');}
+  render();
+}
+function toggleDay(btn){
+  const day=btn.dataset.day;
+  if(selectedDays.has(day)){if(selectedDays.size===1)return;selectedDays.delete(day);btn.classList.remove('active');}
+  else{selectedDays.add(day);btn.classList.add('active');}
+  render();
+}
+
+// ── Drawer ────────────────────────────────────
+function openDrawer(){document.getElementById('drawer').classList.add('open');document.getElementById('drawerOverlay').classList.add('open');document.body.style.overflow='hidden'}
+function closeDrawer(){document.getElementById('drawer').classList.remove('open');document.getElementById('drawerOverlay').classList.remove('open');document.body.style.overflow=''}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDrawer();closeModal('todayModal');closeModal('checklistModal')}});
+
+// ── Modal helpers ─────────────────────────────
+function openModal(id){document.getElementById(id).classList.add('open');document.body.style.overflow='hidden'}
+function closeModal(id){document.getElementById(id).classList.remove('open');document.body.style.overflow=''}
+
+// ── This Day in HHN History ───────────────────
+function openTodayModal(){
+  const now=new Date();
+  const month=now.getMonth()+1;
+  const day=now.getDate();
+
+  // Parse dates from data — format varies but mostly "MM/DD" or "Month DD" style stored as strings
+  // We match against month/day numbers within the date string
+  const monthNames=['','january','february','march','april','may','june','july','august','september','october','november','december'];
+  const monthName=monthNames[month];
+
+  const matches=liveData.filter(d=>{
+    if(!d.date||d.type==='NOTE') return false;
+    const ds=d.date.toLowerCase();
+    // Try numeric: month/day pattern
+    const numRe=new RegExp(`\\b${month}[/\\-]${day}\\b`);
+    if(numRe.test(ds)) return true;
+    // Try named month + day
+    if(ds.includes(monthName)){
+      const dayRe=new RegExp(`\\b${day}\\b`);
+      if(dayRe.test(ds)) return true;
+    }
+    return false;
+  }).sort((a,b)=>a.year-b.year);
+
+  const monthLabel=['','January','February','March','April','May','June','July','August','September','October','November','December'][month];
+  document.getElementById('todayModalTitle').textContent=`📅 ${monthLabel} ${day} in HHN History`;
+
+  let html='';
+  if(!matches.length){
+    html=`<div class="today-empty">
+      <div style="font-size:2rem;margin-bottom:12px">🦇</div>
+      <div>No recorded HHN events on ${monthLabel} ${day}.</div>
+      <div style="margin-top:8px;font-size:.8rem;opacity:.6">Most HHN events run September–November</div>
+    </div>`;
+  } else {
+    html=`<div style="font-family:var(--font-mono);font-size:.72rem;color:var(--ash);margin-bottom:14px">${matches.length} event${matches.length!==1?'s':''} found on this date</div>`;
+    matches.forEach(d=>{
+      const cls=TYPE_CLS[d.type]||'house';
+      html+=`<div class="today-card">
+        <div class="today-year-badge" style="color:var(--red)">${d.year}</div>
+        <div class="today-info">
+          <div class="today-name">${d.attraction}</div>
+          <div class="today-meta">${d.type}${d.location?' · '+d.location:''}${d.ip&&d.ip!=='NONE'?' · '+d.ip:''}</div>
+        </div>
+      </div>`;
+    });
+  }
+
+  document.getElementById('todayModalBody').innerHTML=html;
+  openModal('todayModal');
+}
+
+// ── Random Year ───────────────────────────────
+function randomYear(){
+  const years=[...new Set(liveData.map(d=>d.year))];
+  if(!years.length) return;
+  const pick=years[Math.floor(Math.random()*years.length)];
+  // Set only that year active
+  selectedYears=new Set([pick]);
+  refresh();
+  closeDrawer();
+  // Scroll to top of main
+  setTimeout(()=>{document.getElementById('main').scrollIntoView({behavior:'smooth',block:'start'})},100);
+  setStatus(`🎲 Jumped to ${pick}!`,'ok',2500);
+}
+
+// ── Checklist modal ───────────────────────────
+function openChecklistModal(){
+  const attractions=liveData.filter(d=>d.type!=='NOTE').sort((a,b)=>b.year-a.year||(a.type>b.type?1:-1));
+  const years=[...new Set(attractions.map(d=>d.year))].sort((a,b)=>b-a);
+  const total=attractions.length;
+  const done=attractions.filter(d=>checkedItems.has(makeItemKey(d))).length;
+  const pct=total?Math.round(done/total*100):0;
+
+  let html=`<div class="checklist-progress">Attended: <b>${done}</b> / ${total} attractions (<b>${pct}%</b>)</div>`;
+  html+=`<div style="background:var(--border);height:4px;margin-bottom:16px;border-radius:2px;overflow:hidden"><div style="height:100%;width:${pct}%;background:var(--green);transition:width .4s ease;border-radius:2px"></div></div>`;
+  html+=`<div class="checklist-actions">
+    <button class="action-btn" onclick="exportChecklist()">⬇ Export</button>
+    <button class="action-btn" onclick="importChecklist()">⬆ Import</button>
+    <button class="action-btn" onclick="shareChecklist()">🔗 Share Link</button>
+    <button class="action-btn" style="border-color:var(--red-dim)" onclick="if(confirm('Clear all checked items?')){checkedItems=new Set();saveChecklist();openChecklistModal();render()}">✕ Clear All</button>
+  </div>`;
+
+  years.forEach(year=>{
+    const items=attractions.filter(d=>d.year===year);
+    html+=`<div class="cl-year-group"><div class="cl-year-label">${year}</div>`;
+    items.forEach(d=>{
+      const key=makeItemKey(d);
+      const checked=checkedItems.has(key);
+      const cls=TYPE_CLS[d.type]||'house';
+      html+=`<div class="cl-item${checked?' checked':''}" data-key="${key.replace(/"/g,'&quot;')}" onclick="toggleCheck('${key.replace(/'/g,"\\'")}');updateChecklistProgress()">
+        <div class="cl-check">${checked?'✓':''}</div>
+        <div class="cl-name">${d.attraction}</div>
+        <div class="cl-type">${d.type}${d.location?' · '+d.location:''}</div>
+      </div>`;
+    });
+    html+='</div>';
+  });
+
+  document.getElementById('checklistModalBody').innerHTML=html;
+  openModal('checklistModal');
+}
+
+function updateChecklistProgress(){
+  const attractions=liveData.filter(d=>d.type!=='NOTE');
+  const total=attractions.length;
+  const done=attractions.filter(d=>checkedItems.has(makeItemKey(d))).length;
+  const pct=total?Math.round(done/total*100):0;
+  const prog=document.querySelector('#checklistModalBody .checklist-progress');
+  if(prog) prog.innerHTML=`Attended: <b>${done}</b> / ${total} attractions (<b>${pct}%</b>)`;
+  const bar=document.querySelector('#checklistModalBody [style*="background:var(--green)"]');
+  if(bar) bar.style.width=pct+'%';
+}
+
+// ── Stats Page ────────────────────────────────
+function showStatsPage(){
+  document.getElementById('main').style.display='none';
+  document.getElementById('statsBar').style.display='none';
+  document.getElementById('statsPage').style.display='block';
+  buildStatsPage();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function hideStatsPage(){
+  document.getElementById('main').style.display='';
+  document.getElementById('statsBar').style.display='';
+  document.getElementById('statsPage').style.display='none';
+}
+
+function buildStatsPage(){
+  const data=liveData;
+  const attractions=data.filter(d=>d.type!=='NOTE');
+  const houses=attractions.filter(d=>d.type==='HOUSE');
+  const scarezones=attractions.filter(d=>d.type==='SCAREZONE');
+  const shows=attractions.filter(d=>d.type==='SHOW');
+  const ipItems=attractions.filter(d=>d.ip==='IP');
+  const origItems=attractions.filter(d=>d.ip==='ORIG');
+  const years=[...new Set(data.map(d=>d.year))].sort((a,b)=>a-b);
+  const totalYears=years.length;
+
+  // Houses per year
+  const housesByYear={};
+  years.forEach(y=>housesByYear[y]=houses.filter(d=>d.year===y).length);
+  const maxHousesYear=years.reduce((a,b)=>housesByYear[a]>=housesByYear[b]?a:b);
+
+  // Rainiest / hottest
+  const rainyYears=Object.entries(WEATHER_DATA).filter(([,v])=>v.rain).map(([k])=>+k);
+  const hottest=Object.entries(WEATHER_DATA).reduce((a,b)=>b[1].temp>a[1].temp?b:a);
+  const coolest=Object.entries(WEATHER_DATA).reduce((a,b)=>b[1].temp<a[1].temp?b:a);
+
+  // Returning IPs (appeared 2+ times)
+  const returningIPs=Object.values(ipAppearanceMap).filter(v=>v.count>1).sort((a,b)=>b.count-a.count);
+  const singleAppearanceIPs=Object.values(ipAppearanceMap).filter(v=>v.count===1);
+
+  // Top locations
+  const locCount={};
+  houses.forEach(d=>{if(d.location){locCount[d.location]=(locCount[d.location]||0)+1}});
+  const topLocs=Object.entries(locCount).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const maxLoc=topLocs[0]?topLocs[0][1]:1;
+
+  // Houses per year chart data
+  const maxHouses=Math.max(...Object.values(housesByYear));
+
+  // Attractions per year
+  const attrByYear={};
+  years.forEach(y=>attrByYear[y]=attractions.filter(d=>d.year===y).length);
+
+  let html=`<div class="stats-page-header">
+    <button class="stats-back-btn" onclick="hideStatsPage()">← Back to Tracker</button>
+    <div class="stats-page-title">HHN By The Numbers</div>
+  </div>`;
+
+  // Key stats grid
+  html+=`<div class="stats-grid">
+    <div class="stat-card sc-red"><div class="stat-card-label">Total Attractions</div><div class="stat-card-value">${attractions.length}</div><div class="stat-card-sub">Across ${totalYears} years of terror</div></div>
+    <div class="stat-card sc-orange"><div class="stat-card-label">Haunted Houses</div><div class="stat-card-value">${houses.length}</div><div class="stat-card-sub">Avg ${(houses.length/totalYears).toFixed(1)} per year</div></div>
+    <div class="stat-card sc-yellow"><div class="stat-card-label">Scare Zones</div><div class="stat-card-value">${scarezones.length}</div><div class="stat-card-sub">Avg ${(scarezones.length/totalYears).toFixed(1)} per year</div></div>
+    <div class="stat-card sc-purple"><div class="stat-card-label">Shows</div><div class="stat-card-value">${shows.length}</div><div class="stat-card-sub">Avg ${(shows.length/totalYears).toFixed(1)} per year</div></div>
+    <div class="stat-card sc-red"><div class="stat-card-label">IP Attractions</div><div class="stat-card-value">${ipItems.length}</div><div class="stat-card-sub">${attractions.length?Math.round(ipItems.length/attractions.length*100):0}% of all attractions</div></div>
+    <div class="stat-card sc-green"><div class="stat-card-label">Original Concepts</div><div class="stat-card-value">${origItems.length}</div><div class="stat-card-sub">${attractions.length?Math.round(origItems.length/attractions.length*100):0}% of all attractions</div></div>
+  </div>`;
+
+  // Fun facts
+  html+=`<div class="stats-section-title">🩸 Fun Facts & Records</div>`;
+  html+=`<div class="fun-facts-grid">
+    <div class="fun-fact"><div class="fun-fact-emoji">🏚</div><div class="fun-fact-label">Most Houses in a Single Year</div><div class="fun-fact-value">${maxHousesYear} — ${housesByYear[maxHousesYear]} haunted houses</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🔁</div><div class="fun-fact-label">Most Returning IP</div><div class="fun-fact-value">${returningIPs[0]?`${returningIPs[0].name} — appeared ${returningIPs[0].count} times (${returningIPs[0].first}–${returningIPs[0].last})`:'N/A'}</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🌧️</div><div class="fun-fact-label">Rainy Years</div><div class="fun-fact-value">${rainyYears.length} out of ${totalYears} years had notable rain</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🔥</div><div class="fun-fact-label">Hottest Year on Record</div><div class="fun-fact-value">${hottest[0]} — avg ${hottest[1].temp}°F</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🧊</div><div class="fun-fact-label">Coolest Year on Record</div><div class="fun-fact-value">${coolest[0]} — avg ${coolest[1].temp}°F</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">🎬</div><div class="fun-fact-label">Unique IP Franchises</div><div class="fun-fact-value">${Object.keys(ipAppearanceMap).length} distinct IP attractions tracked</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">⭐</div><div class="fun-fact-label">One-Time Only IPs</div><div class="fun-fact-value">${singleAppearanceIPs.length} IP attractions never returned</div></div>
+    <div class="fun-fact"><div class="fun-fact-emoji">📅</div><div class="fun-fact-label">Years Tracked</div><div class="fun-fact-value">HHN ${years[0]} through HHN ${years[years.length-1]}</div></div>
+  </div>`;
+
+  // Houses per year bar chart
+  html+=`<div class="stats-section-title">🏚 Houses Per Year</div><div class="bar-chart">`;
+  years.slice().reverse().forEach(y=>{
+    const count=housesByYear[y]||0;
+    const pct=maxHouses?Math.round(count/maxHouses*100):0;
+    html+=`<div class="bar-row"><div class="bar-label">${y}</div><div class="bar-track"><div class="bar-fill bar-fill-red" style="width:${pct}%" data-val="${count}"></div></div></div>`;
+  });
+  html+='</div>';
+
+  // Top house locations
+  if(topLocs.length){
+    html+=`<div class="stats-section-title">📍 Most Used House Locations</div><div class="bar-chart">`;
+    topLocs.forEach(([loc,count])=>{
+      const pct=Math.round(count/maxLoc*100);
+      html+=`<div class="bar-row"><div class="bar-label">${loc}</div><div class="bar-track"><div class="bar-fill bar-fill-orange" style="width:${pct}%" data-val="${count}x"></div></div></div>`;
+    });
+    html+='</div>';
+  }
+
+  // IP vs Original by year (houses only)
+  html+=`<div class="stats-section-title">🎬 IP vs ✨ Original Houses by Year</div><div class="bar-chart">`;
+  years.slice().reverse().forEach(y=>{
+    const yearAttr=houses.filter(d=>d.year===y);
+    const ipC=yearAttr.filter(d=>d.ip==='IP').length;
+    const origC=yearAttr.filter(d=>d.ip==='ORIG').length;
+    const total=yearAttr.length||1;
+    const ipPct=Math.round(ipC/total*100);
+    const origPct=Math.round(origC/total*100);
+    html+=`<div class="bar-row" style="margin-bottom:2px"><div class="bar-label">${y} IP</div><div class="bar-track"><div class="bar-fill bar-fill-red" style="width:${ipPct}%" data-val="${ipC}"></div></div></div>`;
+    html+=`<div class="bar-row" style="margin-bottom:8px"><div class="bar-label">${y} Orig</div><div class="bar-track"><div class="bar-fill bar-fill-green" style="width:${origPct}%" data-val="${origC}"></div></div></div>`;
+  });
+  html+='</div>';
+
+  // Returning IPs table
+  if(returningIPs.length){
+    html+=`<div class="stats-section-title">🔁 Returning IP Attractions</div>`;
+    html+=`<div style="overflow-x:auto"><table class="ip-table"><thead><tr><th>IP / Attraction</th><th>Times</th><th>First</th><th>Last</th><th>Years</th></tr></thead><tbody>`;
+    returningIPs.forEach(ip=>{
+      const safeIP=ip.name.replace(/'/g,"\\'");
+      html+=`<tr>
+        <td><span style="cursor:pointer;border-bottom:1px dashed var(--rust);color:var(--bone)" onclick="hideStatsPage();filterByIPName('${safeIP}',event)" title="Filter tracker by ${ip.name}">${ip.name}</span></td>
+        <td class="td-count">${ip.count}×</td>
+        <td class="td-first">${ip.first}</td>
+        <td class="td-last">${ip.last}</td>
+        <td><div class="ip-years-pills">${ip.years.map(y=>`<span class="ip-year-pill">${y}</span>`).join('')}</div></td>
+      </tr>`;
+    });
+    html+='</tbody></table></div>';
+  }
+
+  // ── House Announcement Stats ──────────────────────────────────────────
+  // Uses the existing `date` field on house entries (M/D/YYYY format = announcement date)
+  function parseEntryDate(str) {
+    if (!str) return null;
+    const d = new Date(str);
+    return isNaN(d) ? null : d;
+  }
+
+  const announceRows = [];
+  years.forEach(y => {
+    const yearHouses = houses.filter(d => d.year === y && d.date && d.year !== 2020);
+    if (!yearHouses.length) return;
+    const sorted = yearHouses.map(d => d.date)
+      .map(s => ({ s, d: parseEntryDate(s) }))
+      .filter(x => x.d)
+      .sort((a, b) => a.d - b.d);
+    if (!sorted.length) return;
+    const firstAnn = sorted[0].s;
+    const lastAnn  = sorted[sorted.length - 1].s;
+    const daysFirst = daysBeforeOpen(y, sorted[0].d);
+    const daysLast  = daysBeforeOpen(y, sorted[sorted.length - 1].d);
+    announceRows.push({ year: y, firstAnn, lastAnn, daysFirst, daysLast, count: yearHouses.length });
+  });
+
+  if (announceRows.length) {
+    // Summary fun-facts from this data
+    const earliestFirst = [...announceRows].sort((a,b) => a.daysFirst - b.daysFirst)[0];
+    const latestFirst   = [...announceRows].sort((a,b) => b.daysFirst - a.daysFirst)[0];
+    const earliestLast  = [...announceRows].sort((a,b) => a.daysLast  - b.daysLast)[0];
+    const latestLast    = [...announceRows].sort((a,b) => b.daysLast  - a.daysLast)[0];
+
+    function fmtDays(d) {
+      if (d === null) return '—';
+      if (d < 0) return `${Math.abs(d)}d before opening night`;
+      if (d === 0) return 'on opening night';
+      return `${d}d after opening night`;
+    }
+    function fmtDate(s) {
+      if (!s) return '—';
+      const [y,m,d] = s.split('-');
+      return new Date(s).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    }
+
+    html += `<div class="stats-section-title">📣 House Announcement Timing</div>`;
+    html += `<div class="fun-facts-grid" style="margin-bottom:20px">
+      <div class="fun-fact"><div class="fun-fact-emoji">⚡</div><div class="fun-fact-label">First Year to Start Revealing Houses</div><div class="fun-fact-value">${earliestFirst.year} — ${fmtDays(earliestFirst.daysFirst)} (${fmtDate(earliestFirst.firstAnn)})</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">🐢</div><div class="fun-fact-label">Last Year to Make First Reveal</div><div class="fun-fact-value">${latestFirst.year} — ${fmtDays(latestFirst.daysFirst)} (${fmtDate(latestFirst.firstAnn)})</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">🔔</div><div class="fun-fact-label">First Year to Finish All Reveals</div><div class="fun-fact-value">${earliestLast.year} — ${fmtDays(earliestLast.daysLast)} (${fmtDate(earliestLast.lastAnn)})</div></div>
+      <div class="fun-fact"><div class="fun-fact-emoji">🕯️</div><div class="fun-fact-label">Last Year to Finish All Reveals</div><div class="fun-fact-value">${latestLast.year} — ${fmtDays(latestLast.daysLast)} (${fmtDate(latestLast.lastAnn)})</div></div>
+    </div>`;
+
+    // Per-year table
+    html += `<div style="overflow-x:auto;margin-bottom:28px"><table class="ip-table">
+      <thead><tr>
+        <th>Year</th>
+        <th>First Announced</th>
+        <th>vs. Opening Night</th>
+        <th>Last Announced</th>
+        <th>vs. Opening Night</th>
+        <th>Houses w/ Date</th>
+      </tr></thead><tbody>`;
+    announceRows.slice().reverse().forEach(r => {
+      const df = r.daysFirst;
+      const dl = r.daysLast;
+      const dfColor = df < 0 ? 'var(--green)' : df === 0 ? 'var(--yellow)' : 'var(--orange)';
+      const dlColor = dl < 0 ? 'var(--green)' : dl === 0 ? 'var(--yellow)' : 'var(--orange)';
+      html += `<tr>
+        <td class="td-year">${r.year}</td>
+        <td>${fmtDate(r.firstAnn)}</td>
+        <td style="font-family:var(--font-mono);font-size:.75rem;color:${dfColor}">${df < 0 ? '−'+Math.abs(df)+'d' : df === 0 ? '0d' : '+'+df+'d'}</td>
+        <td>${fmtDate(r.lastAnn)}</td>
+        <td style="font-family:var(--font-mono);font-size:.75rem;color:${dlColor}">${dl < 0 ? '−'+Math.abs(dl)+'d' : dl === 0 ? '0d' : '+'+dl+'d'}</td>
+        <td class="td-count">${r.count}</td>
+      </tr>`;
+    });
+    html += '</tbody></table></div>';
+  }
+
+  document.getElementById('statsPage').innerHTML=html;
+}
+
+// ── Accessibility ─────────────────────────────
+function toggleA11y(){
+  const on=document.body.classList.toggle('hc');
+  document.getElementById('a11yBtn').innerHTML=on?'⚡ Standard':'⚡ Contrast';
+  try{localStorage.setItem('hhn-hc',on?'1':'');}catch(e){}
+}
+function initA11y(){
+  try{if(localStorage.getItem('hhn-hc')==='1'){document.body.classList.add('hc');document.getElementById('a11yBtn').innerHTML='⚡ Standard';}}catch(e){}
+}
+
+// ── init ──────────────────────────────────────
+function init(){
+  const bar=document.getElementById('drips');
+  for(let i=0;i<28;i++){
+    const d=document.createElement('div');
+    d.className='drip';
+    d.style.cssText=`--h1:${(Math.random()*10+4).toFixed(0)}px;--h2:${(Math.random()*38+10).toFixed(0)}px;--dur:${(Math.random()*2+2).toFixed(1)}s;--delay:${(Math.random()*3).toFixed(1)}s`;
+    bar.appendChild(d);
+  }
+  const emberWrap=document.getElementById('embers');
+  for(let i=0;i<28;i++){
+    const e=document.createElement('div');
+    e.className='ember'+(Math.random()>.5?' dim':'');
+    const left=(Math.random()*100).toFixed(1);
+    const drift=((Math.random()*60)-30).toFixed(0);
+    const drift2=((Math.random()*80)-40).toFixed(0);
+    e.style.cssText=`left:${left}%;--dur:${(Math.random()*5+4).toFixed(1)}s;--delay:${(Math.random()*8).toFixed(1)}s;--drift:${drift}px;--drift2:${drift2}px`;
+    emberWrap.appendChild(e);
+  }
+  initA11y();
+  loadChecklist();
+  loadSharedChecklist();
+  fetchSheets();
+}
+
+init();
+
+document.addEventListener('touchend',e=>{
+  const t=e.target;
+  if(t.classList.contains('type-btn')||t.classList.contains('year-btn')||t.classList.contains('action-btn')||t.classList.contains('a11y-btn')||t.classList.contains('loc-btn')||t.classList.contains('menu-btn')){
+    setTimeout(()=>t.blur(),50);
+  }
+},{passive:true});
+
+// ── Welcome popup ─────────────────────────────
+function dismissPopup(){
+  const overlay=document.getElementById('popupOverlay');
+  overlay.style.transition='opacity .25s ease';
+  overlay.style.opacity='0';
+  setTimeout(()=>overlay.remove(),260);
+  try{sessionStorage.setItem('hhn-popup-seen','1');}catch(e){}
+}
+function initPopup(){
+  try{if(sessionStorage.getItem('hhn-popup-seen')){document.getElementById('popupOverlay').remove();return;}}catch(e){}
+  document.getElementById('popupOverlay').addEventListener('click',function(e){if(e.target===this)dismissPopup()});
+  document.addEventListener('keydown',function handler(e){if(e.key==='Escape'){dismissPopup();document.removeEventListener('keydown',handler)}});
+}
+initPopup();
+</script>
+
+<!-- Welcome popup -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+    <button class="popup-close" onclick="dismissPopup()" aria-label="Close">✕</button>
+    <div class="popup-top">
+      <div class="popup-skull">🎃</div>
+      <div class="popup-title" id="popupTitle">Hello HHN Fan!</div>
+    </div>
+    <div class="popup-body">
+      <p class="popup-msg">
+        I created and maintain this data resource <strong>100% for FREE!</strong>
+        If you'd like to show some thanks and don't mind, please follow my band on Spotify
+        and check out some of our music. 🩸
+      </p>
+      <div class="popup-links">
+        <a class="popup-link-btn btn-spotify" href="https://open.spotify.com/artist/31pu2Kg5TcbUl9FMTOAa2S?si=LOKczrgCTqiRKHxyK845Nw" target="_blank" rel="noopener">
+          <span class="btn-icon">🎵</span>
+          <span class="btn-label">Follow Pangolin on Spotify</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+        <a class="popup-link-btn btn-apple" href="https://music.apple.com/us/artist/pangolin/1338211587" target="_blank" rel="noopener">
+          <span class="btn-icon">🎶</span>
+          <span class="btn-label">Listen to Pangolin on Apple Music</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+        <a class="popup-link-btn btn-web" href="https://www.pangolinfl.com/" target="_blank" rel="noopener">
+          <span class="btn-icon">🌐</span>
+          <span class="btn-label">Visit Pangolin's Website</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+      </div>
+      <div class="popup-footer">
+        <button class="popup-dismiss" onclick="dismissPopup()">Thanks, I'll check it out! 🤘</button>
+        <button class="popup-later" onclick="dismissPopup()">Maybe later</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
