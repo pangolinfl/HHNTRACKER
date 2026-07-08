@@ -4440,5 +4440,14 @@
     "ip": "IP",
     "day": "Tue",
     "ipName": "Hellraiser"
+  },
+  {
+    "year": 2026,
+    "attraction": "NIGHTMARE FUEL: BLOOD NOIR",
+    "type": "SHOW",
+    "location": "FEAR FACTOR",
+    "date": "7/8/2026",
+    "ip": "ORIG",
+    "day": "Wed"
   }
 ]
