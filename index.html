@@ -276,7 +276,7 @@ main{padding:20px;max-width:1500px;margin:0 auto;position:relative;z-index:1}
 .meta-tag{font-family:var(--font-mono);font-size:.6rem;color:var(--fog);background:transparent;border:none;padding:0;letter-spacing:.04em}
 .meta-date{color:var(--ash)}
 .meta-loc{color:var(--fog)}
-.meta-day{color:var(--ash)}
+.meta-ffp{color:#C8A840;border-color:rgba(200,168,64,.3);background:rgba(200,168,64,.06)}
 .card-inner{position:relative;padding-right:0}
 .ip-badge{position:absolute;top:0;right:0;font-family:var(--font-mono);font-size:.55rem;padding:2px 7px;letter-spacing:.1em;text-transform:uppercase}
 .ip-badge-ip{background:var(--rust);color:var(--parchment)}
@@ -965,6 +965,13 @@ function render(){
             ${e.date?`<span class="meta-tag meta-date">📅 ${e.date}</span>`:''}
             ${e.day?`<span class="meta-tag meta-day">📆 ${e.day}</span>`:''}
             ${e.location?`<span class="meta-tag meta-loc">📍 ${locHtml}</span>`:''}
+            ${(()=>{
+              if(e.type==='NOTE' && e.attraction.toUpperCase().includes('FREQUENT FEAR') && e.date){
+                const d=daysBeforeOpen(e.year, new Date(e.date));
+                if(d!==null) return `<span class="meta-tag meta-ffp">🎟 ${Math.abs(d)}d before event opens</span>`;
+              }
+              return '';
+            })()}
             ${ipMeta}
           </div>
           <div class="card-check">${checked?'✓':''}</div>
