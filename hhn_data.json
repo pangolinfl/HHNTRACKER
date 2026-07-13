@@ -4449,5 +4449,14 @@
     "date": "7/8/2026",
     "ip": "ORIG",
     "day": "Wed"
+  },
+  {
+    "year": 2026,
+    "attraction": "INFERNAL CARNIVAL OF NIGHTMARES",
+    "type": "SCAREZONE",
+    "location": "TBD",
+    "date": "7/13/2026",
+    "ip": "ORIG",
+    "day": "Mon"
   }
 ]
