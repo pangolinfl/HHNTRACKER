@@ -4458,5 +4458,14 @@
     "date": "7/13/2026",
     "ip": "ORIG",
     "day": "Mon"
+  },
+  {
+    "year": 2026,
+    "attraction": "SIDESHOW OF DECAY",
+    "type": "SCAREZONE",
+    "location": "TBD",
+    "date": "7/14/2026",
+    "ip": "ORIG",
+    "day": "Tue"
   }
 ]
