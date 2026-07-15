@@ -4467,5 +4467,14 @@
     "date": "7/14/2026",
     "ip": "ORIG",
     "day": "Tue"
+  },
+  {
+    "year": 2026,
+    "attraction": "STRANGER THINGS: RETURN TO HAWKINS",
+    "type": "SHOW",
+    "location": "TBD",
+    "date": "7/15/2026",
+    "ip": "IP",
+    "day": "Wed"
   }
 ]
