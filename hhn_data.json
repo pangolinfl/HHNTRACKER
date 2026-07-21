@@ -4416,7 +4416,7 @@
     "attraction": "CYBERGORIA",
     "type": "HOUSE",
     "location": "TBA",
-    "date": "06/25/2026",
+    "date": "6/25/2026",
     "ip": "ORIG",
     "day": "Thu"
   
@@ -4426,7 +4426,7 @@
     "attraction": "INVASION: ALIEN ABDUCTION",
     "type": "HOUSE",
     "location": "TBA",
-    "date": "06/26/2026",
+    "date": "6/26/2026",
     "ip": "ORIG",
     "day": "Fri"
   
@@ -4476,5 +4476,24 @@
     "date": "7/15/2026",
     "ip": "IP",
     "day": "Wed"
+  },
+  {
+    "year": 2026,
+    "attraction": "EVIL DEAD BURN",
+    "type": "HOUSE",
+    "location": "TBD",
+    "date": "7/21/2026",
+    "ip": "IP",
+    "day": "Tue",
+    "ipName": "Evil Dead"
+  },
+  {
+    "year": 2026,
+    "attraction": "FREQUENT FEAR PASSES ON SALE (EXPRESS DISCONTINUED)",
+    "type": "NOTE",
+    "location": "",
+    "date": "7/21/2026",
+    "ip": "",
+    "day": "Tue"
   }
 ]
