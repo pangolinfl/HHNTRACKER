@@ -4454,7 +4454,7 @@
     "year": 2026,
     "attraction": "INFERNAL CARNIVAL OF NIGHTMARES",
     "type": "SCAREZONE",
-    "location": "TBD",
+    "location": "PLAZA OF THE STARS",
     "date": "7/13/2026",
     "ip": "ORIG",
     "day": "Mon"
@@ -4463,7 +4463,7 @@
     "year": 2026,
     "attraction": "SIDESHOW OF DECAY",
     "type": "SCAREZONE",
-    "location": "TBD",
+    "location": "Hollywood",
     "date": "7/14/2026",
     "ip": "ORIG",
     "day": "Tue"
@@ -4495,5 +4495,33 @@
     "date": "7/21/2026",
     "ip": "",
     "day": "Tue"
+  },
+  {
+    "year": 2026,
+    "attraction": "MEL'S DIE-IN ZOMBIES",
+    "type": "SCAREZONE",
+    "location": "MEL'S DRIVE-IN",
+    "date": "7/21/2026",
+    "ip": "ORIG",
+    "day": "Tue"
+  },
+  {
+    "year": 2026,
+    "attraction": "CLUB HORROR",
+    "type": "SCAREZONE",
+    "location": "SAN FRANCISCO",
+    "date": "7/21/2026",
+    "ip": "ORIG",
+    "day": "Tue"
+  },
+  {
+    "year": 2026,
+    "attraction": "FORTNITEMARES",
+    "type": "SCAREZONE",
+    "location": "TBD",
+    "date": "7/22/2026",
+    "ip": "IP",
+    "day": "Wed",
+    "ipName": "Fortnite"
   }
 ]
