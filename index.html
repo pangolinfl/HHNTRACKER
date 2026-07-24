@@ -290,7 +290,7 @@ main{padding:20px;max-width:1500px;margin:0 auto;position:relative;z-index:1}
 .card.checked::after{content:'';position:absolute;inset:0;background:rgba(46,125,82,.04);pointer-events:none}
 
 /* ── IP appearances badge on cards ── */
-.ip-appearances{font-family:var(--font-mono);font-size:.6rem;color:var(--ash);border:1px solid var(--grave);padding:1px 6px;background:var(--crypt);white-space:nowrap;cursor:pointer;transition:all .15s;display:inline-block;border-radius:var(--radius)}
+.ip-appearances{font-family:var(--font-mono);font-size:.6rem;color:var(--ash);border:1px solid var(--grave);padding:1px 6px;background:var(--crypt);white-space:normal;cursor:pointer;transition:all .15s;display:inline-block;border-radius:var(--radius);line-height:1.4}
 .ip-appearances:hover{border-color:var(--bone);color:var(--bone)}
 .ip-appearances.ip-filter-active{background:var(--rust);border-color:var(--rust);color:var(--bone)}
 .ip-first{color:var(--parchment);border-color:var(--rust);background:rgba(122,40,40,.15)}
@@ -975,11 +975,11 @@ function render(){
             const isLast=(ipInfo.last===year);
             const isActive=activeIPFilter===ipInfo.name;
             const safeIP=ipInfo.name.replace(/'/g,"\\'");
-            ipMeta+=`<span class="meta-tag ip-appearances${isActive?' ip-filter-active':''}" onclick="filterByIPName('${safeIP}',event)" title="Click to show all ${ipInfo.count} appearances of ${ipInfo.name}">🔁 ${ipInfo.name} ${ipInfo.count}× appeared</span>`;
-            if(isFirst) ipMeta+=`<span class="meta-tag ip-first">⭐ First: ${ipInfo.name}</span>`;
-            if(isLast && ipInfo.last!==ipInfo.first) ipMeta+=`<span class="meta-tag ip-last">🔮 Last: ${ipInfo.name}</span>`;
+            ipMeta+=`<span class="meta-tag ip-appearances${isActive?' ip-filter-active':''}" onclick="filterByIPName('${safeIP}',event)" title="Click to show all ${ipInfo.count} appearances of ${ipInfo.name}">🔁 ${ipInfo.count}× ${ipInfo.name}</span>`;
+            if(isFirst) ipMeta+=`<span class="meta-tag ip-first">⭐ First</span>`;
+            if(isLast && ipInfo.last!==ipInfo.first) ipMeta+=`<span class="meta-tag ip-last">🔮 Last</span>`;
           } else if(ipInfo.count===1){
-            ipMeta+=`<span class="meta-tag ip-first">⭐ Only: ${ipInfo.name}</span>`;
+            ipMeta+=`<span class="meta-tag ip-first">⭐ Only appearance</span>`;
           }
         });
 
