@@ -811,7 +811,9 @@ function buildIPMap() {
     canonicals.forEach(name => {
       const key = name.trim().toUpperCase();
       if (!ipAppearanceMap[key]) {
-        ipAppearanceMap[key] = {years: new Set(), name: name.trim(), attractions: new Set()};
+        // Normalize: title-case the stored name so display + filter matching is consistent
+        const normalized = name.trim().replace(/\w\S*/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+        ipAppearanceMap[key] = {years: new Set(), name: normalized, attractions: new Set()};
       }
       ipAppearanceMap[key].years.add(d.year);
       ipAppearanceMap[key].attractions.add(d.attraction.trim());
@@ -917,7 +919,7 @@ function render(){
     const dayKey=d.day?d.day:'NONE';
     if(activeIPFilter){
       const canonicals = getIPNames(d).length ? getIPNames(d) : [d.attraction.trim()];
-      if(!canonicals.some(n => n.trim() === activeIPFilter)) return false;
+      if(!canonicals.some(n => n.trim().toUpperCase() === activeIPFilter.toUpperCase())) return false;
     }
     return selectedYears.has(d.year)&&
     selectedTypes.has(d.type)&&
