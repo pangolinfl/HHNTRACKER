@@ -4270,7 +4270,8 @@
     "location": "SS25",
     "date": "7/10/2025",
     "ip": "IP",
-    "day": "Thu"
+    "day": "Thu",
+    "ipName": "Terrifier"
   },
   {
     "year": 2025,
@@ -4530,7 +4531,8 @@
     "type": "SCAREZONE",
     "location": "NEW YORK",
     "date": "7/24/2026",
-    "ip": "IP",
-    "day": "Thu"
+    "ips": ["IP","ORIG"],
+    "day": "Thu",
+    "ipNames": ["Terrifier","Killer Klowns from Outer Space"]
   }
 ]
