@@ -1452,7 +1452,7 @@
     "date": "8/22/2007",
     "ip": "IP",
     "day": "Wed",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
+    "ipName": "A NIGHTMARE ON ELM STREET"
   },
   {
     "year": 2007,
@@ -1471,7 +1471,7 @@
     "date": "8/22/2007",
     "ip": "IP",
     "day": "Wed",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
+    "ipName": "Friday the 13th"
   },
   {
     "year": 2007,
@@ -2686,7 +2686,7 @@
     "date": "6/10/2015",
     "ip": "IP",
     "day": "Wed",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
+    "ipNames": ["A Nightmare on Elm Street","Friday the 13th"]
   },
   {
     "year": 2015,
@@ -4207,7 +4207,7 @@
     "date": "6/13/2025",
     "ip": "IP",
     "day": "Fri",
-    "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street"
+    "ipName": "Friday the 13th"
   },
   {
     "year": 2025,
