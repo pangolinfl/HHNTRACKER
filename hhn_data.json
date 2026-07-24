@@ -4523,5 +4523,14 @@
     "ip": "IP",
     "day": "Wed",
     "ipName": "Fortnite"
+  },
+  {
+    "year": 2026,
+    "attraction": "DOWNTOWN CLOWNTOWN",
+    "type": "SCAREZONE",
+    "location": "NEW YORK",
+    "date": "7/24/2026",
+    "ip": "IP",
+    "day": "Thu"
   }
 ]
