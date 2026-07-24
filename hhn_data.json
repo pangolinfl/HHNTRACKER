@@ -1452,7 +1452,7 @@
     "date": "8/22/2007",
     "ip": "IP",
     "day": "Wed",
-    "ipName": "A NIGHTMARE ON ELM STREET"
+    "ipName": "A Nightmare on Elm Street"
   },
   {
     "year": 2007,
@@ -2686,7 +2686,10 @@
     "date": "6/10/2015",
     "ip": "IP",
     "day": "Wed",
-    "ipNames": ["A Nightmare on Elm Street","Friday the 13th"]
+    "ipNames": [
+      "A Nightmare on Elm Street",
+      "Friday the 13th"
+    ]
   },
   {
     "year": 2015,
@@ -3235,7 +3238,7 @@
   },
   {
     "year": 2018,
-    "attraction": "VAMP '85: NEW YEAR’S EVE",
+    "attraction": "VAMP '85: NEW YEAR\u2019S EVE",
     "type": "SCAREZONE",
     "location": "NEW YORK",
     "date": "6/7/2018",
@@ -4390,7 +4393,6 @@
     "ip": "IP",
     "day": "Wed",
     "ipName": "Stranger Things"
-  
   },
   {
     "year": 2026,
@@ -4400,7 +4402,6 @@
     "date": "06/22/2026",
     "ip": "ORIG",
     "day": "Mon"
-  
   },
   {
     "year": 2026,
@@ -4410,7 +4411,6 @@
     "date": "06/24/2026",
     "ip": "ORIG",
     "day": "Wed"
-  
   },
   {
     "year": 2026,
@@ -4420,7 +4420,6 @@
     "date": "6/25/2026",
     "ip": "ORIG",
     "day": "Thu"
-  
   },
   {
     "year": 2026,
@@ -4430,7 +4429,6 @@
     "date": "6/26/2026",
     "ip": "ORIG",
     "day": "Fri"
-  
   },
   {
     "year": 2026,
@@ -4532,8 +4530,14 @@
     "type": "SCAREZONE",
     "location": "NEW YORK",
     "date": "7/24/2026",
-    "ips": ["IP","ORIG"],
+    "ips": [
+      "IP",
+      "ORIG"
+    ],
     "day": "Thu",
-    "ipNames": ["Terrifier","Killer Klowns from Outer Space"]
+    "ipNames": [
+      "Terrifier",
+      "Killer Klowns from Outer Space"
+    ]
   }
 ]
