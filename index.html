@@ -278,7 +278,8 @@ main{padding:20px;max-width:1500px;margin:0 auto;position:relative;z-index:1}
 .meta-loc{color:var(--fog)}
 .meta-ffp{color:#C8A840;border-color:rgba(200,168,64,.3);background:rgba(200,168,64,.06)}
 .card-inner{position:relative;padding-right:0}
-.ip-badge{position:absolute;top:0;right:0;font-family:var(--font-mono);font-size:.55rem;padding:2px 7px;letter-spacing:.1em;text-transform:uppercase}
+.ip-badge{font-family:var(--font-mono);font-size:.55rem;padding:2px 7px;letter-spacing:.1em;text-transform:uppercase;display:inline-block}
+.card-badges{position:absolute;top:0;right:0;display:flex;gap:1px}
 .ip-badge-ip{background:var(--rust);color:var(--parchment)}
 .ip-badge-orig{background:#1E5C38;color:var(--parchment)}
 
@@ -653,7 +654,26 @@ function clearIPFilter() {
   render();
 }
 
-// ── Checklist (localStorage) ──────────────────
+// ── IP field helpers — supports both legacy (ip/ipName) and new (ips/ipNames) ──
+// Returns array of IP tags e.g. ['IP'] or ['IP','ORIG'] or ['ORIG']
+function getIPs(d) {
+  if (d.ips && Array.isArray(d.ips) && d.ips.length) return d.ips;
+  return d.ip ? [d.ip] : [];
+}
+// Returns array of canonical IP names for grouping
+function getIPNames(d) {
+  if (d.ipNames && Array.isArray(d.ipNames) && d.ipNames.length) return d.ipNames;
+  if (d.ipName) return [d.ipName];
+  return [];
+}
+// Returns true if entry has at least one of the given ip tags
+function hasIPTag(d, tag) { return getIPs(d).includes(tag); }
+// Returns true if entry has ANY ip tag matching the selected set
+function ipMatchesFilter(d, selectedIPs) {
+  const tags = getIPs(d);
+  if (!tags.length) return selectedIPs.has('NONE');
+  return tags.some(t => selectedIPs.has(t));
+}
 let checkedItems = new Set();
 const CL_KEY = 'hhn-checklist-v1';
 
@@ -785,18 +805,18 @@ let ipAppearanceMap = {}; // key: canonical IP name (normalized), value: {years:
 
 function buildIPMap() {
   ipAppearanceMap = {};
-  // Only for IP-tagged attractions (not NOTEs)
-  liveData.filter(d => d.ip === 'IP' && d.type !== 'NOTE').forEach(d => {
-    // Use ipName if provided, otherwise fall back to attraction name
-    const canonical = (d.ipName ? d.ipName : d.attraction).trim();
-    const key = canonical.toUpperCase();
-    if (!ipAppearanceMap[key]) {
-      ipAppearanceMap[key] = {years: new Set(), name: canonical, attractions: new Set()};
-    }
-    ipAppearanceMap[key].years.add(d.year);
-    ipAppearanceMap[key].attractions.add(d.attraction.trim());
+  liveData.filter(d => hasIPTag(d,'IP') && d.type !== 'NOTE').forEach(d => {
+    const names = getIPNames(d);
+    const canonicals = names.length ? names : [d.attraction.trim()];
+    canonicals.forEach(name => {
+      const key = name.trim().toUpperCase();
+      if (!ipAppearanceMap[key]) {
+        ipAppearanceMap[key] = {years: new Set(), name: name.trim(), attractions: new Set()};
+      }
+      ipAppearanceMap[key].years.add(d.year);
+      ipAppearanceMap[key].attractions.add(d.attraction.trim());
+    });
   });
-  // Convert sets to sorted arrays
   Object.values(ipAppearanceMap).forEach(v => {
     v.years = [...v.years].sort((a,b) => a-b);
     v.first = v.years[0];
@@ -807,10 +827,10 @@ function buildIPMap() {
 }
 
 function getIPInfo(d) {
-  if (d.ip !== 'IP' || d.type === 'NOTE') return null;
-  // Look up by ipName first, fall back to attraction name
-  const canonical = (d.ipName ? d.ipName : d.attraction).trim().toUpperCase();
-  return ipAppearanceMap[canonical] || null;
+  if (!hasIPTag(d,'IP') || d.type === 'NOTE') return [];
+  const names = getIPNames(d);
+  const canonicals = names.length ? names : [d.attraction.trim()];
+  return canonicals.map(name => ipAppearanceMap[name.trim().toUpperCase()]).filter(Boolean);
 }
 
 // ── fetch ─────────────────────────────────────
@@ -896,12 +916,12 @@ function render(){
     const ipKey=d.ip?d.ip:'NONE';
     const dayKey=d.day?d.day:'NONE';
     if(activeIPFilter){
-      const canonical=(d.ipName?d.ipName:d.attraction).trim();
-      if(canonical!==activeIPFilter) return false;
+      const canonicals = getIPNames(d).length ? getIPNames(d) : [d.attraction.trim()];
+      if(!canonicals.some(n => n.trim() === activeIPFilter)) return false;
     }
     return selectedYears.has(d.year)&&
     selectedTypes.has(d.type)&&
-    selectedIPs.has(ipKey)&&
+    ipMatchesFilter(d, selectedIPs)&&
     selectedDays.has(dayKey)&&
     (selectedLocs.size===0||selectedLocs.has(d.location)||(!d.location&&selectedLocs.size===0))&&
     (!q||d.attraction.toLowerCase().includes(q)||d.location.toLowerCase().includes(q)||String(d.year).includes(q)||d.date.toLowerCase().includes(q)||(d.ip&&d.ip.toLowerCase().includes(q))||(d.day&&d.day.toLowerCase().includes(q)));
@@ -938,27 +958,34 @@ function render(){
         const checked=checkedItems.has(key);
         const title=q?e.attraction.replace(new RegExp(`(${esc})`,'gi'),'<mark>$1</mark>'):e.attraction;
         const locHtml=q&&e.location?e.location.replace(new RegExp(`(${esc})`,'gi'),'<mark>$1</mark>'):e.location;
-        const ipBadge=e.ip==='IP'?'<div class="ip-badge ip-badge-ip">IP</div>':e.ip==='ORIG'?'<div class="ip-badge ip-badge-orig">ORIG</div>':'';
-        const pr=e.ip?'padding-right:50px':'';
+        const ipTags=getIPs(e);
+        const ipBadge=ipTags.map(tag=>
+          tag==='IP'?'<div class="ip-badge ip-badge-ip">IP</div>':
+          tag==='ORIG'?'<div class="ip-badge ip-badge-orig">ORIG</div>':''
+        ).join('');
+        const badgeCount=ipTags.filter(t=>t==='IP'||t==='ORIG').length;
+        const pr=badgeCount>1?'padding-right:90px':badgeCount===1?'padding-right:50px':'';
 
-        // IP appearances info
-        const ipInfo=getIPInfo(e);
+        // IP appearances info — supports multiple ipInfos for multi-IP entries
+        const ipInfos=getIPInfo(e);
         let ipMeta='';
-        if(ipInfo && ipInfo.count>1){
-          const isFirst=(ipInfo.first===year);
-          const isLast=(ipInfo.last===year);
-          const isActive=activeIPFilter===ipInfo.name;
-          const safeIP=ipInfo.name.replace(/'/g,"\\'");
-          ipMeta+=`<span class="meta-tag ip-appearances${isActive?' ip-filter-active':''}" onclick="filterByIPName('${safeIP}',event)" title="Click to show all ${ipInfo.count} appearances of ${ipInfo.name}">🔁 ${ipInfo.count}× appeared</span>`;
-          if(isFirst) ipMeta+=`<span class="meta-tag ip-first">⭐ First appearance</span>`;
-          if(isLast && ipInfo.last!==ipInfo.first) ipMeta+=`<span class="meta-tag ip-last">🔮 Last appearance</span>`;
-        } else if(ipInfo && ipInfo.count===1){
-          ipMeta+=`<span class="meta-tag ip-first">⭐ Only appearance</span>`;
-        }
+        ipInfos.forEach(ipInfo=>{
+          if(ipInfo.count>1){
+            const isFirst=(ipInfo.first===year);
+            const isLast=(ipInfo.last===year);
+            const isActive=activeIPFilter===ipInfo.name;
+            const safeIP=ipInfo.name.replace(/'/g,"\\'");
+            ipMeta+=`<span class="meta-tag ip-appearances${isActive?' ip-filter-active':''}" onclick="filterByIPName('${safeIP}',event)" title="Click to show all ${ipInfo.count} appearances of ${ipInfo.name}">🔁 ${ipInfo.name} ${ipInfo.count}× appeared</span>`;
+            if(isFirst) ipMeta+=`<span class="meta-tag ip-first">⭐ First: ${ipInfo.name}</span>`;
+            if(isLast && ipInfo.last!==ipInfo.first) ipMeta+=`<span class="meta-tag ip-last">🔮 Last: ${ipInfo.name}</span>`;
+          } else if(ipInfo.count===1){
+            ipMeta+=`<span class="meta-tag ip-first">⭐ Only: ${ipInfo.name}</span>`;
+          }
+        });
 
         return `<div class="card card-${cls}${checked?' checked':''}" data-key="${key.replace(/"/g,'&quot;')}" onclick="toggleCheck('${key.replace(/'/g,"\\'")}')">
           <div class="card-inner">
-            ${ipBadge}
+            ${ipBadge?`<div class="card-badges">${ipBadge}</div>`:''}
             <div class="card-title" style="${pr}">${title}</div>
           </div>
           <div class="card-meta">
@@ -1102,7 +1129,7 @@ function openTodayModal(){
         <div class="today-year-badge" style="color:var(--red)">${d.year}</div>
         <div class="today-info">
           <div class="today-name">${d.attraction}</div>
-          <div class="today-meta">${d.type}${d.location?' · '+d.location:''}${d.ip&&d.ip!=='NONE'?' · '+d.ip:''}</div>
+          <div class="today-meta">${d.type}${d.location?' · '+d.location:''}${getIPs(d).length?' · '+getIPs(d).join('+'):''}</div>
         </div>
       </div>`;
     });
@@ -1194,8 +1221,8 @@ function buildStatsPage(){
   const houses=attractions.filter(d=>d.type==='HOUSE');
   const scarezones=attractions.filter(d=>d.type==='SCAREZONE');
   const shows=attractions.filter(d=>d.type==='SHOW');
-  const ipItems=attractions.filter(d=>d.ip==='IP');
-  const origItems=attractions.filter(d=>d.ip==='ORIG');
+  const ipItems=attractions.filter(d=>hasIPTag(d,'IP'));
+  const origItems=attractions.filter(d=>hasIPTag(d,'ORIG'));
   const years=[...new Set(data.map(d=>d.year))].sort((a,b)=>a-b);
   const totalYears=years.length;
 
@@ -1268,8 +1295,8 @@ function buildStatsPage(){
   html+=`<div class="stats-section-title">🎬 IP vs ✨ Original Houses by Year</div><div class="bar-chart">`;
   years.slice().reverse().forEach(y=>{
     const yearAttr=houses.filter(d=>d.year===y);
-    const ipC=yearAttr.filter(d=>d.ip==='IP').length;
-    const origC=yearAttr.filter(d=>d.ip==='ORIG').length;
+    const ipC=yearAttr.filter(d=>hasIPTag(d,'IP')).length;
+    const origC=yearAttr.filter(d=>hasIPTag(d,'ORIG')).length;
     const total=yearAttr.length||1;
     const ipPct=Math.round(ipC/total*100);
     const origPct=Math.round(origC/total*100);
